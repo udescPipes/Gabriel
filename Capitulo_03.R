@@ -116,3 +116,67 @@ exemploCoercao <- c(1, TRUE, 2, FALSE) #Transformou todos os dados para numeric
 exemploCoercao
 
 
+# ----------------------------------------------------->> <<-------------------------------------------------------------
+#Matrizes: corresponde a um vetor dimensional, com 2 camadas. Para sua criação, pode-se utilizar os seguintes parâmetro
+#- data: vetor que contém os valores da matriz;
+#- nrow: número de linhas da matriz;
+#- ncol: número de colunas da matriz;
+#- byrow: indica como a matriz é montada. Se for TRUE, ela é montada linha a linha. Se for FALSE, ela é montada coluna a coluna;
+
+matriz <- matrix(1:36, nrow = 6, ncol = 6, byrow=T) #Matriz montada linha pro linha 
+matriz2 <- matrix(c(1,2,3,4,5,6), nrow=2, ncol=3, byrow=F) #Matriz montada coluna por coluna, criada por meio de um vetor
+
+matriz3 <- matrix(1:8, ncol=3, byrow = T) #Comando não permitido, pois a qtd de linha é calculada pelo quantdade de valores dividido pelo num colunas
+matriz4 <- matrix(nrow=3, ncol=3)
+
+matriz[1,2] #Mostrar eterminadaa posição da matriz [linha, coluna]
+dim(matriz4) #Mostrar as dimensões da matriz
+
+#Maneira alternativa de criar matrizes
+x <- 1:6
+y <- 6:11
+rbind(x, y) #Monta uma matriz, empilhando os elementos linha a linha
+cbind(x, y) #Monta uma matriz, empilhado os elementos em coluna
+
+
+#Mostrar elementos
+matriz[1, 1] #Apenas um elemento
+matriz[1,] #Todos os elementos da linha
+matriz[,1] #Todos os elementos da coluna
+matriz[-1,] #Mostrar todos os elementos que não estão na linha 1
+matriz[,-2] #todos os elementos que não estão na segunda coluna
+matriz[1:3,] #Mostrar elementos da primeira à terceira linha
+matriz[1:3,1:2] #Mostrar elementos da primeira à terceira linha e que estão na 1 a 2 coluna
+
+
+
+# ------------------------------------------------------- >> <<---------------------------------------------------------
+# DataFrame
+# Utilizados para guardar daados tabulados em R
+# São representaados como uma lista especial, no qual cada elemento possui o mesmo tamanho
+
+pacientes <- data.frame(
+  id = c(1,2,3,4,5),
+  nome = c("João", "Steve", "Peter", "Tony", "Spok"),
+  idade = c(25, 90, 19, 56, 67)
+)
+
+pacientes
+names(pacientes) #Retorna o nome das colunas do dataframe
+row.names(pacientes) #Fornece a informaçãao sobre cada linha do dataframe
+row.names(pacientes) = c("João", "Steve", "Peter", "Tony", "Spok") #especificar os nomes das colunas
+
+pacientes$nome #Mostrar os elementos de determinada coluna
+
+pacientes[, c(1,2)] #Mostrar os elementos da 1 e 2 coluna
+pacientes[1:2, ] #mostrar elementos das duas primeiras linha
+pacientes[, c("nome", "id")] #Mostrar com base no nome da coluna
+pacientes[c(-1,-2),] #Não mostrar a linha 1 e  2
+
+pacienteResumo <- pacientes[,-1] #criar um subconjunto do dataframe
+
+
+
+
+#--------------------------------------------------------->> <<----------------------------------------------------
+
