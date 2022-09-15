@@ -3,9 +3,11 @@ enem <- read.csv("MICRODADOS_ENEM_2021.csv", sep=";", dec = ",")
 
 if(!require(dplyr)){
   install.packages("dplyr")
+  install.packages("psych")
   library(dplyr)
 }else{
   library(dplyr)
+  library("psych")
 }
 
 glimpse(enem)
@@ -31,12 +33,20 @@ enem$TP_ESCOLA <- factor(enem$TP_ESCOLA)
 enem$TP_ENSINO <- factor(enem$TP_ENSINO)
 enem$IN_TREINEIRO <- factor(enem$IN_TREINEIRO)
 
-summary
+# PREENCHER VAriaveis padrao
+enem[enem == ""] = NA
+
 
 # -------------------------------->> <<-----------------------------------------------------------
 
 library(Rcmdr)
 
-enem[enem$CO_MUNICIPIO_ESC == 4215802, 1:76]
+enem$NU_NOTA_MT[enem$CO_MUNICIPIO_ESC == 4215802, 1:76]
+
+# Mostrar quantidade de alunos em cada estado, separado pelo sexo
+table(enem$SG_UF_ESC, enem$TP_SEXO)
+
+#Verificar intervalo de notas
+range(enem$NU_NOTA_MT)
 
 
