@@ -1,0 +1,45 @@
+---
+title: "Exemplo"
+author: "Gabriel Siqueira"
+date: "2022-09-20"
+output: html_document
+---
+
+# Título de nível 1
+Os títulos são definidos pela quantidade de #
+Um único # define um título de nível 1, dois # definem do nível 2
+
+## Títulos de nível 2
+### Título de nível 3
+
+
+Linha 1.  
+Linha 2.  
+O **valor** obtido foi de *0,08*  
+
+
+A homogeneidade foi analisada pelo `leveneTest` -   Entre Crase para forma de código
+
+> As vezes, vencer e saber esperar. "Getúlio Verne - Citação Direta
+
+
+
+## Formatação
+  * Para que duas linhas fiquem separadasm de dois espços entre elas
+  * Para colocar em negrito, delimita-se a palavra com dois *
+  * Para colocar em itálico, delimita-se a palavra com um *. 
+  * Para deixar palavra em ^sobrescrito^, coloque-o em acent circunflexo. Ex x^2^
+  * Para deixar palavra em ~~/subscrito, coloque-os entre til: Ex: C~6~H~12~O~6~
+  
+  
+## Adicionar Links, imagens e notas de rodape
+[Youtube](https://www.youtube.com/)
+
+![Teste](https://www.bing.com/th?id=OIP.ZO_RlXB4qWaceHhYAlGEMQHaI4&w=172&h=206&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2){ width=50%; } 
+
+
+### Nota de Rodapé (clicaveis)
+
+Segundo Carlos. [^2].
+
+[^2]: Mencionado no livro a História da Brasil
