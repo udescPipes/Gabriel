@@ -57,6 +57,10 @@ ggplot(data = dados) +
   geom_bar(aes(x = Genero))
 
 
+ggplot(data = dados) + 
+  geom_bar(aes(x = Distribuidor))
+
+
 ## Boxplot (Lucro mundial por Genero)
 ggplot(data = dados) +
   geom_boxplot(aes(x = Genero, y = LucroMundial))
@@ -75,6 +79,11 @@ ggplot(data = dados) +
 #Dentor da estetica - se atribui variável
 ggplot(data = dados) +
   geom_point(aes(x = LucroLocal, y = LucroMundial, color = Genero)) #Cor dentro do aes, definidaa por variavel, colore cada genero com cor diferente
+
+
+
+
+
 
 ggplot(data = dados) +
   geom_point(aes(x = LucroLocal, y = LucroMundial, color = Genero, shape = Genero))#Shape formato do ponto
@@ -116,3 +125,5 @@ ggplot(data = dados) +
     shape = 15
   )# Código hexadecimal; site: coolors
 # Site: https://www.datanovia.com/en/blog/ggplot-point-shapes-best-tips/#:~:text=The%20most%20commonly%20used%20pch%20values%20in%20R%2C,8%20shape%20%3D%207%2C%20square%20cross%20Mais%20itens
+
+  
