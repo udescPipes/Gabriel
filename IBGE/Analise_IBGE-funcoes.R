@@ -24,6 +24,8 @@ selecionar_variavel <- function(tb_variavel, listaEscolha){
   return(tb_variavel)
 }
 
+
+
 obter_posicao_itens <- function(tb_variavel, lista){
   pos_escolhidos <- c()
   

@@ -2,10 +2,13 @@
 # Método class: responsável por mostrar o tipo da variável
 
 a <- 1
-a <- as.integer(a) # conversão de tipo
+a <- asas.integer.integer(a) # conversão de tipo
 b <- 8.5
 c <- "Gabriel"
 d <- TRUE
+
+class(a)
+
 
 
 #Conversao de tipo

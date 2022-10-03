@@ -127,3 +127,109 @@ ggplot(data = dados) +
 # Site: https://www.datanovia.com/en/blog/ggplot-point-shapes-best-tips/#:~:text=The%20most%20commonly%20used%20pch%20values%20in%20R%2C,8%20shape%20%3D%207%2C%20square%20cross%20Mais%20itens
 
   
+
+
+#Combinar mais de um elemento geometirco
+
+ggplot(data = dados) + 
+  geom_point(aes(x = LucroMundial, y = LucroLocal, shape = Classificacao, color = Genero),   size=1) +
+  geom_line(aes(x = LucroMundial, y = LucroLocal), stat = "smooth")
+
+#Caso usarem as mesmas essteticas
+ggplot(data = dados, aes(x=LucroLocal, y = LucroMundial)) +
+  geom_point(color = "darkred", shape = 16, size = 0.5) +
+  geom_line(stat = "smooth", method = "lm") #Stat - cria uma linha de tendência, method - linha linear
+
+#Area sombreada - erro padrão
+#geom smooth - cria uma linha de tendência (linear)
+ggplot(data = dados, aes(x=LucroLocal, y = LucroMundial)) +
+  geom_point(color = "darkred", shape = 16, size = 0.5) +
+  geom_smooth(method="lm", se = FALSE, size = 0.5)#Regressão linear, se - tirar sombreado
+
+#Modificando as ordem das camaadas (a ordem importa)
+ggplot(data = dados, aes(x= LucroLocal, y = LucroMundial, color = Genero)) +
+  geom_smooth(se=F, method = "lm") +
+  geom_point(color = "darkblue")
+
+
+#Estetica para cada geom
+ggplot(data = dados, aes(x= LucroLocal, y = LucroMundial)) +
+  geom_point(color = "black") +
+  geom_smooth(se=F, method = "lm", aes(linetype = Genero, color = Genero)) 
+  
+#Usando o filtro (dplyr) para selecionar dados para o gráfico
+dados %>% filter(Genero == "Comedia") %>%
+  ggplot(aes(x = LucroMundial, y = LucroLocal)) +
+    geom_point(shape=16 , color = "#619856") +
+    geom_smooth(method = "lm", se=F, aes(color = Genero))
+
+
+
+
+dados %>% filter(Orcamento <= 9000000 & Classificacao == "PG") %>%
+  ggplot(aes(x = LucroMundial, y = LucroLocal)) +
+    geom_point(shape=16 , color = "#619856") +
+    geom_smooth(method = "lm", se=F, aes(color = Genero))
+
+
+
+
+#Usando o geom para representar um "summary"
+### stat = summary  - o que ponto representa
+
+ggplot(data = dados, aes(x = Genero, y = LucroMundial)) +
+  geom_point(stat = "summary", fun = "median") #Unico ponto - media 
+
+
+#Cria uma estatistica de resumo
+ggplot(data = dados, aes(x = Genero, y = LucroMundial)) +
+  stat_summary(geom = point, fun = "mean")
+
+# Gráfico com barra de erros
+ggplot(data = dados, aes(x = Genero, y = LucroMundial)) +
+  geom_point(stat = "summary", fun = "mean") + 
+  geom_errorbar(stat = "summary", fun.data = "mean_se") #Estabelece min e maximo
+
+
+# Gráfico com barra de erros
+ggplot(data = dados, aes(x = Genero, y = LucroMundial)) +
+  geom_point(stat = "summary", fun = "mean") + 
+  geom_errorbar(stat = "summary", fun.min = "min", fun.max = "max", width=0.3) #Estabelece min e maximo
+ 
+
+# ------------------------------------------------>> <<--------------------------------------------
+install.packages("ggpubr")
+
+
+pacman::p_load(ggpubr) #Permite incluir o comando mean_ci - intervalo de confiança
+
+ggplot(data = dados, aes(x = Genero, y = LucroMundial)) +
+  geom_point(stat = "summary", fun = "mean") + 
+  geom_errorbar(stat = "summary", fun.data = "mean_ci", width=0.3)
+
+    #Desvios padrão      
+
+#incluindo a classificação
+dados %>% filter(Classificacao %in% c("PG", "PG-13", "R")) %>%
+  ggplot(aes(x = Genero, y = LucroMundial, color = Classificacao)) +
+    geom_point(stat = "summary", fun = "mean") + 
+    geom_errorbar(stat = "summary", fun.data = "mean_ci", width=0.3)  #mean_ci - intervalo de confiança
+  
+
+##incluindo a classificação - afastando os pontos
+dados %>% filter(Classificacao %in% c("PG", "PG-13", "R")) %>%
+  ggplot(aes(x = Genero, y = LucroMundial, color = Classificacao)) +
+  geom_point(stat = "summary", fun = "mean", position = position_dodge(0.4)) + 
+  geom_errorbar(stat = "summary", fun.data = "mean_ci", width=0.3, position = position_dodge(0.4))  #mean_ci - intervalo de confiança
+
+
+## Renomeando os eixos e legendas
+dados %>% filter(Classificacao %in% c("PG", "PG-13", "R")) %>%
+  ggplot(aes(x = Genero, y = LucroMundial, color = Classificacao)) +
+  geom_point(stat = "summary", fun = "mean", position = position_dodge(0.4)) + 
+  geom_errorbar(stat = "summary", fun.data = "mean_ci", width=0.3, position = position_dodge(0.4)) +
+  labs(y = "Lucro Mundial (US$)", x = "Gênero do Filme", color = "Classificação",
+       title = "Lucro Mundial em U$S de acordo com o gênero e a classificação do filme",
+       subtitle = "Dados representados com média e Intervalo de Confiança - 95%",
+       caption = "Fonte: FiveThirtyEight"
+       )
