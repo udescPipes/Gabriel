@@ -13,6 +13,8 @@ if(!require(ggplot2)){
   install.packages("ggplot2")
 }
 
+library(dplyr)
+
 #todo que for texto, considerar que é uma fator
 dados <- read.csv2("LucroFilmes.csv", stringsAsFactors = T)
 glimpse(dados)
