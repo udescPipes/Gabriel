@@ -168,4 +168,5 @@ for(link_pagina in link_reclamaco){
 View(info_reclamacoes)
 
 
-
+write.csv2(info_reclamacoes, "D:/Gabriel/Meus_Projetos/GitHub/Gabriel/Projeto_ReclameAqui/InfoReclamacoes.csv")
+write.csv(info_basica, "D:/Gabriel/Meus_Projetos/GitHub/Gabriel/Projeto_ReclameAqui/InfoBasica.csv")

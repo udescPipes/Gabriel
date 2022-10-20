@@ -7,6 +7,8 @@ getwd()
 setwd("D:/Gabriel/Meus_Projetos/GitHub/Gabriel/Codifica")
 
 
+
+
 if(!require(dplyr)){
   install.packages("dplyr")
 }
@@ -15,10 +17,7 @@ library(dplyr)
 
 
 #Base de dado que será utilizado no projeto inicial
-dados <- read.csv("LucroFilmes.csv", sep=";", dec = ",")
 dados <- read.delim("imdb.txt")
-
-
 
 
 
@@ -143,14 +142,51 @@ tb_filmes_mes <- dados %>%
   )
 
 
+if(!require(tidytext)){
+  install.packages("tidytext")
+}
+
+library(tidytext)
+
+
+
+tb_filme_genero <- dados %>%
+  select(id_filme, titulo, generos) %>%
+  unnest_tokens(word, generos) #Biblioteca tidytext
+
+
+tb_ator_filme <- dados %>%
+  select(id_filme, titulo, elenco) %>%
+  unnest_tokens(word, elenco, token = stringr::str_split, pattern = ",")
+
 
 aux <- tb_diretor_produtora %>%
   filter(producao == "Universal Pictures", qtd_filmes > 5) %>%
   arrange(desc(qtd_filmes))
 
+aux <- tb_ator_filme %>%
+  filter(word == tolower("Harrison Ford"))
+
+aux <- tb_ator_filme %>%
+  filter(titulo == "Thor")
 
 
+aux2 <- dados %>%
+  filter(titulo %in% aux$titulo)
 
+aux3 <- aux2 %>%
+  select(receita, ano, titulo) %>%
+  mutate(
+    receita_ano = sum(receita)
+  )
+
+library(plotly)
+
+plot_ly(data = aux2) %>%
+  add_lines(x = ~ano, y = ~receita, text = ~titulo)
+
+plot_ly(data = aux2) %>%
+  add_bars(x = ~ano, y = ~receita, text = ~titulo)
 
 
 library(ggplot2)
@@ -167,3 +203,7 @@ library(plotly)
 
 plot_ly(data = tb_filmes_mes) %>%
   add_lines(x = ~mes, y = ~qtd_filmes)
+
+
+
+
