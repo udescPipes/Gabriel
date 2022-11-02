@@ -58,7 +58,7 @@ ui <- navbarPage("WebSerie Reclame Aqui",
                     column(4,
                            selectInput(inputId = "relacao_empresa",
                                        label = "Qual empresa você deseja analisar",
-                                       choice = info_basica$empresa, 
+                                       choice = info_basicas$empresa, 
                                        width = "100%")
                            ),
                     column(8,
@@ -99,7 +99,7 @@ server <- function(input, output, session){
         side = "right"
       ) #Eixo y vai sobrepor o x, side: posição legenda
       
-      plot_ly(data = info_basica) %>% 
+      plot_ly(data = info_basicas) %>% 
         add_lines(x = ~empresa, y = ~get(input$comparacao_v1), name = menu_comparacao[menu_comparacao == input$comparacao_v1]) %>% 
         add_lines(x = ~empresa, y = ~get(input$comparacao_v2), name = menu_comparacao[menu_comparacao == input$comparacao_v2], yaxis = "y2") %>%
         layout(

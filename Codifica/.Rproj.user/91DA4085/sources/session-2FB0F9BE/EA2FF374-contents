@@ -58,7 +58,7 @@ ui <- navbarPage("WebSerie Reclame Aqui",
                     column(4,
                            selectInput(inputId = "relacao_empresa",
                                        label = "Qual empresa você deseja analisar",
-                                       choice = info_basica$empresa, 
+                                       choice = info_basicas$empresa, 
                                        width = "100%")
                            ),
                     column(8,
@@ -99,7 +99,7 @@ server <- function(input, output, session){
         side = "right"
       ) #Eixo y vai sobrepor o x, side: posição legenda
       
-      plot_ly(data = info_basica) %>% 
+      plot_ly(data = info_basicas) %>% 
         add_lines(x = ~empresa, y = ~get(input$comparacao_v1), name = menu_comparacao[menu_comparacao == input$comparacao_v1]) %>% 
         add_lines(x = ~empresa, y = ~get(input$comparacao_v2), name = menu_comparacao[menu_comparacao == input$comparacao_v2], yaxis = "y2") %>%
         layout(
@@ -118,30 +118,81 @@ server <- function(input, output, session){
   relacao_dados <- reactive( #Muda as informações a partir da mudença da variavel
     {
       relacao_palavra_empresa <- analise_palavras_empresa %>%
-        select(-qtd_palavra) %>%
-        filter(empresa == input$relacao_empresa)
+        select(word, porcentual_solucao) %>%
+        filter
+      
+      #Considerando todas as empresas
+      relacao_palavra_geral <- analise_palavras %>%
+        mutate(empresa = "geral") %>% 
+        select(word, porcentual_solucao)
+      
       
       #Filtrar pelos MAIORES % de Solução
       relacao_palavra_empresa_maiores <- relacao_palavra_empresa %>% 
         slice_max(n = 5, order_by = porcentual_solucao, with_ties = F)
       
+      View(relacao_palavra_empresa_maiores)
+      
       #Filtrar pelos MENORES % de Solução
       relacao_palavra_empresa_menores <- relacao_palavra_empresa %>%
-        slice_min(n = 5, order_by = porcentual_solucao, with_ties = F)
+        slice_min(order_by = porcentual_solucao, n = 5, with_ties = F)
       
-      #Considerando todas as empresas
-      relacao_palavra_geral <- analise_palavras %>%
-        mutate(empresa = "geral") %>% 
-        select(-qtd_palavra)
-      
-      relacao_palavraa_geral_maiores <- relacao_palavra_geral[relacao_palavra_geral$word %in% relacao_palavra_empresa_maiores$word, ]
+     
+      relacao_palavra_geral_maiores <- 
+        relacao_palavra_geral[relacao_palavra_geral$word %in% relacao_palavra_empresa_maiores$word, ]
     
-      relacao_palavra_geral_menores <- relacao_palavra_geral[relacao_palavra_geral$word %in% relacao_palavra_empresa_menores$word, ]
+      relacao_palavra_geral_menores <- 
+        relacao_palavra_geral[relacao_palavra_geral$word %in% relacao_palavra_empresa_menores$word, ]
         
+      
+      #Resultado final: juntar o resultado geral
+      contatenado_maiores <- data.frame(rbind(relacao_palavra_empresa_maiores, relacao_palavra_empresa_maiores))
+      contatenado_maiores <- reshape(contatenado_maiores,          
+              idvar = "word", timevar="empresa", direction = "wide"
+      ) 
+      
+      #Formad=to dos dados é long e será transformado para wide
+      concatendado_menores <- data.frame(rbind(relacao_palavra_empresa_menores, relacao_palavra_geral_menores))
+      concatendado_menores <- reshape(concatendado_menores,
+              idvar = "word", timevar="empresa", direction = "wide"
+      )
+      
+      #Mudar o nome das colunas
+      names(contatenado_maiores) <- c("palavra", "porcentual_loja", "porcentual_geral")
+      names(concatendado_menores) <- c("palavra", "porcentual_loja", "porcentual_geral")
+      
+      # Resultado do output
+      list(contatenado_maiores, concatendado_menores)
+      
+      View(concatendado_menores)
     }
     
   )
   
+  #Criação dos gráficos do Tivtulo vs SOlução
+  output$relacao_graf_maiores <- plotly::renderPlotly({
+    
+    #O relacao dados é a lista que tem os mesmo formatado, deve ser identificado como uma função
+    plot_ly(data = relacao_dados()[[1]], x = ~palavra, y = ~porcentual_loja, type="bar", name = "% Empresa") %>%
+      add_trace(y = ~porcentual_geral, name = "% Geral") %>%
+      layout(
+        title = "Pontos Fortes da Empresa",
+        yaxis = list(title = "% Casos Resolvidos"),
+        xaxis = list(title = '', barmode = 'group')
+      )
+  })
+  
+  output$relacao_graf_menores <- plotly::renderPlotly({
+    
+    #O relacao dados é a lista que tem os mesmo formatado, deve ser identificado como uma função
+    plot_ly(data = relacao_dados()[[2]], x = ~palavra, y = ~porcentual_loja, type="bar", name = "% Empresa") %>%
+      add_trace(y = ~porcentual_geral, name = "% Geral") %>%
+      layout(
+        title = "Pontos Fracos da Empresa",
+        yaxis = list(title = "% Casos Resolvidos"),
+        xaxis = list(title = '', barmode = 'group')
+      )
+  })
   
   
 }

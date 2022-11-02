@@ -1,4 +1,4 @@
-setwd("D:\Gabriel\Meus_Projetos\GitHub\Gabriel\Projeto_ReclameAqui")
+setwd("D:/Gabriel/Meus_Projetos/GitHub/Gabriel/Projeto_ReclameAqui")
 
 # WebScrating
 
@@ -52,7 +52,7 @@ library(readr)
 # Iniciar um servidor Selenium e o navegador
 #Colocar mesma versão do download 
 
-#criar um drive, no qual o R terá o controle
+#criar um drive, no qual o R terá o controle #Ver se comando para ver porta
 rD <- rsDriver(browser = "chrome", port=4545L, chromever = "106.0.5249.61")#Chromever - versão
 
 
@@ -63,7 +63,9 @@ linkLojas <- c(
   "https://www.reclameaqui.com.br/empresa/magazine-luiza-loja-online/",
   "https://www.reclameaqui.com.br/empresa/americanas-com-loja-online/",
   "https://www.reclameaqui.com.br/empresa/brastemp-consul/",
-  "https://www.reclameaqui.com.br/empresa/casas-bahia-loja-online/"
+  "https://www.reclameaqui.com.br/empresa/casas-bahia-loja-online/",
+  "https://www.reclameaqui.com.br/empresa/ifood/",
+  "https://www.reclameaqui.com.br/empresa/123-milhas/"
 )
 
 info_basicas <- data.frame()
@@ -116,14 +118,26 @@ for(linkLoja in linkLojas){
     html_nodes(".col-sm-6+ .col-sm-6 b") %>%
     html_text()
   
+  tempo_cadastro <- codigo %>%
+    html_nodes("#hero p") %>%
+    html_text()
+  
+  teste <- codigo %>%
+    html_nodes(".bar-container:nth-child(4) .label") %>%
+    html_text()
+  
   info_basicas <- rbind(
     data.frame(
       empresa,indice_solucao,  reclamacoes_respondidas ,nao_respondidas, avaliadas, nota, nota_consumidor, voltariam_negociar, 
-      linkLoja), info_basicas)
+      tempo_cadastro,linkLoja), info_basicas)
   
 }
 
-info_basica$qtd_reclamacoes = info_basica$avaliadas + info_basica$nao_respondidas
+info_basicas$avaliadas <- as.integer(info_basicas$avaliadas)
+info_basicas$nao_respondidas <- as.integer(info_basicas$nao_respondidas)
+
+
+info_basicas$qtd_reclamacoes = info_basicas$avaliadas + info_basicas$nao_respondidas
 
 ############################# COMEÇO DA BUSCA POR RECLAMAÇÔES
 
@@ -135,7 +149,7 @@ link_reclamaco <- paste0(linkLojas, "lista-reclamacoes/")
 for(link_pagina in link_reclamaco){
   
   #Busca das reclamacoes em cada página
-  for(pagina in 10:50){
+  for(pagina in 1:5){
     # Ler as reclamações
     remDr$navigate(paste0(link_pagina,"?pagina=",pagina, "&status=EVALUATED"))
     
@@ -159,13 +173,52 @@ for(link_pagina in link_reclamaco){
       html_nodes(".hIOzx") %>%
       html_text()
     
+    link_reclamaco <- codigo_reclamacoes %>%
+      html_nodes(".bJdtis a") %>%
+      html_attr("href")
+    
     info_reclamacoes <- rbind(
-     data.frame(empresa, titulo_reclamacao, status_reclamacao, tempo_reclamacao), info_reclamacoes)
+     data.frame(empresa, titulo_reclamacao, status_reclamacao, tempo_reclamacao, link_reclamaco), info_reclamacoes)
     
   }
 }
 
 View(info_reclamacoes)
+
+#Criar um id para cada reclamação
+info_reclamacoes <- info_reclamacoes %>%
+  mutate(
+    idReclamacao = row_number()
+  )
+
+
+
+
+#Recuperar as Cidade, dt e valores parecidos
+
+lista = list()
+
+info_reclamacoes$link_reclamaco <- paste0("https://www.reclameaqui.com.br", info_reclamacoes$link_reclamaco)
+
+
+link_reclamacoes <- info_reclamacoes$link_reclamaco
+
+
+
+
+##
+for(link_pagina in link_reclamacoes[0:3]){
+  
+  remDr$navigate(link_pagina)
+  
+  codigo_pagina <- read_html(remDr$getPageSource()[[1]])
+  
+  
+  
+}
+
+
+writexl
 
 
 write.csv2(info_reclamacoes, "D:/Gabriel/Meus_Projetos/GitHub/Gabriel/Projeto_ReclameAqui/InfoReclamacoes.csv")

@@ -1,842 +1,301 @@
-"";"empresa";"titulo_reclamacao";"status_reclamacao";"tempo_reclamacao";"minutos";"reclamacao_id"
-"1";"americanas - Loja Online";"Propaganda Enganosa ";" Resolvido";"Há 13 dias";18720;1
-"2";"americanas - Loja Online";"Dificuldade cancelamento compra";" Resolvido";"Há 13 dias";18720;2
-"3";"americanas - Loja Online";"Pedido com endereço errado";" Não resolvido";"Há 13 dias";18720;3
-"4";"americanas - Loja Online";"ATRASO NA ENTREGA!!!";" Não resolvido";"Há 13 dias";18720;4
-"5";"americanas - Loja Online";"dificuldade em entrar em contato com o SAC para denunciar anuncio falso no facebook";" Resolvido";"Há 13 dias";18720;5
-"6";"americanas - Loja Online";"Dificuldade para atendimento";" Resolvido";"Há 13 dias";18720;6
-"7";"americanas - Loja Online";"autenticação de identidade";" Resolvido";"Há 13 dias";18720;7
-"8";"americanas - Loja Online";"Nota fiscal ";" Resolvido";"Há 14 dias";20160;8
-"9";"americanas - Loja Online";"Status aguardando estoque no meu pedido";" Não resolvido";"Há 14 dias";20160;9
-"10";"americanas - Loja Online";"[editado_RA] DO PIX NO SITE DA  LOJA AMERICANAS";" Não resolvido";"Há 14 dias";20160;10
-"11";"americanas - Loja Online";"Cancelou o pedido sem motivos";" Não resolvido";"Há 13 dias";18720;11
-"12";"americanas - Loja Online";"Comprei o 15 aparelhos me enviaram só 11 ";" Resolvido";"Há 13 dias";18720;12
-"13";"americanas - Loja Online";"Propaganda enganosa";" Não resolvido";"Há 13 dias";18720;13
-"14";"americanas - Loja Online";"[editado_RA] Instagram";" Não resolvido";"Há 13 dias";18720;14
-"15";"americanas - Loja Online";"Propaganda enganosa";" Resolvido";"Há 13 dias";18720;15
-"16";"americanas - Loja Online";"Meu pedido atrasou mais de dois meses e disseram que ia me dar um reparo no valor R$100";" Resolvido";"Há 13 dias";18720;16
-"17";"americanas - Loja Online";"PEDIDO NO SITE COM PAGAMENTO POR PIX";" Resolvido";"Há 13 dias";18720;17
-"18";"americanas - Loja Online";"Substituição de e-mail cadastrado";" Resolvido";"Há 13 dias";18720;18
-"19";"americanas - Loja Online";"Acompanhar compra";" Resolvido";"Há 13 dias";18720;19
-"20";"americanas - Loja Online";"Troca";" Resolvido";"Há 13 dias";18720;20
-"21";"americanas - Loja Online";"Imprevisto com a entrega";" Resolvido";"Há 12 dias";17280;21
-"22";"americanas - Loja Online";"Compra de Refrigerador Brastemp no dia 04/09, com entrega até o dia 15/09, e no dia 27/09 recebi um email da Americanas que o Produto foi entrega as 09:38";" Resolvido";"Há 12 dias";17280;22
-"23";"americanas - Loja Online";"Pedido atrasado";" Resolvido";"Há 12 dias";17280;23
-"24";"americanas - Loja Online";"COMPRA NAO REALIZADA , VALOR DESCONTADO.";" Não resolvido";"Há 13 dias";18720;24
-"25";"americanas - Loja Online";"Produto não entregue";" Resolvido";"Há 13 dias";18720;25
-"26";"americanas - Loja Online";"Data Entrega [editado_RA], Atendente desliga telefone na cara do consumidor";" Resolvido";"Há 13 dias";18720;26
-"27";"americanas - Loja Online";"Atraso na entrega com data prevista ";" Resolvido";"Há 13 dias";18720;27
-"28";"americanas - Loja Online";"Compra";" Resolvido";"Há 13 dias";18720;28
-"29";"americanas - Loja Online";"Cancelamento de compra indevida";" Resolvido";"Há 13 dias";18720;29
-"30";"americanas - Loja Online";"Prazo de entrega não cumprido";" Resolvido";"Há 13 dias";18720;30
-"31";"americanas - Loja Online";"Email incorreto";" Resolvido";"Há 12 dias";17280;31
-"32";"americanas - Loja Online";"Pedido veio errado e nao devolvem o reenbolso";" Não resolvido";"Há 12 dias";17280;32
-"33";"americanas - Loja Online";"Nota fiscal";" Resolvido";"Há 12 dias";17280;33
-"34";"americanas - Loja Online";"Não consigo acessar o site";" Resolvido";"Há 12 dias";17280;34
-"35";"americanas - Loja Online";"Americanas não se responsabiliza";" Resolvido";"Há 12 dias";17280;35
-"36";"americanas - Loja Online";"Data de entrega do momento da compra não cumprida ";" Resolvido";"Há 12 dias";17280;36
-"37";"americanas - Loja Online";"Hoje efetuei uma compra pelo site da Americanas, paguei pelo pix e não recebi confirmação do pedido. Não habilitou finalizar a compra após o pagamento e não gerou histórico de pedidos no site. ";" Resolvido";"Há 12 dias";17280;37
-"38";"americanas - Loja Online";"Devolução de produto em atraso";" Resolvido";"Há 12 dias";17280;38
-"39";"americanas - Loja Online";"PROPAGANDA ENGANOSA DO Smartphone Motorola Moto G60 128GB 4G Wi-Fi Tela 6.8 Dual Chip 4GB RAM Câmera Tripla + Selfie 32MP - Preto";" Não resolvido";"Há 12 dias";17280;39
-"40";"americanas - Loja Online";"Demora no Reembolso";" Resolvido";"Há 12 dias";17280;40
-"41";"americanas - Loja Online";"Muita demora na entrega e péssimo rastreio";" Resolvido";"Há 12 dias";17280;41
-"42";"americanas - Loja Online";"Entrega atrasada 2 dias";" Resolvido";"Há 12 dias";17280;42
-"43";"americanas - Loja Online";"[editado_RA] ";" Resolvido";"Há 12 dias";17280;43
-"44";"americanas - Loja Online";"Alterar e-mail de cadastro";" Resolvido";"Há 12 dias";17280;44
-"45";"americanas - Loja Online";"Compra cancelada ";" Resolvido";"Há 12 dias";17280;45
-"46";"americanas - Loja Online";"Atraso na Entrega novamente";" Resolvido";"Há 12 dias";17280;46
-"47";"americanas - Loja Online";"Preciso fazer uma devolução, mas quando tento pelo site dá erro";" Resolvido";"Há 12 dias";17280;47
-"48";"americanas - Loja Online";"O ESTORNO NÃO FOI FEITO";" Resolvido";"Há 12 dias";17280;48
-"49";"americanas - Loja Online";"Entrega Atrasada";" Resolvido";"Há 12 dias";17280;49
-"50";"americanas - Loja Online";"NOTA FISCAL";" Resolvido";"Há 12 dias";17280;50
-"51";"americanas - Loja Online";"Comprei mas até agora não entregaram. ";" Resolvido";"Há 10 dias";14400;51
-"52";"americanas - Loja Online";"Maquina comprada e a nota fiscal não foi emitida e entregue ou enviada e-mail..";" Resolvido";"Há 10 dias";14400;52
-"53";"americanas - Loja Online";"Sem retorno do suporte para alteração de e-mail";" Resolvido";"Há 10 dias";14400;53
-"54";"americanas - Loja Online";"Pedido atrasado ";" Resolvido";"Há 10 dias";14400;54
-"55";"americanas - Loja Online";"CANCELAMENTO DA CONTA DA AMERICANAS ONLINE NÃO ATENDIDO";" Resolvido";"Há 11 dias";15840;55
-"56";"americanas - Loja Online";"Falta de informação e respeito ";" Resolvido";"Há 11 dias";15840;56
-"57";"americanas - Loja Online";"Pedido não entregue no prazo ";" Resolvido";"Há 11 dias";15840;57
-"58";"americanas - Loja Online";"Atrasados na entrega";" Resolvido";"Há 11 dias";15840;58
-"59";"americanas - Loja Online";"Devolução ";" Resolvido";"Há 11 dias";15840;59
-"60";"americanas - Loja Online";"Não entregaram minha geladeira ";" Resolvido";"Há 12 dias";17280;60
-"61";"americanas - Loja Online";"PEDIDO ENTREGUE, SÓ QUE NÃO!";" Resolvido";"Há 9 dias";12960;61
-"62";"americanas - Loja Online";"Comprei uma geladeira e não foi entregue";" Resolvido";"Há 9 dias";12960;62
-"63";"americanas - Loja Online";"Propaganda enganosa";" Resolvido";"Há 9 dias";12960;63
-"64";"americanas - Loja Online";"Propaganda enganosa!";" Resolvido";"Há 9 dias";12960;64
-"65";"americanas - Loja Online";"Atendimento - Troca de senha";" Resolvido";"Há 9 dias";12960;65
-"66";"americanas - Loja Online";"Não entregaram no prazo";" Resolvido";"Há 9 dias";12960;66
-"67";"americanas - Loja Online";"Pedido cancelado para empresa 2 vezes seguida sem explicação com algum sentido.";" Não resolvido";"Há 9 dias";12960;67
-"68";"americanas - Loja Online";"Não para de enviar propaganda no e-mail";" Resolvido";"Há 9 dias";12960;68
-"69";"americanas - Loja Online";"Não recebi minha geladeira ";" Resolvido";"Há 9 dias";12960;69
-"70";"americanas - Loja Online";"SITE FALSO vendasameriicanas.com";" Não resolvido";"Há 10 dias";14400;70
-"71";"americanas - Loja Online";"Entrega atrasada";" Resolvido";"Há 9 dias";12960;71
-"72";"americanas - Loja Online";"DESCASO COM ITEM DE PRIMEIRA NECESSIDADE";" Resolvido";"Há 9 dias";12960;72
-"73";"americanas - Loja Online";"Entrega não realizada";" Resolvido";"Há 9 dias";12960;73
-"74";"americanas - Loja Online";"Problema de finalizar a compra";" Não resolvido";"Há 9 dias";12960;74
-"75";"americanas - Loja Online";"Americanas Empresas";" Resolvido";"Há 9 dias";12960;75
-"76";"americanas - Loja Online";"PEDIDO NÃO APARECE NO MEU LOGIN DA AMERICANAS";" Resolvido";"Há 9 dias";12960;76
-"77";"americanas - Loja Online";"Atraso na entrega e impossibilidade de cancelamento ";" Resolvido";"Há 9 dias";12960;77
-"78";"americanas - Loja Online";"Produto Não Chegou";" Resolvido";"Há 9 dias";12960;78
-"79";"americanas - Loja Online";"Paguei boleto e não recebi o produto";" Não resolvido";"Há 9 dias";12960;79
-"80";"americanas - Loja Online";"EXCLUSÃO CONTA";" Resolvido";"Há 9 dias";12960;80
-"81";"americanas - Loja Online";"Demora na entrega do produto ";" Resolvido";"Há 8 dias";11520;81
-"82";"americanas - Loja Online";"Atraso na entrega ";" Não resolvido";"Há 8 dias";11520;82
-"83";"americanas - Loja Online";"Compra promoção vão aprovar ou cancelar mas uma compra ?";" Resolvido";"Há 9 dias";12960;83
-"84";"americanas - Loja Online";"Atraso em entrega de mercadoria ";" Resolvido";"Há 9 dias";12960;84
-"85";"americanas - Loja Online";"não consigo ter acesso a nota fiscal do meu produto ";" Resolvido";"Há 9 dias";12960;85
-"86";"americanas - Loja Online";"Atendimento precário";" Resolvido";"Há 9 dias";12960;86
-"87";"americanas - Loja Online";"Atraso na Entrega";" Resolvido";"Há 9 dias";12960;87
-"88";"americanas - Loja Online";"PRODUTO CONSTA ENTREGUE MAS NÃO FOI ENTREGUE";" Resolvido";"Há 9 dias";12960;88
-"89";"americanas - Loja Online";"Análise de Pagamento demorado.";" Resolvido";"Há 9 dias";12960;89
-"90";"americanas - Loja Online";"Atraso na entrega";" Resolvido";"Há 9 dias";12960;90
-"91";"Magazine Luiza - Loja Online";"Produto perigoso ";" Resolvido";"Há 15 dias";21600;91
-"92";"Magazine Luiza - Loja Online";"devolução do Produto";" Não resolvido";"Há 15 dias";21600;92
-"93";"Magazine Luiza - Loja Online";"Link falso";" Resolvido";"Há 15 dias";21600;93
-"94";"Magazine Luiza - Loja Online";"Não recebi o e-mail com as orientações de Envio para Troca";" Resolvido";"Há 15 dias";21600;94
-"95";"Magazine Luiza - Loja Online";"Sanduicheira não tem na loja e não devolvem o pix";" Resolvido";"Há 15 dias";21600;95
-"96";"Magazine Luiza - Loja Online";"Propaganda enganosa ";" Resolvido";"Há 15 dias";21600;96
-"97";"Magazine Luiza - Loja Online";"Descaso ";" Resolvido";"Há 15 dias";21600;97
-"98";"Magazine Luiza - Loja Online";"Empresa alega falta de produto no estoque pra vendê-lo mais caro";" Resolvido";"Há 15 dias";21600;98
-"99";"Magazine Luiza - Loja Online";"Cancelamento de pedido";" Resolvido";"Há 15 dias";21600;99
-"100";"Magazine Luiza - Loja Online";"Magazine Luiza não resolve problema ";" Resolvido";"Há 15 dias";21600;100
-"101";"Magazine Luiza - Loja Online";"Atraso no click retire ";" Resolvido";"Há 14 dias";20160;101
-"102";"Magazine Luiza - Loja Online";"Um motorista está a caminho de seu endereço, mas até agora não chegou! ";" Resolvido";"Há 14 dias";20160;102
-"103";"Magazine Luiza - Loja Online";"Cancelamento da compra ";" Não resolvido";"Há 14 dias";20160;103
-"104";"Magazine Luiza - Loja Online";"Cancelamento ";" Resolvido";"Há 14 dias";20160;104
-"105";"Magazine Luiza - Loja Online";"REEMBOLSO DEMORADO / SISTEMA DE CADASTRO HORRÍVEL";" Resolvido";"Há 15 dias";21600;105
-"106";"Magazine Luiza - Loja Online";"Entregaram minha encomenda para uma pessoa que não sou eu";" Resolvido";"Há 15 dias";21600;106
-"107";"Magazine Luiza - Loja Online";"Produto Veio quebrado";" Resolvido";"Há 15 dias";21600;107
-"108";"Magazine Luiza - Loja Online";"Total descaso para devolução do recurso pago via Pix de compra CANCELADA.";" Resolvido";"Há 15 dias";21600;108
-"109";"Magazine Luiza - Loja Online";"Magalu abandona consumidor.";" Não resolvido";"Há 15 dias";21600;109
-"110";"Magazine Luiza - Loja Online";"No site dizia frete grátis mas o frete foi cobrado ";" Não resolvido";"Há 15 dias";21600;110
-"111";"Magazine Luiza - Loja Online";"Não recebi o produto ";" Resolvido";"Há 14 dias";20160;111
-"112";"Magazine Luiza - Loja Online";"Péssima empresa ";" Resolvido";"Há 14 dias";20160;112
-"113";"Magazine Luiza - Loja Online";"O E-MAIL CADASTRADO NO APP ESTÁ INCORRETO E NÃO CONSIGO ALTERAR";" Resolvido";"Há 14 dias";20160;113
-"114";"Magazine Luiza - Loja Online";"Estorno não creditado ";" Resolvido";"Há 14 dias";20160;114
-"115";"Magazine Luiza - Loja Online";"ENTREGA ATRASADA";" Resolvido";"Há 14 dias";20160;115
-"116";"Magazine Luiza - Loja Online";"Atrasa todas as entregas";" Resolvido";"Há 14 dias";20160;116
-"117";"Magazine Luiza - Loja Online";"RECEBI EMAIL DIZENDO QUE O PRODUTO FOI ENTREGUE E NÃO CHEGOU";" Resolvido";"Há 14 dias";20160;117
-"118";"Magazine Luiza - Loja Online";"Entrega atrasada";" Resolvido";"Há 14 dias";20160;118
-"119";"Magazine Luiza - Loja Online";"Preparando o pedido por 5 dias.";" Resolvido";"Há 14 dias";20160;119
-"120";"Magazine Luiza - Loja Online";"ESTORNO NÃO REALIZADO";" Resolvido";"Há 14 dias";20160;120
-"121";"Magazine Luiza - Loja Online";"Produto vendido sem ter estoque";" Resolvido";"Há 14 dias";20160;121
-"122";"Magazine Luiza - Loja Online";"Falta reembolso";" Resolvido";"Há 14 dias";20160;122
-"123";"Magazine Luiza - Loja Online";"Produto entregue errado ";" Resolvido";"Há 14 dias";20160;123
-"124";"Magazine Luiza - Loja Online";"A MAGALU NÃO ME RESPONDE";" Resolvido";"Há 14 dias";20160;124
-"125";"Magazine Luiza - Loja Online";"Entrega atrasadíssima";" Resolvido";"Há 14 dias";20160;125
-"126";"Magazine Luiza - Loja Online";"Atraso na entrega e nao me responderam";" Resolvido";"Há 14 dias";20160;126
-"127";"Magazine Luiza - Loja Online";"Comprei uma cafeteira abrir e estava quebrada ";" Resolvido";"Há 14 dias";20160;127
-"128";"Magazine Luiza - Loja Online";"comprei um celular, veio com defeito, devolvi e até agora nada!!! ";" Resolvido";"Há 14 dias";20160;128
-"129";"Magazine Luiza - Loja Online";"Entrega por duas vezes atrasada e nada";" Resolvido";"Há 14 dias";20160;129
-"130";"Magazine Luiza - Loja Online";"Valor da devolução diferente do valor da compra";" Resolvido";"Há 14 dias";20160;130
-"131";"Magazine Luiza - Loja Online";"Reembolso ";" Resolvido";"Há 14 dias";20160;131
-"132";"Magazine Luiza - Loja Online";"Atraso entrega";" Resolvido";"Há 14 dias";20160;132
-"133";"Magazine Luiza - Loja Online";"Consta como entregue mas não recebi";" Resolvido";"Há 14 dias";20160;133
-"134";"Magazine Luiza - Loja Online";"Propaganda enganosa";" Resolvido";"Há 14 dias";20160;134
-"135";"Magazine Luiza - Loja Online";"Comprei pelo aplicativo da Magalu, da empresa GI Decor";" Resolvido";"Há 14 dias";20160;135
-"136";"Magazine Luiza - Loja Online";"Produto avariado / 0800 não funcionam ";" Resolvido";"Há 14 dias";20160;136
-"137";"Magazine Luiza - Loja Online";"Venda errada";" Resolvido";"Há 14 dias";20160;137
-"138";"Magazine Luiza - Loja Online";"Não ressarcem o valor de produto com defeito já devolvido";" Resolvido";"Há 14 dias";20160;138
-"139";"Magazine Luiza - Loja Online";"Estorno ";" Resolvido";"Há 14 dias";20160;139
-"140";"Magazine Luiza - Loja Online";"Cancelei o Pedido por demora na Entrega.";" Resolvido";"Há 14 dias";20160;140
-"142";"Magazine Luiza - Loja Online";"Já teve 3 mudança de entrega ";" Resolvido";"Há 14 dias";20160;141
-"144";"Magazine Luiza - Loja Online";"Vale compras, demora no estorno";" Resolvido";"Há 14 dias";20160;142
-"145";"Magazine Luiza - Loja Online";"entrega ";" Não resolvido";"Há 14 dias";20160;143
-"146";"Magazine Luiza - Loja Online";"Cupom de desconto não funcionando";" Resolvido";"Há 14 dias";20160;144
-"147";"Magazine Luiza - Loja Online";"Solicitação de cancelamento com 30 dias";" Resolvido";"Há 14 dias";20160;145
-"148";"Magazine Luiza - Loja Online";"CANCELAMENTO DE PEDIDO FEITO E DEVOLUÇÃO DO VALOR NÃO FEITA ";" Resolvido";"Há 14 dias";20160;146
-"149";"Magazine Luiza - Loja Online";"Entrega atrasada. ";" Resolvido";"Há 14 dias";20160;147
-"150";"Magazine Luiza - Loja Online";"comprei não foi entregue";" Resolvido";"Há 14 dias";20160;148
-"151";"Magazine Luiza - Loja Online";"Pedido PARADO sendo preparado para envio a mais de 10 dias";" Resolvido";"Há 14 dias";20160;149
-"152";"Magazine Luiza - Loja Online";"A empresa cancelou a compra, mas não devolveu o dinheiro ";" Resolvido";"Há 14 dias";20160;150
-"153";"Magazine Luiza - Loja Online";"Não recebi minha compra.";" Não resolvido";"Há 14 dias";20160;151
-"154";"Magazine Luiza - Loja Online";"Falta de informação e atualização da transportadora";" Resolvido";"Há 14 dias";20160;152
-"155";"Magazine Luiza - Loja Online";"Não consigo ter acesso ao meu cadastro, preciso de ajuda ";" Resolvido";"Há 14 dias";20160;153
-"156";"Magazine Luiza - Loja Online";"Quase 1 mês de atraso para entregar uma TV..";" Resolvido";"Há 14 dias";20160;154
-"158";"Magazine Luiza - Loja Online";"Não entregaram no prazo";" Resolvido";"Há 14 dias";20160;155
-"159";"Magazine Luiza - Loja Online";"Estao achando com cara de nobo";" Resolvido";"Há 14 dias";20160;156
-"160";"Magazine Luiza - Loja Online";"Entrega com atraso";" Resolvido";"Há 14 dias";20160;157
-"161";"Magazine Luiza - Loja Online";"O VENDEDOR PARCEIRO DA MAGALU CANCELOU MEU PEDIDO MAS NÃO ESTORNARAM O VALOR";" Resolvido";"Há 14 dias";20160;158
-"162";"Magazine Luiza - Loja Online";"Produto não entregue";" Resolvido";"Há 14 dias";20160;159
-"164";"Magazine Luiza - Loja Online";"Produto adulterado ";" Não resolvido";"Há 14 dias";20160;160
-"165";"Magazine Luiza - Loja Online";"Pix magalu";" Não resolvido";"Há 14 dias";20160;161
-"166";"Magazine Luiza - Loja Online";"Troca do liquidificador que veio com defeito por outro ";" Resolvido";"Há 14 dias";20160;162
-"167";"Magazine Luiza - Loja Online";"Descaso ! ";" Resolvido";"Há 14 dias";20160;163
-"168";"Magazine Luiza - Loja Online";"Pedido atrasado ";" Resolvido";"Há 14 dias";20160;164
-"169";"Magazine Luiza - Loja Online";"Reembolso negado";" Resolvido";"Há 14 dias";20160;165
-"170";"Magazine Luiza - Loja Online";"ENTREGA ATRASADA. ";" Resolvido";"Há 14 dias";20160;166
-"171";"Magazine Luiza - Loja Online";"Tentei cancelar o pedido antes de ser enviado porém não cancelou e recebi o pedido, quero devolver";" Resolvido";"Há 14 dias";20160;167
-"172";"Magazine Luiza - Loja Online";"Omissão de informação para retirada na loja ";" Resolvido";"Há 14 dias";20160;168
-"173";"Magazine Luiza - Loja Online";"Tiraram meu cupom";" Resolvido";"Há 14 dias";20160;169
-"174";"Magazine Luiza - Loja Online";"Comprei jogo de panelas tramontina turim em oferta. Paguei com pic. Não recebi confirmação do pedido as tenho comprovante de pagamento. Estranhei não ter recebido a confirmação  e entrei em contato";" Não resolvido";"Há 14 dias";20160;170
-"175";"Magazine Luiza - Loja Online";"DIFICULDADES DE CANCELAMENTO E REEMBOUSO ";" Resolvido";"Há 14 dias";20160;171
-"176";"Magazine Luiza - Loja Online";"Loja parceira não entrega - Yaí";" Resolvido";"Há 14 dias";20160;172
-"177";"Magazine Luiza - Loja Online";"Colchão Solteiro Molas Ensacadas (24x88x188) ";" Resolvido";"Há 14 dias";20160;173
-"178";"Magazine Luiza - Loja Online";"Figurinhas da copa";" Resolvido";"Há 14 dias";20160;174
-"179";"Magazine Luiza - Loja Online";"Entrega Atrasada/cancelada";" Resolvido";"Há 14 dias";20160;175
-"180";"Magazine Luiza - Loja Online";"Comprei um copo de liquidificador com vcs. Segundo a propaganda o copo era original. é péssimo. Trincou todo o acrílico na base do copo, em poucos uso. A peça preta de encaixe do copo na base, dibrulhou todo. Uma vergonha. loja como essa vender produto fa";" Resolvido";"Há 14 dias";20160;176
-"181";"Magazine Luiza - Loja Online";"Venda de produto suspenso pela ANVISA";" Resolvido";"Há 13 dias";18720;177
-"182";"Magazine Luiza - Loja Online";"Cancelamento ";" Resolvido";"Há 13 dias";18720;178
-"183";"Magazine Luiza - Loja Online";"A MAGALU anuncia, não entrega e cancela o pedido pago pelo cliente.";" Não resolvido";"Há 13 dias";18720;179
-"184";"Magazine Luiza - Loja Online";"Entrega sem rastreio e muito demorada";" Resolvido";"Há 13 dias";18720;180
-"185";"Magazine Luiza - Loja Online";"Entrega não realizada";" Resolvido";"Há 13 dias";18720;181
-"186";"Magazine Luiza - Loja Online";"Entrega atrasada";" Resolvido";"Há 13 dias";18720;182
-"187";"Magazine Luiza - Loja Online";"Fiz um pedido e até hoje não foi enviado";" Resolvido";"Há 13 dias";18720;183
-"188";"Magazine Luiza - Loja Online";"Estorno não creditado";" Resolvido";"Há 13 dias";18720;184
-"189";"Magazine Luiza - Loja Online";"Guarda roupa ";" Resolvido";"Há 14 dias";20160;185
-"190";"Magazine Luiza - Loja Online";"Pedido entregue incompleto";" Resolvido";"Há 14 dias";20160;186
-"191";"Magazine Luiza - Loja Online";"Promoção Enganosa- Pontos Azuis não creditados";" Resolvido";"Há 6 dias";8640;187
-"192";"Magazine Luiza - Loja Online";"Vencimento do Produto muito Curto";" Resolvido";"Há 6 dias";8640;188
-"193";"Magazine Luiza - Loja Online";"Comprei um HEADPHONE e ele veio quebrado!";" Resolvido";"Há 6 dias";8640;189
-"194";"Magazine Luiza - Loja Online";"Solicitação de troca sem retorno financeiro";" Resolvido";"Há 6 dias";8640;190
-"195";"Magazine Luiza - Loja Online";"Comprovante de cancelamento não enviado";" Resolvido";"Há 6 dias";8640;191
-"196";"Magazine Luiza - Loja Online";"Pedido ou mercadoria [editado_RA]";" Resolvido";"Há 6 dias";8640;192
-"197";"Magazine Luiza - Loja Online";"Paguei pelo MagaluPay e recebi o estono em vale compra";" Resolvido";"Há 6 dias";8640;193
-"198";"Magazine Luiza - Loja Online";"Air freyer Nell (marca da Magalu)";" Resolvido";"Há 6 dias";8640;194
-"199";"Magazine Luiza - Loja Online";"Datas de entrega falhas";" Resolvido";"Há 6 dias";8640;195
-"200";"Magazine Luiza - Loja Online";"Compra cancelada!";" Resolvido";"Há 6 dias";8640;196
-"201";"Magazine Luiza - Loja Online";"site FALSO idêntico ao da Magazine Luiza";" Resolvido";"Há 13 dias";18720;197
-"202";"Magazine Luiza - Loja Online";"CANCELAMENTO PELA EMPRESA";" Resolvido";"Há 13 dias";18720;198
-"203";"Magazine Luiza - Loja Online";"Smartphone chegou com defeito";" Resolvido";"Há 13 dias";18720;199
-"204";"Magazine Luiza - Loja Online";"Avaria";" Resolvido";"Há 13 dias";18720;200
-"205";"Magazine Luiza - Loja Online";"Não recebi o estorno após os 3 úteis ";" Resolvido";"Há 13 dias";18720;201
-"206";"Magazine Luiza - Loja Online";"Transportadora MAFD, em rota de entrega e não realiza a entrega";" Resolvido";"Há 13 dias";18720;202
-"207";"Magazine Luiza - Loja Online";"Demora de entrega ";" Resolvido";"Há 13 dias";18720;203
-"208";"Magazine Luiza - Loja Online";"VALE COMPRAS";" Resolvido";"Há 13 dias";18720;204
-"209";"Magazine Luiza - Loja Online";"Entrega muito Atrasada!";" Resolvido";"Há 13 dias";18720;205
-"210";"Magazine Luiza - Loja Online";"CANCELAMENTO NAO SOLICITADO";" Resolvido";"Há 13 dias";18720;206
-"211";"Magazine Luiza - Loja Online";"Pedido deveria ser entregue dia 22/09 e não sabem informar o que houve";" Resolvido";"Há 13 dias";18720;207
-"212";"Magazine Luiza - Loja Online";"Não devolvem o meu dinheiro!!";" Resolvido";"Há 13 dias";18720;208
-"213";"Magazine Luiza - Loja Online";"Minha loja está desativada";" Resolvido";"Há 13 dias";18720;209
-"214";"Magazine Luiza - Loja Online";"Não consigo acessar minha conta";" Resolvido";"Há 13 dias";18720;210
-"215";"Magazine Luiza - Loja Online";"Não fazem meu reembolso ";" Resolvido";"Há 13 dias";18720;211
-"216";"Magazine Luiza - Loja Online";"Atraso na entrega";" Resolvido";"Há 13 dias";18720;212
-"217";"Magazine Luiza - Loja Online";"No site a entrega aparece feita, mas não chegou";" Resolvido";"Há 13 dias";18720;213
-"218";"Magazine Luiza - Loja Online";"Pedido não muda status de entrega ";" Resolvido";"Há 13 dias";18720;214
-"219";"Magazine Luiza - Loja Online";"Atraso na entrega e falta de esclarecimento ";" Resolvido";"Há 13 dias";18720;215
-"220";"Magazine Luiza - Loja Online";"Eles nos fazem de trouxa ";" Resolvido";"Há 13 dias";18720;216
-"221";"Magazine Luiza - Loja Online";"CANCELAMENTO/ ESTORNO ";" Resolvido";"Há 13 dias";18720;217
-"222";"Magazine Luiza - Loja Online";"SITE MAGALÚ NÃO DÁ SEGURANÇA DE COMPRA";" Resolvido";"Há 13 dias";18720;218
-"223";"Magazine Luiza - Loja Online";"Prazo de entrega não cumprido ";" Resolvido";"Há 13 dias";18720;219
-"224";"Magazine Luiza - Loja Online";"entrega com atraso excessivo";" Resolvido";"Há 13 dias";18720;220
-"225";"Magazine Luiza - Loja Online";"Tento alterar o email de cadastro e nunca consigo ";" Resolvido";"Há 13 dias";18720;221
-"226";"Magazine Luiza - Loja Online";"Comprar não confiável ";" Não resolvido";"Há 13 dias";18720;222
-"227";"Magazine Luiza - Loja Online";"Comprebel e Magazine Luiza - comprei uma geladeira que nunca foi entregue";" Resolvido";"Há 13 dias";18720;223
-"228";"Magazine Luiza - Loja Online";"Comprei um produto e veio danificado ";" Resolvido";"Há 13 dias";18720;224
-"229";"Magazine Luiza - Loja Online";"Reembolso da entrega cancelada não cumprido";" Resolvido";"Há 13 dias";18720;225
-"230";"Magazine Luiza - Loja Online";"Comprei uma escada, não chegou, foi dado como entregue e nada..";" Resolvido";"Há 13 dias";18720;226
-"231";"Magazine Luiza - Loja Online";"Loja negligente ";" Resolvido";"Há 13 dias";18720;227
-"232";"Magazine Luiza - Loja Online";"TROCA DE ENDERECO";" Não resolvido";"Há 13 dias";18720;228
-"233";"Magazine Luiza - Loja Online";"Entrega de produto incorreto";" Resolvido";"Há 13 dias";18720;229
-"234";"Magazine Luiza - Loja Online";"Descaso com consumidor ";" Resolvido";"Há 13 dias";18720;230
-"235";"Magazine Luiza - Loja Online";"Loja parceira Magazine Luiza no nome de Bambinelli";" Resolvido";"Há 13 dias";18720;231
-"236";"Magazine Luiza - Loja Online";"Entrega atrasada e demora para realizar o cancelamento";" Resolvido";"Há 13 dias";18720;232
-"237";"Magazine Luiza - Loja Online";"Estorno ";" Resolvido";"Há 13 dias";18720;233
-"238";"Magazine Luiza - Loja Online";"Meu app não quer entrar mais.";" Resolvido";"Há 13 dias";18720;234
-"239";"Magazine Luiza - Loja Online";"Atraso na entrega ";" Resolvido";"Há 13 dias";18720;235
-"240";"Magazine Luiza - Loja Online";"Toalhas ruins";" Resolvido";"Há 13 dias";18720;236
-"241";"Magazine Luiza - Loja Online";"Escova giratória com cabelo ";" Não resolvido";"Há 13 dias";18720;237
-"242";"Magazine Luiza - Loja Online";"Troca  smartphone ";" Resolvido";"Há 13 dias";18720;238
-"243";"Magazine Luiza - Loja Online";"Produto veio danificado e não consigo solicitar a troca pelo App";" Resolvido";"Há 13 dias";18720;239
-"244";"Magazine Luiza - Loja Online";"Produto não funciona";" Resolvido";"Há 13 dias";18720;240
-"245";"Magazine Luiza - Loja Online";"Prazo de Entrega [editado_RA] Somente visando conquistar Venda";" Resolvido";"Há 13 dias";18720;241
-"246";"Magazine Luiza - Loja Online";"2 via de NF";" Resolvido";"Há 13 dias";18720;242
-"247";"Magazine Luiza - Loja Online";"Produto quebrado";" Resolvido";"Há 13 dias";18720;243
-"248";"Magazine Luiza - Loja Online";"Atraso na entrega, não querem cancelar pedido ";" Resolvido";"Há 13 dias";18720;244
-"249";"Magazine Luiza - Loja Online";"não fui reembolsada ";" Resolvido";"Há 13 dias";18720;245
-"250";"Magazine Luiza - Loja Online";"enviaram o mesmo produto errado novamente!";" Resolvido";"Há 13 dias";18720;246
-"251";"Magazine Luiza - Loja Online";"Micro SD Falso";" Resolvido";"Há 12 dias";17280;247
-"252";"Magazine Luiza - Loja Online";"cancelamento por falta de produto no estoque - o produto estava a venda";" Resolvido";"Há 12 dias";17280;248
-"253";"Magazine Luiza - Loja Online";"Produto não entregue";" Resolvido";"Há 12 dias";17280;249
-"254";"Magazine Luiza - Loja Online";"Pedido cancelado sem resposta";" Resolvido";"Há 12 dias";17280;250
-"255";"Magazine Luiza - Loja Online";"CADÊ MEU DINHEIRO?";" Não resolvido";"Há 12 dias";17280;251
-"256";"Magazine Luiza - Loja Online";"Atraso na liberação de vale compras";" Resolvido";"Há 13 dias";18720;252
-"257";"Magazine Luiza - Loja Online";"Produto devolvido, reembolso não feito.";" Resolvido";"Há 13 dias";18720;253
-"258";"Magazine Luiza - Loja Online";"Produto Quebrado ";" Resolvido";"Há 13 dias";18720;254
-"259";"Magazine Luiza - Loja Online";"esqueci o email vinculado a minha conta do magazine luiza";" Resolvido";"Há 13 dias";18720;255
-"260";"Magazine Luiza - Loja Online";"Não recebi minha comissão, e não responderam minha reclamação com o parceiro magalu";" Não resolvido";"Há 13 dias";18720;256
-"261";"Magazine Luiza - Loja Online";"Prazo de entrega é hoje, mas continua &quot;nota fiscal emitida&quot;";" Resolvido";"Há 12 dias";17280;257
-"262";"Magazine Luiza - Loja Online";"Bloqueio no site zattini";" Resolvido";"Há 12 dias";17280;258
-"263";"Magazine Luiza - Loja Online";"Atraso para retirada";" Resolvido";"Há 12 dias";17280;259
-"264";"Magazine Luiza - Loja Online";"Não recebi o produto ";" Não resolvido";"Há 12 dias";17280;260
-"265";"Magazine Luiza - Loja Online";"Magazine Luiza: Muito marketing em cima da mulher virtual e pouca agilidade na entrega";" Resolvido";"Há 12 dias";17280;261
-"266";"Magazine Luiza - Loja Online";"Enrolação para aprovação do Pedido";" Resolvido";"Há 12 dias";17280;262
-"267";"Magazine Luiza - Loja Online";"Sanduicheira derreteu ";" Resolvido";"Há 12 dias";17280;263
-"268";"Magazine Luiza - Loja Online";"Retira fácil ,que se tornou difícil ";" Resolvido";"Há 12 dias";17280;264
-"269";"Magazine Luiza - Loja Online";"Recebi mensagem no whatsapp de compra que NAO fiz";" Resolvido";"Há 12 dias";17280;265
-"270";"Magazine Luiza - Loja Online";"Produto danificado";" Não resolvido";"Há 12 dias";17280;266
-"271";"Magazine Luiza - Loja Online";"Pedido para serserser entregue hoje.";" Resolvido";"Há 12 dias";17280;267
-"272";"Magazine Luiza - Loja Online";"Aguardando Troca de Mercadoria";" Resolvido";"Há 12 dias";17280;268
-"273";"Magazine Luiza - Loja Online";"Status travado em &quot;Sua Nota Fiscal foi emitida&quot;";" Resolvido";"Há 12 dias";17280;269
-"274";"Magazine Luiza - Loja Online";"Comprei um produto porém não recebi ";" Resolvido";"Há 12 dias";17280;270
-"275";"Magazine Luiza - Loja Online";"Enganado";" Resolvido";"Há 12 dias";17280;271
-"276";"Magazine Luiza - Loja Online";"Entrega atrasada e nenhuma informação do paradeiro dos produtos";" Resolvido";"Há 12 dias";17280;272
-"277";"Magazine Luiza - Loja Online";"Comprei, Paguei e Não Entregaram";" Resolvido";"Há 12 dias";17280;273
-"278";"Magazine Luiza - Loja Online";"Valor anunciado no Site é diferente do valor cobrado no Cartão";" Resolvido";"Há 12 dias";17280;274
-"279";"Magazine Luiza - Loja Online";"CANCELAMENTO E DEMORA NA DEVOLUÇÃO DO VALOR PAGO";" Resolvido";"Há 12 dias";17280;275
-"280";"Magazine Luiza - Loja Online";"ALBUNS DA COPA CAPA DURA PRATA COM MAIS DE 15 DIAS SEM SER SEPARADO";" Resolvido";"Há 12 dias";17280;276
-"281";"Magazine Luiza - Loja Online";"Entrega atrasada. Dois prazos de entrega não cumpridos. Prazo para resolução não cumprido.";" Resolvido";"Há 12 dias";17280;277
-"282";"Magazine Luiza - Loja Online";"Aguardo codigo para devolucao";" Resolvido";"Há 12 dias";17280;278
-"283";"Magazine Luiza - Loja Online";"Reembolso de cancelamento pendente.";" Resolvido";"Há 12 dias";17280;279
-"284";"Magazine Luiza - Loja Online";"Cancelei o pedido a mais de um mês e ainda não tive o valor reembolsado ";" Resolvido";"Há 12 dias";17280;280
-"285";"Magazine Luiza - Loja Online";"Demora no cancelamento";" Resolvido";"Há 12 dias";17280;281
-"286";"Magazine Luiza - Loja Online";"Entrega atrasada ";" Resolvido";"Há 12 dias";17280;282
-"287";"Magazine Luiza - Loja Online";"Pedido com pagamento não confirmado";" Resolvido";"Há 12 dias";17280;283
-"288";"Magazine Luiza - Loja Online";"PRODUTO DIVERSO DO VISUALIZADO NO SITE";" Não resolvido";"Há 12 dias";17280;284
-"289";"Magazine Luiza - Loja Online";"Muitos e-mails conta inativa";" Resolvido";"Há 12 dias";17280;285
-"290";"Magazine Luiza - Loja Online";"Comprei um produto e enviaram outro";" Resolvido";"Há 12 dias";17280;286
-"291";"Magazine Luiza - Loja Online";"Embalagens veio violada";" Não resolvido";"Há 12 dias";17280;287
-"292";"Magazine Luiza - Loja Online";"Produto enganoso";" Resolvido";"Há 12 dias";17280;288
-"293";"Magazine Luiza - Loja Online";"Falta de Respeito com o cliente";" Resolvido";"Há 12 dias";17280;289
-"294";"Magazine Luiza - Loja Online";"Atraso de pedido ";" Resolvido";"Há 12 dias";17280;290
-"295";"Magazine Luiza - Loja Online";"Entrega atrasada, com mudança de data e não recebimento";" Resolvido";"Há 12 dias";17280;291
-"296";"Magazine Luiza - Loja Online";"Quero o cancelamento e o estorno";" Resolvido";"Há 12 dias";17280;292
-"297";"Magazine Luiza - Loja Online";"Entrega não realizada no prazo, prejuízo ";" Resolvido";"Há 12 dias";17280;293
-"298";"Magazine Luiza - Loja Online";"Não existe parcelamento em 24x sem juros pelo Cartão Luiza conforme anunciado ao pedir cartão";" Não resolvido";"Há 12 dias";17280;294
-"299";"Magazine Luiza - Loja Online";"compra cancelada pela propria loja ";" Resolvido";"Há 12 dias";17280;295
-"300";"Magazine Luiza - Loja Online";"Status Não Atualiza";" Resolvido";"Há 12 dias";17280;296
-"301";"Magazine Luiza - Loja Online";"Entrega de item que veio faltando";" Resolvido";"Há 12 dias";17280;297
-"302";"Magazine Luiza - Loja Online";"Cupom não funciona ";" Resolvido";"Há 12 dias";17280;298
-"303";"Magazine Luiza - Loja Online";"PEDIDO VEIO QUEBRADO";" Resolvido";"Há 12 dias";17280;299
-"304";"Magazine Luiza - Loja Online";"CANCELAMENTO DE COMPRA";" Resolvido";"Há 12 dias";17280;300
-"305";"Magazine Luiza - Loja Online";"Não recebi reembolso ";" Resolvido";"Há 12 dias";17280;301
-"306";"Magazine Luiza - Loja Online";"COMPREI e AINDA NÃO RECEBI";" Resolvido";"Há 12 dias";17280;302
-"307";"Magazine Luiza - Loja Online";"Magazine luiza desrespeita cliente";" Resolvido";"Há 12 dias";17280;303
-"308";"Magazine Luiza - Loja Online";"Reembolso do valor pago nos produtos";" Resolvido";"Há 12 dias";17280;304
-"309";"Magazine Luiza - Loja Online";"Aplicativo dando erro";" Resolvido";"Há 12 dias";17280;305
-"310";"Magazine Luiza - Loja Online";"Vale compra indisponível ";" Resolvido";"Há 12 dias";17280;306
-"311";"Magazine Luiza - Loja Online";"PRODUTO FALSIFICADO";" Não resolvido";"Há 11 dias";15840;307
-"312";"Magazine Luiza - Loja Online";"Pedido CANCELADO pelo MAGALU";" Resolvido";"Há 11 dias";15840;308
-"313";"Magazine Luiza - Loja Online";"Pedido não chega ";" Resolvido";"Há 11 dias";15840;309
-"314";"Magazine Luiza - Loja Online";"Enviaram o produto errado";" Não resolvido";"Há 11 dias";15840;310
-"315";"Magazine Luiza - Loja Online";"PRAZO DE ENTREGA DIFERENTE DO ANÚNCIO";" Resolvido";"Há 11 dias";15840;311
-"316";"Magazine Luiza - Loja Online";"Estornar, no mês  seguinte pago de novo.";" Resolvido";"Há 11 dias";15840;312
-"317";"Magazine Luiza - Loja Online";"O pedido que nunca chegou e foi cobrado";" Resolvido";"Há 11 dias";15840;313
-"318";"Magazine Luiza - Loja Online";"Entrega atrasada";" Resolvido";"Há 11 dias";15840;314
-"319";"Magazine Luiza - Loja Online";"O site não permite dar continuidade ao processo de troca";" Resolvido";"Há 12 dias";17280;315
-"320";"Magazine Luiza - Loja Online";"Magalu  péssimo pós venda ";" Não resolvido";"Há 12 dias";17280;316
-"321";"Magazine Luiza - Loja Online";"fogao atrasado";" Resolvido";"Há 11 dias";15840;317
-"322";"Magazine Luiza - Loja Online";"COMPRA DE UM PRODUTO DITO COMO NOVO, MAS É ENVIADO UM PRODUTO USADO";" Resolvido";"Há 11 dias";15840;318
-"323";"Magazine Luiza - Loja Online";"Estorno do cancelamento ";" Resolvido";"Há 11 dias";15840;319
-"324";"Magazine Luiza - Loja Online";"CANCELAMENTO";" Resolvido";"Há 11 dias";15840;320
-"325";"Magazine Luiza - Loja Online";"Fiz um pedido de 2 jogos de Taças para Gin 570ml 6 peças - Rojemac + BOHEMIA, porém chegou até mim 2 jogos de taças de vinho, pedi para realizar a troca ou devolver o produto dentro do prazo dos 7 dias e até hoje não tive nenhum retorno, o prazo era de 2 ";" Resolvido";"Há 11 dias";15840;321
-"326";"Magazine Luiza - Loja Online";"Entrega atrasada e não consigo saber sobre o produto ";" Resolvido";"Há 11 dias";15840;322
-"327";"Magazine Luiza - Loja Online";"Maior [editado_RA] comprar no Magalu com loja parceira";" Não resolvido";"Há 11 dias";15840;323
-"328";"Magazine Luiza - Loja Online";"Produto veio quebrado e não recolhem o mesmo nem devolvem meu dinheiro";" Resolvido";"Há 11 dias";15840;324
-"329";"Magazine Luiza - Loja Online";"SOFÁ DESCARTÁVEL E PERIGOSO !!!";" Não resolvido";"Há 11 dias";15840;325
-"330";"Magazine Luiza - Loja Online";"Produto de péssima qualidade";" Resolvido";"Há 11 dias";15840;326
-"331";"Magazine Luiza - Loja Online";"Cancelamento ";" Resolvido";"Há 10 dias";14400;327
-"332";"Magazine Luiza - Loja Online";"Compra muito demorada";" Resolvido";"Há 10 dias";14400;328
-"333";"Magazine Luiza - Loja Online";"VENDEDOR NÃO DESPACHA ";" Resolvido";"Há 10 dias";14400;329
-"334";"Magazine Luiza - Loja Online";"Mal Atendimento ";" Resolvido";"Há 10 dias";14400;330
-"335";"Magazine Luiza - Loja Online";"Tv uma porcaria que APP mão mostra";" Resolvido";"Há 10 dias";14400;331
-"336";"Magazine Luiza - Loja Online";"Problemas com entrega do produto e cancelamento";" Resolvido";"Há 10 dias";14400;332
-"337";"Magazine Luiza - Loja Online";"Cancelamento de Pedido 1173870373249106";" Resolvido";"Há 10 dias";14400;333
-"338";"Magazine Luiza - Loja Online";"PAGAMENTO APROVADO E CANCELADO SEM NOTIFICAÇÃO ";" Resolvido";"Há 11 dias";15840;334
-"339";"Magazine Luiza - Loja Online";"Não cumprem o prazo de entrega!";" Resolvido";"Há 11 dias";15840;335
-"340";"Magazine Luiza - Loja Online";"Tomada queimada";" Resolvido";"Há 11 dias";15840;336
-"341";"Magazine Luiza - Loja Online";"Preparando Pedido ";" Resolvido";"Há 10 dias";14400;337
-"342";"Magazine Luiza - Loja Online";"Compra cancelada pela Livelo - Não cumprimento da oferta";" Não resolvido";"Há 10 dias";14400;338
-"343";"Magazine Luiza - Loja Online";"Devolução ";" Resolvido";"Há 10 dias";14400;339
-"344";"Magazine Luiza - Loja Online";"Não entregam meu pedido muito atrasado ";" Resolvido";"Há 10 dias";14400;340
-"345";"Magazine Luiza - Loja Online";"Não recebi o produto ";" Resolvido";"Há 10 dias";14400;341
-"346";"Magazine Luiza - Loja Online";"Falha na entrega";" Resolvido";"Há 10 dias";14400;342
-"347";"Magazine Luiza - Loja Online";"Super atraso na entrega ";" Resolvido";"Há 10 dias";14400;343
-"348";"Magazine Luiza - Loja Online";"Propaganda enganosa ";" Não resolvido";"Há 10 dias";14400;344
-"349";"Magazine Luiza - Loja Online";"SITE FALSO vendasvirtualmagalu.com";" Resolvido";"Há 10 dias";14400;345
-"350";"Magazine Luiza - Loja Online";"Celular Nokia 110 com defeito";" Resolvido";"Há 10 dias";14400;346
-"351";"Magazine Luiza - Loja Online";"Entrega atrasada ";" Resolvido";"Há 9 dias";12960;347
-"352";"Magazine Luiza - Loja Online";"Comprei no Kabum através do Magalu e não tenho resposta";" Não resolvido";"Há 9 dias";12960;348
-"353";"Magazine Luiza - Loja Online";"Tv estraviada ";" Resolvido";"Há 9 dias";12960;349
-"354";"Magazine Luiza - Loja Online";"Não entregaram meus produtos e ainda não estornar meu dinheiro ";" Resolvido";"Há 9 dias";12960;350
-"355";"Magazine Luiza - Loja Online";"Cancelei e ainda não recebi";" Resolvido";"Há 9 dias";12960;351
-"356";"Magazine Luiza - Loja Online";"Não recebi reembolso";" Resolvido";"Há 9 dias";12960;352
-"357";"Magazine Luiza - Loja Online";"Cancelamento devolução";" Resolvido";"Há 9 dias";12960;353
-"358";"Magazine Luiza - Loja Online";"Troquei o produto e não recebi meu dinheiro ou produto de volta";" Resolvido";"Há 9 dias";12960;354
-"359";"Magazine Luiza - Loja Online";"não realizou a entrega ";" Resolvido";"Há 9 dias";12960;355
-"360";"Magazine Luiza - Loja Online";"Prazo não cumprido";" Resolvido";"Há 9 dias";12960;356
-"361";"Magazine Luiza - Loja Online";"Defeito do Produto na Garantia";" Resolvido";"Há 9 dias";12960;357
-"362";"Magazine Luiza - Loja Online";"Propagando enganosa ";" Resolvido";"Há 9 dias";12960;358
-"363";"Magazine Luiza - Loja Online";"Atraso em Entrega";" Resolvido";"Há 9 dias";12960;359
-"364";"Magazine Luiza - Loja Online";"Magazine Luiza sem CREDIBILIDADE";" Resolvido";"Há 9 dias";12960;360
-"365";"Magazine Luiza - Loja Online";"NÃO FAÇAM LISTA DE CASAMENTO ";" Não resolvido";"Há 9 dias";12960;361
-"366";"Magazine Luiza - Loja Online";"O produto não chega";" Resolvido";"Há 9 dias";12960;362
-"367";"Magazine Luiza - Loja Online";"Pedido não entregue e demora para liberar meu vale-compra";" Resolvido";"Há 9 dias";12960;363
-"368";"Magazine Luiza - Loja Online";"Pedido aprovado foi cancelado pelo vendedor";" Resolvido";"Há 9 dias";12960;364
-"369";"Magazine Luiza - Loja Online";"Demora ";" Resolvido";"Há 9 dias";12960;365
-"370";"Magazine Luiza - Loja Online";"Magalupay ";" Resolvido";"Há 9 dias";12960;366
-"371";"Magazine Luiza - Loja Online";"Produto danificado ";" Resolvido";"Há 9 dias";12960;367
-"372";"Magazine Luiza - Loja Online";"Reembolso";" Resolvido";"Há 9 dias";12960;368
-"373";"Magazine Luiza - Loja Online";"A peça de ferro que levanta o baú esta com pressão ";" Resolvido";"Há 9 dias";12960;369
-"374";"Magazine Luiza - Loja Online";"Fui enganado ";" Resolvido";"Há 9 dias";12960;370
-"375";"Magazine Luiza - Loja Online";"Estorno do produto devolvido não recebido ";" Resolvido";"Há 9 dias";12960;371
-"376";"Magazine Luiza - Loja Online";"Não cancelaram e não entregou";" Resolvido";"Há 9 dias";12960;372
-"377";"Magazine Luiza - Loja Online";"Difícil devolução do pedido ";" Resolvido";"Há 9 dias";12960;373
-"378";"Magazine Luiza - Loja Online";"Produto diferente enviado";" Resolvido";"Há 9 dias";12960;374
-"379";"Magazine Luiza - Loja Online";"Pedido parado a 10 dias";" Resolvido";"Há 9 dias";12960;375
-"380";"Magazine Luiza - Loja Online";"Pouco caso";" Não resolvido";"Há 9 dias";12960;376
-"381";"Magazine Luiza - Loja Online";"Estorno";" Resolvido";"Há 9 dias";12960;377
-"382";"Magazine Luiza - Loja Online";"Atraso na entrega";" Não resolvido";"Há 9 dias";12960;378
-"383";"Magazine Luiza - Loja Online";"tenis asics masculino comprei a pouco tempo e já está rasgando ";" Resolvido";"Há 9 dias";12960;379
-"384";"Magazine Luiza - Loja Online";"Comprei, veio errado e quero devolver.";" Resolvido";"Há 9 dias";12960;380
-"385";"Magazine Luiza - Loja Online";"MAGAZINE LUIZA DISSE QUE ENTREGOU, MAS NÃO RECEBI TV";" Resolvido";"Há 9 dias";12960;381
-"386";"Magazine Luiza - Loja Online";"Produto não entregue ";" Resolvido";"Há 9 dias";12960;382
-"387";"Magazine Luiza - Loja Online";"Eles alegam que entregaram o produto em casa, porém não recebi ainda. ";" Resolvido";"Há 9 dias";12960;383
-"388";"Magazine Luiza - Loja Online";"Poltrona chegou com o tecido rasgado e o pé quebrado";" Resolvido";"Há 9 dias";12960;384
-"389";"Magazine Luiza - Loja Online";"TROCA NÃO CONCLUÍDA";" Resolvido";"Há 9 dias";12960;385
-"390";"Magazine Luiza - Loja Online";"Produto não entregue ";" Não resolvido";"Há 9 dias";12960;386
-"391";"Magazine Luiza - Loja Online";"Produto comprado a pouco mais de 1 mês apresentou defeito";" Resolvido";"Há 9 dias";12960;387
-"392";"Magazine Luiza - Loja Online";"Comprei uma Tv 24 , pela empresa Obabox Oficial, em parceria com A MAgalu";" Resolvido";"Há 9 dias";12960;388
-"393";"Magazine Luiza - Loja Online";"Não recebi ainda cashback MAGALU através do MELIUZ.";" Resolvido";"Há 9 dias";12960;389
-"394";"Magazine Luiza - Loja Online";"Pedido não entregue( eu estava em casa ) LOG BEE , Transportadora Log Sp Abc";" Resolvido";"Há 9 dias";12960;390
-"395";"Magazine Luiza - Loja Online";"Atraso na entrega e cancelamento indevido.";" Não resolvido";"Há 9 dias";12960;391
-"396";"Magazine Luiza - Loja Online";"CAIU DE MAIS A QUALIDADE DE ATENDIMENTO AO CLIENTE ";" Resolvido";"Há 9 dias";12960;392
-"397";"Magazine Luiza - Loja Online";"Não recebo resposta sobre o cancelamento e devolução de mercadoria ";" Resolvido";"Há 9 dias";12960;393
-"398";"Magazine Luiza - Loja Online";"Fone de Ouvido sem Fio Philips TAH1205BK/00 Bluetooth Preto";" Resolvido";"Há 9 dias";12960;394
-"399";"Magazine Luiza - Loja Online";"Envio de Ofício";" Resolvido";"Há 9 dias";12960;395
-"400";"Magazine Luiza - Loja Online";"Entrega não realizada como previsto";" Resolvido";"Há 9 dias";12960;396
-"401";"Magazine Luiza - Loja Online";"Entrega atrasada ,descumprimento de direito!";" Resolvido";"Há 9 dias";12960;397
-"402";"Magazine Luiza - Loja Online";"Perda do benefício CLIENTE OURO";" Não resolvido";"Há 9 dias";12960;398
-"403";"Magazine Luiza - Loja Online";"Comentário de avaliação de produto com nome completo";" Resolvido";"Há 9 dias";12960;399
-"404";"Magazine Luiza - Loja Online";"Comprei e não recebi";" Resolvido";"Há 9 dias";12960;400
-"405";"Magazine Luiza - Loja Online";"CADE MEU VALE COMPRAS ????";" Resolvido";"Há 9 dias";12960;401
-"406";"Magazine Luiza - Loja Online";"Compra atrasada cancelada sem autorização ";" Resolvido";"Há 9 dias";12960;402
-"407";"Magazine Luiza - Loja Online";"atraso na entrega ";" Resolvido";"Há 9 dias";12960;403
-"408";"Magazine Luiza - Loja Online";"Entrega não funciona ";" Resolvido";"Há 9 dias";12960;404
-"409";"Magazine Luiza - Loja Online";"Mercadoria retida pela fiscalização e transportadora incomunicável ";" Resolvido";"Há 9 dias";12960;405
-"410";"Magazine Luiza - Loja Online";"Fiz uma compra pela internet , paguei no pix e não recebi ";" Não resolvido";"Há 9 dias";12960;406
-"411";"Magazine Luiza - Loja Online";"Enviaram outro produto!";" Resolvido";"Há 9 dias";12960;407
-"412";"Magazine Luiza - Loja Online";"[editado_RA]";" Resolvido";"Há 9 dias";12960;408
-"413";"Magazine Luiza - Loja Online";"Entrega atrasada ! ";" Resolvido";"Há 9 dias";12960;409
-"414";"Magazine Luiza - Loja Online";"Air fryer Nell Tomada pegando fogo";" Resolvido";"Há 9 dias";12960;410
-"415";"Magazine Luiza - Loja Online";"Quero o reembolso ";" Resolvido";"Há 9 dias";12960;411
-"416";"Magazine Luiza - Loja Online";"Compra efetuada e produto não entregue";" Resolvido";"Há 9 dias";12960;412
-"417";"Magazine Luiza - Loja Online";"pedido nao entregue";" Não resolvido";"Há 9 dias";12960;413
-"418";"Magazine Luiza - Loja Online";"Não consigo comprar pelo APP";" Resolvido";"Há 9 dias";12960;414
-"419";"Magazine Luiza - Loja Online";"Entrega atrasada sem retorno";" Resolvido";"Há 9 dias";12960;415
-"420";"Magazine Luiza - Loja Online";"Demora no cancelamento ";" Resolvido";"Há 9 dias";12960;416
-"421";"Magazine Luiza - Loja Online";"Ainda não recebi o produto";" Resolvido";"Há 8 dias";11520;417
-"422";"Magazine Luiza - Loja Online";"Não devolveu o valor correto no estorno";" Resolvido";"Há 8 dias";11520;418
-"423";"Magazine Luiza - Loja Online";"Propaganda enganosa ";" Resolvido";"Há 8 dias";11520;419
-"424";"Magazine Luiza - Loja Online";"Produto com defeito, demora na troca";" Resolvido";"Há 8 dias";11520;420
-"425";"Magazine Luiza - Loja Online";"Comprei e não recebi.";" Resolvido";"Há 8 dias";11520;421
-"426";"Magazine Luiza - Loja Online";"Rádio não está funcionando ";" Resolvido";"Há 8 dias";11520;422
-"427";"Magazine Luiza - Loja Online";"Tristeza!";" Resolvido";"Há 9 dias";12960;423
-"428";"Magazine Luiza - Loja Online";"Relógio nao funciona";" Resolvido";"Há 9 dias";12960;424
-"429";"Magazine Luiza - Loja Online";"Aguardando Aprovação";" Resolvido";"Há 9 dias";12960;425
-"430";"Magazine Luiza - Loja Online";"Reembolso ";" Resolvido";"Há 9 dias";12960;426
-"431";"Magazine Luiza - Loja Online";"Logística reversa e pós venda imprestáveis da ";" Resolvido";"Há 8 dias";11520;427
-"432";"Magazine Luiza - Loja Online";"PRODUTO ATRASADO E IMPOSSIBILIDADE DE FALAR COM O MAGAZINE LUIZA";" Resolvido";"Há 8 dias";11520;428
-"433";"Magazine Luiza - Loja Online";"Esperando mais de um mês para receber o reembolso da empresa referente a um item faltante";" Resolvido";"Há 8 dias";11520;429
-"434";"Magazine Luiza - Loja Online";"PEDIDO DE REEMBOLSO";" Resolvido";"Há 8 dias";11520;430
-"435";"Magazine Luiza - Loja Online";"Atrasa na Entrega";" Resolvido";"Há 8 dias";11520;431
-"436";"Magazine Luiza - Loja Online";"Pedido foi cancelado ";" Resolvido";"Há 8 dias";11520;432
-"437";"Magazine Luiza - Loja Online";"Solicitei retirada na loja e não liberaram.";" Não resolvido";"Há 8 dias";11520;433
-"438";"Magazine Luiza - Loja Online";"Magazine Luiza perdida";" Resolvido";"Há 8 dias";11520;434
-"439";"Magazine Luiza - Loja Online";"Compra cancelada";" Resolvido";"Há 8 dias";11520;435
-"440";"Magazine Luiza - Loja Online";"Desprezo e falta de atenção na entrega do produto";" Resolvido";"Há 8 dias";11520;436
-"441";"Magazine Luiza - Loja Online";"Fiz uma compra Bandagem Atadura Elastica, vendido pela ORTHO VIDA através da Magazine Luiza";" Resolvido";"Há 8 dias";11520;437
-"442";"Magazine Luiza - Loja Online";"[editado_RA] de um parceiro Magalu";" Não resolvido";"Há 8 dias";11520;438
-"443";"Magazine Luiza - Loja Online";"Pedido não entregue ";" Resolvido";"Há 8 dias";11520;439
-"444";"Magazine Luiza - Loja Online";"Produto atrasado";" Resolvido";"Há 8 dias";11520;440
-"445";"Magazine Luiza - Loja Online";"CANCELARAM MEU PEDIDO ";" Resolvido";"Há 8 dias";11520;441
-"446";"Magazine Luiza - Loja Online";"Colchão rasgado ";" Resolvido";"Há 8 dias";11520;442
-"447";"Magazine Luiza - Loja Online";"Entrega atrasada e cancelamento do pedido ";" Resolvido";"Há 8 dias";11520;443
-"448";"Magazine Luiza - Loja Online";"PEDIDO CANCELADO, COM STATUS DE ENTREGUE E ESTORNO NÃO REALIZADO";" Resolvido";"Há 8 dias";11520;444
-"449";"Magazine Luiza - Loja Online";"MAGAZINE LUIZA não respeita o prazo de 7 dias de arrependimento do CDC";" Resolvido";"Há 8 dias";11520;445
-"450";"Magazine Luiza - Loja Online";"NÃO ENTREGAM UM PRODUTO ,AGEM DE[editado_RA] ";" Resolvido";"Há 8 dias";11520;446
-"451";"Magazine Luiza - Loja Online";"Cancelamento ";" Resolvido";"Há 8 dias";11520;447
-"452";"Magazine Luiza - Loja Online";"Não recebi mei reembolso";" Resolvido";"Há 8 dias";11520;448
-"453";"Magazine Luiza - Loja Online";"Problemas com reembolso";" Resolvido";"Há 8 dias";11520;449
-"454";"Magazine Luiza - Loja Online";"Produto com defeito, sem assistência";" Resolvido";"Há 8 dias";11520;450
-"455";"Magazine Luiza - Loja Online";"Cancelamento de venda ";" Resolvido";"Há 8 dias";11520;451
-"456";"Magazine Luiza - Loja Online";"Não pude comprar no app conforme anúncio.";" Não resolvido";"Há 8 dias";11520;452
-"457";"Magazine Luiza - Loja Online";"ENTREGA ATRASADA HÁ MAIS DE 10 DIAS - NINGUÉM DÁ RETORNO";" Resolvido";"Há 8 dias";11520;453
-"458";"Magazine Luiza - Loja Online";"Empresa sem palavra";" Resolvido";"Há 8 dias";11520;454
-"459";"Magazine Luiza - Loja Online";"Entrega atrasada não recebida";" Resolvido";"Há 8 dias";11520;455
-"460";"Magazine Luiza - Loja Online";"Não devolvem o dinheiro";" Não resolvido";"Há 8 dias";11520;456
-"461";"Magazine Luiza - Loja Online";"PRAZO DE REEMBOLSO DEMORADO APOS DEVOLUÇÃO DO PRODUTO";" Resolvido";"Há 8 dias";11520;457
-"462";"Magazine Luiza - Loja Online";"Não recebi o produto ";" Resolvido";"Há 8 dias";11520;458
-"464";"Magazine Luiza - Loja Online";"COMPREI PELA MAGALU DISSERAM QUE IRA SER ENTREGUE POR MAGALU MAIS QUEM PEGOU PARA FAZER ENTREGA FOI O CORREIOS QUE NAO PROCURA O ENDEREÇO CERTO E NEM SE QUER LIGA SE NAO ENCONTRAR O ENDEREÇO CAUSANDO MAIOR CONFUSAO AO CLIENTE QUE ESTA PRECISANDO DO PRODUT";" Não resolvido";"Há 8 dias";11520;459
-"465";"Magazine Luiza - Loja Online";"Nota fiscal do pedido não emitida e sem envio para entrega";" Resolvido";"Há 8 dias";11520;460
-"466";"Magazine Luiza - Loja Online";"Garantia estendida nao atendida";" Resolvido";"Há 8 dias";11520;461
-"467";"Magazine Luiza - Loja Online";"1jogo de armário de aço";" Resolvido";"Há 8 dias";11520;462
-"468";"Magazine Luiza - Loja Online";"Propaganda Enganosa";" Resolvido";"Há 8 dias";11520;463
-"469";"Magazine Luiza - Loja Online";"pedido cancelado sem aviso";" Resolvido";"Há 8 dias";11520;464
-"470";"Magazine Luiza - Loja Online";"SITE FALSO - vendasviirtualbr.com";" Resolvido";"Há 8 dias";11520;465
-"471";"Magazine Luiza - Loja Online";"Quero cancelar o pedido";" Resolvido";"Há 7 dias";10080;466
-"472";"Magazine Luiza - Loja Online";"estorno não resolvido";" Não resolvido";"Há 7 dias";10080;467
-"473";"Magazine Luiza - Loja Online";"Demora no processamento compra ";" Resolvido";"Há 7 dias";10080;468
-"474";"Magazine Luiza - Loja Online";"[editado_RA] ?";" Resolvido";"Há 7 dias";10080;469
-"475";"Magazine Luiza - Loja Online";"ENTREGA ATRASADA";" Resolvido";"Há 7 dias";10080;470
-"476";"Magazine Luiza - Loja Online";"Dovolvi o produto e não me devolveram meu dinheiro.";" Resolvido";"Há 7 dias";10080;471
-"477";"Magazine Luiza - Loja Online";"O prazo para resposta a solicitação de cancelamento do pedido não atendido e permaneco sem resposta ";" Resolvido";"Há 7 dias";10080;472
-"478";"Magazine Luiza - Loja Online";"Tentativa de troca produto defeituoso e nunca tenho resposta. Faz 2 meses";" Resolvido";"Há 7 dias";10080;473
-"479";"Magazine Luiza - Loja Online";"Pedido atrasado 14 dias.";" Resolvido";"Há 7 dias";10080;474
-"480";"Magazine Luiza - Loja Online";"Transportadora parceira não entrega a mercadoria";" Resolvido";"Há 7 dias";10080;475
-"481";"Magazine Luiza - Loja Online";"Entrega atrasada mais de 15 dias e não tem previsão";" Resolvido";"Há 7 dias";10080;476
-"482";"Magazine Luiza - Loja Online";"Entrega atrasada";" Resolvido";"Há 7 dias";10080;477
-"483";"Magazine Luiza - Loja Online";"Produto chegou com amassado ";" Resolvido";"Há 7 dias";10080;478
-"484";"Magazine Luiza - Loja Online";"Air fryer ";" Resolvido";"Há 7 dias";10080;479
-"485";"Magazine Luiza - Loja Online";"Entrega de produtos ";" Resolvido";"Há 7 dias";10080;480
-"486";"Magazine Luiza - Loja Online";"Produto nunca é entregue e meu dinheiro nunca é devolvido";" Resolvido";"Há 7 dias";10080;481
-"487";"Magazine Luiza - Loja Online";"Cancelamento de um produto";" Não resolvido";"Há 7 dias";10080;482
-"488";"Magazine Luiza - Loja Online";"MAGALU MAO CUMPRE COM O ";" Resolvido";"Há 7 dias";10080;483
-"489";"Magazine Luiza - Loja Online";"Me ligaram, confirmaram os dados e cancelaram o pedido ";" Resolvido";"Há 7 dias";10080;484
-"490";"Magazine Luiza - Loja Online";"Pedido não está disponível para retirada";" Resolvido";"Há 7 dias";10080;485
-"491";"Magazine Luiza - Loja Online";"Entrega ";" Resolvido";"Há 7 dias";10080;486
-"492";"Magazine Luiza - Loja Online";"Paguei com pix , loja parceira e não recebi nada ";" Resolvido";"Há 7 dias";10080;487
-"493";"Magazine Luiza - Loja Online";"ENDEREÇO ERRADO ";" Não resolvido";"Há 7 dias";10080;488
-"494";"Magazine Luiza - Loja Online";"Retire em 2horas";" Resolvido";"Há 7 dias";10080;489
-"495";"Magazine Luiza - Loja Online";"20 dias aguardando e ainda tenho que esperar o estorno";" Resolvido";"Há 7 dias";10080;490
-"496";"Magazine Luiza - Loja Online";"Pedido com atraso na entrega para retirar na loja";" Resolvido";"Há 7 dias";10080;491
-"497";"Magazine Luiza - Loja Online";"Mais uma descepsao ";" Resolvido";"Há 7 dias";10080;492
-"498";"Magazine Luiza - Loja Online";"Fritadeira Elétrica sem Óleo/Air Fryer Nell Fit";" Resolvido";"Há 7 dias";10080;493
-"499";"Magazine Luiza - Loja Online";"Não vem retirar o produto e não tenho ajuda!";" Resolvido";"Há 7 dias";10080;494
-"500";"Magazine Luiza - Loja Online";"Endereço Incorreto";" Resolvido";"Há 7 dias";10080;495
-"501";"Casas Bahia - Loja Online";"Carne pré aprovado e passa ";" Resolvido";"Há 6 dias";8640;496
-"502";"Casas Bahia - Loja Online";"3 vezes com prazo alterado, mais de 30 dias ";" Não resolvido";"Há 6 dias";8640;497
-"503";"Casas Bahia - Loja Online";"CASAS BAHIA E SUA FALTA DE COMPROMISSO COM AS SUAS ENTREGAS";" Resolvido";"Há 6 dias";8640;498
-"504";"Casas Bahia - Loja Online";"Nada de produto e Nada de Reembolso.";" Resolvido";"Há 6 dias";8640;499
-"505";"Casas Bahia - Loja Online";"Compra efetuada e não entregue.";" Resolvido";"Há 7 dias";10080;500
-"506";"Casas Bahia - Loja Online";"Produto aparentemente falso";" Resolvido";"Há 7 dias";10080;501
-"507";"Casas Bahia - Loja Online";"Vendem produtos ao dobro do preços ";" Não resolvido";"Há 7 dias";10080;502
-"508";"Casas Bahia - Loja Online";"Entrega Atrasada e sem nenhuma satisfação ";" Resolvido";"Há 7 dias";10080;503
-"509";"Casas Bahia - Loja Online";"Dois liquidificadores Marca mondial";" Resolvido";"Há 7 dias";10080;504
-"510";"Casas Bahia - Loja Online";"Não cumprem a entrega agendada";" Resolvido";"Há 7 dias";10080;505
-"511";"Casas Bahia - Loja Online";"Compra não entregue ";" Resolvido";"Há 12 dias";17280;506
-"512";"Casas Bahia - Loja Online";"Não sabem trabalhar";" Resolvido";"Há 12 dias";17280;507
-"513";"Casas Bahia - Loja Online";"Transportadora se recusa a coletar o produto na minha casa depois relata que não tinha ninguém";" Resolvido";"Há 12 dias";17280;508
-"514";"Casas Bahia - Loja Online";"Entrega não efetuada";" Resolvido";"Há 12 dias";17280;509
-"515";"Casas Bahia - Loja Online";"Atraso na entrega e em seguida a mentira.";" Resolvido";"Há 12 dias";17280;510
-"516";"Casas Bahia - Loja Online";"Produto já utilizado vendido como novo- Casas Bahia";" Não resolvido";"Há 12 dias";17280;511
-"517";"Casas Bahia - Loja Online";"Recebi produto incompleto e não tenho transparência com relação a solicitação de troca ou cancelamento";" Resolvido";"Há 12 dias";17280;512
-"518";"Casas Bahia - Loja Online";"Sem informação concreta do status de troca";" Resolvido";"Há 13 dias";18720;513
-"519";"Casas Bahia - Loja Online";"Demora no estorno do Cartão";" Resolvido";"Há 13 dias";18720;514
-"520";"Casas Bahia - Loja Online";"Controle dualsense com defeito ";" Resolvido";"Há 13 dias";18720;515
-"521";"Casas Bahia - Loja Online";"FALTA NOTA FISCAL DO CONSUMIDOR";" Resolvido";"Há 11 dias";15840;516
-"522";"Casas Bahia - Loja Online";"Não entrega de produtos";" Resolvido";"Há 12 dias";17280;517
-"523";"Casas Bahia - Loja Online";"Compra on LINE ";" Resolvido";"Há 12 dias";17280;518
-"524";"Casas Bahia - Loja Online";"Atraso em todas as entregas";" Resolvido";"Há 12 dias";17280;519
-"525";"Casas Bahia - Loja Online";"COMPREI 2 KITS DE FRALDAS PELO SITE SENDO 1 MAMYPOKO E OUTRO PAMPERS E NUNCA RECEBI,NEM TÃO POUCO O REEMBOLSO ";" Resolvido";"Há 12 dias";17280;520
-"526";"Casas Bahia - Loja Online";"Casas bahia com pessima logistica de entrega";" Resolvido";"Há 12 dias";17280;521
-"527";"Casas Bahia - Loja Online";"Não recebi meu pedido. Nem tentaram entregar!";" Resolvido";"Há 12 dias";17280;522
-"528";"Casas Bahia - Loja Online";"Cancelamento";" Resolvido";"Há 12 dias";17280;523
-"529";"Casas Bahia - Loja Online";"Anúncio enganoso no Instagram ";" Não resolvido";"Há 12 dias";17280;524
-"530";"Casas Bahia - Loja Online";"Casas Bahia não efetua o estorno da compra cancelada.";" Resolvido";"Há 12 dias";17280;525
-"531";"Casas Bahia - Loja Online";"Empresa não honra compromisso com o cliente.";" Não resolvido";"Há 11 dias";15840;526
-"532";"Casas Bahia - Loja Online";"Problema com entrega ";" Resolvido";"Há 11 dias";15840;527
-"533";"Casas Bahia - Loja Online";"Não recebi a mercadoria ";" Resolvido";"Há 11 dias";15840;528
-"534";"Casas Bahia - Loja Online";"O Modelo informado na chave de acesso é inválido (diferente de 55) - 2 Via da NF";" Resolvido";"Há 11 dias";15840;529
-"535";"Casas Bahia - Loja Online";"Compra feita e entrega impossível ";" Resolvido";"Há 11 dias";15840;530
-"536";"Casas Bahia - Loja Online";"Não recebi meu pedido e consta entregue no site.";" Resolvido";"Há 11 dias";15840;531
-"537";"Casas Bahia - Loja Online";"Meu pedido foi entregue em um endereço totalmente errado.";" Resolvido";"Há 11 dias";15840;532
-"538";"Casas Bahia - Loja Online";"Guarda roupa veio quebrado  ";" Resolvido";"Há 11 dias";15840;533
-"539";"Casas Bahia - Loja Online";"Não houve estorno do vale presente";" Resolvido";"Há 11 dias";15840;534
-"540";"Casas Bahia - Loja Online";"Cancelamento de compra sem justificativa";" Não resolvido";"Há 11 dias";15840;535
-"541";"Casas Bahia - Loja Online";"Descaso com o cliente ";" Resolvido";"Há 9 dias";12960;536
-"542";"Casas Bahia - Loja Online";"Compra cancelada, não cumprimento do prazo de reembolso.";" Resolvido";"Há 9 dias";12960;537
-"543";"Casas Bahia - Loja Online";"Compra";" Resolvido";"Há 9 dias";12960;538
-"544";"Casas Bahia - Loja Online";"Atraso na entrega e falta de informações sobre a transportadora ";" Resolvido";"Há 9 dias";12960;539
-"545";"Casas Bahia - Loja Online";"Entrega em atraso";" Resolvido";"Há 9 dias";12960;540
-"546";"Casas Bahia - Loja Online";"Péssimo atendimento";" Não resolvido";"Há 10 dias";14400;541
-"547";"Casas Bahia - Loja Online";"Ferro a vapor com defeito";" Resolvido";"Há 10 dias";14400;542
-"548";"Casas Bahia - Loja Online";"Um mês e não recebi ";" Não resolvido";"Há 10 dias";14400;543
-"549";"Casas Bahia - Loja Online";"SITE FALSO";" Resolvido";"Há 10 dias";14400;544
-"550";"Casas Bahia - Loja Online";"Credito Promoção Gol de Pix";" Não resolvido";"Há 10 dias";14400;545
-"551";"Casas Bahia - Loja Online";"Atraso na entrega ";" Resolvido";"Há 4 dias";5760;546
-"552";"Casas Bahia - Loja Online";"Problema na entrega do eu pedido";" Não resolvido";"Há 5 dias";7200;547
-"553";"Casas Bahia - Loja Online";"GOL DE PIX PROPAGANDA FALSA ENGANOSA ";" Resolvido";"Há 5 dias";7200;548
-"554";"Casas Bahia - Loja Online";"Casas bahia nao cumpre o prazo das entregas";" Resolvido";"Há 5 dias";7200;549
-"555";"Casas Bahia - Loja Online";"preço diferente";" Não resolvido";"Há 5 dias";7200;550
-"561";"Casas Bahia - Loja Online";"Atraso na entrega ";" Resolvido";"Há 8 dias";11520;551
-"562";"Casas Bahia - Loja Online";"Atraso na entrega do produto ";" Não resolvido";"Há 8 dias";11520;552
-"564";"Casas Bahia - Loja Online";"ATRASO INJUSTIFICADO NA ENTREGA";" Resolvido";"Há 8 dias";11520;553
-"565";"Casas Bahia - Loja Online";"Disseram que não tinha ninguém JM transporte";" Resolvido";"Há 8 dias";11520;554
-"566";"Casas Bahia - Loja Online";"Não cumpre data de entrega ";" Resolvido";"Há 8 dias";11520;555
-"567";"Casas Bahia - Loja Online";"Pedido: 340681569 Data: 23/08/2022";" Não resolvido";"Há 9 dias";12960;556
-"568";"Casas Bahia - Loja Online";"Estorno de pagamento não realizado";" Resolvido";"Há 9 dias";12960;557
-"569";"Casas Bahia - Loja Online";"Casas Bahia [editado_RA] GELADEIRA e manda procurar fabricante.";" Não resolvido";"Há 9 dias";12960;558
-"570";"Casas Bahia - Loja Online";"Modo de entrega";" Não resolvido";"Há 9 dias";12960;559
-"571";"Casas Bahia - Loja Online";"Propaganda enganosa";" Resolvido";"Há 7 dias";10080;560
-"572";"Casas Bahia - Loja Online";"Entrega atrasada  a 10 dias";" Resolvido";"Há 7 dias";10080;561
-"573";"Casas Bahia - Loja Online";"Retira rápido casas Bahia ";" Resolvido";"Há 7 dias";10080;562
-"574";"Casas Bahia - Loja Online";"Preço do anúncio não condiz com valor total da compra. ";" Não resolvido";"Há 8 dias";11520;563
-"575";"Casas Bahia - Loja Online";"Produto não foi entregue";" Resolvido";"Há 8 dias";11520;564
-"576";"Casas Bahia - Loja Online";"Continuam não devolvendo o dinheiro ";" Não resolvido";"Há 8 dias";11520;565
-"577";"Casas Bahia - Loja Online";"Péssimo atendimento pós vendas";" Resolvido";"Há 8 dias";11520;566
-"578";"Casas Bahia - Loja Online";"Entrega não efetuada já está em atraso.";" Resolvido";"Há 8 dias";11520;567
-"579";"Casas Bahia - Loja Online";"Quatro meses a espera do estorno em cartão de uma compra cancelada.";" Resolvido";"Há 8 dias";11520;568
-"580";"Casas Bahia - Loja Online";"Não emitiram nota fiscal e exigem a nota fiscal";" Não resolvido";"Há 8 dias";11520;569
-"590";"Casas Bahia - Loja Online";"Não querem devolver meu dinheiro!";" Resolvido";"Há 7 dias";10080;570
-"591";"Casas Bahia - Loja Online";"Não creditou pontos azul";" Não resolvido";"Há 2 dias";2880;571
-"592";"Casas Bahia - Loja Online";"Troca e reembolso";" Resolvido";"Há 2 dias";2880;572
-"593";"Casas Bahia - Loja Online";"casas bahia [editado_RA] geladeira e se nega a resolver o problema";" Não resolvido";"Há 2 dias";2880;573
-"601";"Brastemp";"Atraso no pedido e alteração da data";" Resolvido";"Há 20 dias";28800;574
-"602";"Brastemp";"ATRASO NA COMPRA";" Resolvido";"Há 20 dias";28800;575
-"603";"Brastemp";"Geladeira com vazamento interno de gás";" Resolvido";"Há 20 dias";28800;576
-"604";"Brastemp";"Não estornam minha compra";" Resolvido";"Há 20 dias";28800;577
-"605";"Brastemp";"Geladeira não entra no elevador para que façam a entrega no meu apartamento. Assistência técnica indicada pela BRASTEMP quer cobrar 600 reais para executar o serviço.";" Não resolvido";"Há 20 dias";28800;578
-"606";"Brastemp";"Máquina na garantia e estão cobrando a mão de obra ara trocar a peça com defeito ";" Resolvido";"Há 20 dias";28800;579
-"607";"Brastemp";"Reclamação do atendimento de garantia Brastemp";" Resolvido";"Há 20 dias";28800;580
-"608";"Brastemp";"Nâo entregam o produto na data combinada quando da compra";" Resolvido";"Há 20 dias";28800;581
-"609";"Brastemp";"Entrega com quase 1 mês de atraso";" Resolvido";"Há 20 dias";28800;582
-"610";"Brastemp";"Atraso na entrega e dificuldade para acompanhar o pedido";" Resolvido";"Há 20 dias";28800;583
-"611";"Brastemp";"Forno que não esquenta";" Não resolvido";"Há 19 dias";27360;584
-"612";"Brastemp";"Agendamento Instalação Coifa";" Não resolvido";"Há 19 dias";27360;585
-"613";"Brastemp";"Fui enganado e ninguém mais me responde (promoção cashback)";" Resolvido";"Há 19 dias";27360;586
-"614";"Brastemp";"Máquina Brastemp voltou com defeito";" Resolvido";"Há 19 dias";27360;587
-"615";"Brastemp";"EXCESSO DE E-MAILS MARKETING";" Resolvido";"Há 19 dias";27360;588
-"616";"Brastemp";"Reparo";" Resolvido";"Há 19 dias";27360;589
-"617";"Brastemp";"Fogão comprado em Fevereiro de 2022; surgiu um defeito da tampa de vidro do forno. Contatei a Brastemp e negaram atendimento.";" Resolvido";"Há 19 dias";27360;590
-"618";"Brastemp";"Não entregaram o meu produto ";" Resolvido";"Há 19 dias";27360;591
-"619";"Brastemp";"Cupom de desconto não se aplica ";" Resolvido";"Há 20 dias";28800;592
-"620";"Brastemp";"Problema  com cashback da Promoção momentos inesquecíveis ";" Resolvido";"Há 20 dias";28800;593
-"621";"Brastemp";"Maquina de lavar louça 14 serviços inox 220 volts &quot;";" Resolvido";"Há 16 dias";23040;594
-"622";"Brastemp";"GELADEIRA NÃO GELA";" Não resolvido";"Há 17 dias";24480;595
-"623";"Brastemp";"Fogão indisponível ";" Não resolvido";"Há 17 dias";24480;596
-"624";"Brastemp";"Geladeira com defeito ";" Resolvido";"Há 17 dias";24480;597
-"625";"Brastemp";"não cumpre prazo de entrega ";" Resolvido";"Há 17 dias";24480;598
-"626";"Brastemp";"LOGISTICA E ATENDIMENTO AO CLIENTE PÉSSIMOS ";" Resolvido";"Há 18 dias";25920;599
-"627";"Brastemp";"Em menos de 2 meses, lava roupas com defeitos";" Resolvido";"Há 18 dias";25920;600
-"628";"Brastemp";"DESCASO, DESPREZO COM O CLIENTE E PROCESSO ERRADO";" Resolvido";"Há 18 dias";25920;601
-"629";"Brastemp";"PREÇO DO PRODUTO MUDA AO REALIZAR A COMPRA";" Resolvido";"Há 18 dias";25920;602
-"630";"Brastemp";"Péssima logística";" Resolvido";"Há 18 dias";25920;603
-"631";"Brastemp";"ATRASO PARA ENVIAR PRODUTO";" Não resolvido";"Há 15 dias";21600;604
-"632";"Brastemp";"Atraso na entrega";" Resolvido";"Há 15 dias";21600;605
-"633";"Brastemp";"Motor geladeira Brastemp ";" Não resolvido";"Há 16 dias";23040;606
-"634";"Brastemp";"Compra não entregue";" Resolvido";"Há 16 dias";23040;607
-"635";"Brastemp";"Lava louças";" Resolvido";"Há 16 dias";23040;608
-"636";"Brastemp";"Não consigo falar no SAC - Preciso de ajuda, minha geladeira não está funcionando";" Resolvido";"Há 16 dias";23040;609
-"637";"Brastemp";"Forno à Gás de Embutir Recém Comprado: Caro, Não Funciona e Brastemp não Quer/Consegue Resolver!";" Não resolvido";"Há 16 dias";23040;610
-"638";"Brastemp";"Máquina de Lavar nova que não funciona";" Resolvido";"Há 16 dias";23040;611
-"639";"Brastemp";"Transferência de Problema com devolução de produto errado";" Resolvido";"Há 16 dias";23040;612
-"640";"Brastemp";"DURABILIDADE POUCA MAQUINA DE LAVAR";" Resolvido";"Há 16 dias";23040;613
-"641";"Brastemp";"Refrigerador Sadi bai sai não recomendo ";" Não resolvido";"Há 15 dias";21600;614
-"642";"Brastemp";"Não tem fogão para o Rio de Janeiro.";" Não resolvido";"Há 15 dias";21600;615
-"643";"Brastemp";"Anuncios";" Resolvido";"Há 15 dias";21600;616
-"644";"Brastemp";"Porta gelos não funciona";" Resolvido";"Há 15 dias";21600;617
-"646";"Brastemp";"Cooktop com barulho ";" Resolvido";"Há 15 dias";21600;618
-"647";"Brastemp";"Fiz reclamação de uma máquina de lavar Consul, e Maria Eduarda me ligou e ofereceu a máquina, optei por uma Brastemp só que já me entregaram e não deixaram nota fiscal e máquina está com barulho .";" Resolvido";"Há 15 dias";21600;619
-"648";"Brastemp";"3o Reclamação! Lavadora";" Não resolvido";"Há 15 dias";21600;620
-"649";"Brastemp";"COMPREI SITE BRASTEMP E ENTERGA PESSIMA";" Não resolvido";"Há 15 dias";21600;621
-"650";"Brastemp";"Descaso e falta de atenção ao cliente";" Resolvido";"Há 15 dias";21600;622
-"651";"Brastemp";"Plano Smart  Purificador de água PurificÁgua ATIVE_Br_127 - Simplex";" Resolvido";"Há 14 dias";20160;623
-"652";"Brastemp";"Vício oculto";" Não resolvido";"Há 14 dias";20160;624
-"653";"Brastemp";"Geladeira danificada";" Resolvido";"Há 14 dias";20160;625
-"654";"Brastemp";"Cancelamento de compra via pix";" Resolvido";"Há 14 dias";20160;626
-"655";"Brastemp";"FALTA DE PEÇA E DESCASO PARA INSTALÇÃO DE EQUIPAMENTO NOVO";" Resolvido";"Há 14 dias";20160;627
-"656";"Brastemp";"Máquina de lavar 12kg com defeito ";" Não resolvido";"Há 14 dias";20160;628
-"657";"Brastemp";"Recebi minha lava-louças amassada.";" Resolvido";"Há 14 dias";20160;629
-"658";"Brastemp";"ATRASO NA ENTREGA";" Resolvido";"Há 14 dias";20160;630
-"659";"Brastemp";"Péssima experiência. Não indico.";" Resolvido";"Há 14 dias";20160;631
-"660";"Brastemp";"Péssimo atendimento ";" Resolvido";"Há 15 dias";21600;632
-"661";"Brastemp";"Atraso na entrega / Falta de informação ";" Resolvido";"Há 12 dias";17280;633
-"662";"Brastemp";"Preço errado";" Resolvido";"Há 13 dias";18720;634
-"663";"Brastemp";"Frete grátis não concedido conforme anúncio";" Resolvido";"Há 13 dias";18720;635
-"664";"Brastemp";"A chama do forno apaga sozinha.";" Não resolvido";"Há 13 dias";18720;636
-"665";"Brastemp";"Melhoria da qualidade dos produtos Brastemp/Cônsul/Whirlpool";" Resolvido";"Há 13 dias";18720;637
-"666";"Brastemp";"Maquina Brastemp com defeito de fabrica";" Resolvido";"Há 13 dias";18720;638
-"667";"Brastemp";"Brastemp";" Resolvido";"Há 13 dias";18720;639
-"668";"Brastemp";"Cooktop e forno";" Não resolvido";"Há 14 dias";20160;640
-"669";"Brastemp";"Inconsistência de prazos";" Resolvido";"Há 14 dias";20160;641
-"670";"Brastemp";"MÁQUINA ESTRAGADA";" Resolvido";"Há 14 dias";20160;642
-"671";"Brastemp";"Comprei máquina de lavar dia 26/09/22 e ainda não foi faturada e e muito menos saiu de lá ";" Resolvido";"Há 11 dias";15840;643
-"672";"Brastemp";"NAO RECEBI MEU PRODUTO E A EMPRESA NAO RESOLVE";" Resolvido";"Há 11 dias";15840;644
-"673";"Brastemp";"Fiz um compra no site e não recebi ";" Resolvido";"Há 11 dias";15840;645
-"674";"Brastemp";"COMPRA GELADEIRA BRASTEMP ATRASADA ";" Não resolvido";"Há 12 dias";17280;646
-"675";"Brastemp";"Compra de um refrigerador brastemp inverse3 .";" Não resolvido";"Há 12 dias";17280;647
-"676";"Brastemp";"Só quero ajuda";" Não resolvido";"Há 12 dias";17280;648
-"677";"Brastemp";"Problema na entrega do produto comprado";" Resolvido";"Há 12 dias";17280;649
-"678";"Brastemp";"Brastemp [editado_RA]";" Resolvido";"Há 12 dias";17280;650
-"679";"Brastemp";"PROBLEMA REINCIDENTE NO MESMO PRODUTO E NA MESMA PEÇA";" Não resolvido";"Há 12 dias";17280;651
-"680";"Brastemp";"Produto não recebido.";" Não resolvido";"Há 12 dias";17280;652
-"681";"Brastemp";"Nao recebi o produto";" Resolvido";"Há 8 dias";11520;653
-"682";"Brastemp";"Dificuldade no atendimento";" Resolvido";"Há 8 dias";11520;654
-"683";"Brastemp";"Valor Falso";" Resolvido";"Há 8 dias";11520;655
-"684";"Brastemp";"ATRASO NA ENTREGA";" Resolvido";"Há 8 dias";11520;656
-"685";"Brastemp";"Não indico a empresa";" Resolvido";"Há 8 dias";11520;657
-"686";"Brastemp";"COMPREI UMA GELADEIRA NOVA DA BRASTEMP COM MOTOR SEM FUNCIONAR E TIVE UM PÉSSIMO SERVIÇO DE ASSISTÊNCIA TÉCNICA";" Resolvido";"Há 9 dias";12960;658
-"687";"Brastemp";"Não consigo lavar roupa pois a Brastemp não cumpre: não cumpre com sua promessa de data de entrega  (atrasa e nem comunica pro ativamente) e quando abrimos um protocolo de reclamação, nao cumpre com os seus próprios prazos para responder a reclamação.";" Resolvido";"Há 9 dias";12960;659
-"688";"Brastemp";"Brastemp - SAC inoperante e Produtos Indisponíveis e/ou não entregam no CEP.";" Resolvido";"Há 9 dias";12960;660
-"689";"Brastemp";"Defeito cronico das maquinas Brastemp";" Resolvido";"Há 10 dias";14400;661
-"690";"Brastemp";"Péssima qualidade da Máquina de Lavar Brastemp 12Kg  BWK12AB";" Não resolvido";"Há 11 dias";15840;662
-"691";"Brastemp";"Faltando 2 pés traseiro ";" Resolvido";"Há 4 dias";5760;663
-"692";"Brastemp";"Adega BZB33 vazando água ";" Resolvido";"Há 5 dias";7200;664
-"693";"Brastemp";"produto não recebido";" Resolvido";"Há 7 dias";10080;665
-"694";"Brastemp";"lavadora dois cesto 15 kg modelo BWD15A9ANA";" Resolvido";"Há 7 dias";10080;666
-"695";"Brastemp";"Devolução de valores não realizada";" Não resolvido";"Há 7 dias";10080;667
-"696";"Brastemp";"Máquina de Lavar NOVA 12 KG";" Não resolvido";"Há 7 dias";10080;668
-"697";"Brastemp";"Visor de forno Brastemp alto padrão caiu em menos de 2 anos";" Resolvido";"Há 7 dias";10080;669
-"698";"Brastemp";"Recebimento de e-mails indesejados";" Resolvido";"Há 8 dias";11520;670
-"699";"Brastemp";"Defeito de Fabricação";" Não resolvido";"Há 8 dias";11520;671
-"700";"Brastemp";"Geladeira não entregue";" Resolvido";"Há 8 dias";11520;672
-"711";"americanas - Loja Online";"Produto entregue errado";" Resolvido";"Há 8 dias";11520;673
-"712";"americanas - Loja Online";"Não recebi meu reembolso ";" Resolvido";"Há 8 dias";11520;674
-"713";"americanas - Loja Online";"atraso na entrega ";" Resolvido";"Há 8 dias";11520;675
-"714";"americanas - Loja Online";"2 Via da Nota Fiscal";" Resolvido";"Há 8 dias";11520;676
-"715";"americanas - Loja Online";"Erro ao gerar nota fiscal";" Resolvido";"Há 8 dias";11520;677
-"716";"americanas - Loja Online";"Enganação ";" Não resolvido";"Há 8 dias";11520;678
-"717";"americanas - Loja Online";"Venda de produto além do estoque ";" Resolvido";"Há 8 dias";11520;679
-"718";"americanas - Loja Online";"Prazo de entrega não atendido sem nenhuma justificativa";" Resolvido";"Há 8 dias";11520;680
-"719";"americanas - Loja Online";"Atraso e sem noticias";" Resolvido";"Há 8 dias";11520;681
-"720";"americanas - Loja Online";"Problemas com a entrega ";" Resolvido";"Há 8 dias";11520;682
-"721";"americanas - Loja Online";"LOJAS AMERICANAS DESCASSO COM CLIENTES";" Resolvido";"Há 8 dias";11520;683
-"722";"americanas - Loja Online";"preciso da nota e não consugo";" Resolvido";"Há 8 dias";11520;684
-"723";"americanas - Loja Online";"Não entrega ";" Resolvido";"Há 8 dias";11520;685
-"724";"americanas - Loja Online";"Produto consta como entregue";" Resolvido";"Há 8 dias";11520;686
-"725";"americanas - Loja Online";"Recebo muitos e-mails da loja e não consigo cancelar inscrição ";" Resolvido";"Há 8 dias";11520;687
-"726";"americanas - Loja Online";"cadastroe cachback";" Resolvido";"Há 8 dias";11520;688
-"727";"americanas - Loja Online";"Cashback menor que o ofertado";" Não resolvido";"Há 8 dias";11520;689
-"728";"americanas - Loja Online";"Pagamento ";" Resolvido";"Há 8 dias";11520;690
-"729";"americanas - Loja Online";"Demora para a realização de estorno";" Resolvido";"Há 8 dias";11520;691
-"730";"americanas - Loja Online";"Posição de entrega";" Resolvido";"Há 8 dias";11520;692
-"731";"americanas - Loja Online";"Produto sujo";" Resolvido";"Há 7 dias";10080;693
-"732";"americanas - Loja Online";"Lava Louça veio com porta amassada e geladeira nunca chegou passou o prazo de entrega";" Resolvido";"Há 7 dias";10080;694
-"733";"americanas - Loja Online";"Entrega atrasada";" Resolvido";"Há 7 dias";10080;695
-"734";"americanas - Loja Online";"Produto não entregue ";" Resolvido";"Há 7 dias";10080;696
-"735";"americanas - Loja Online";"Não recebi meu pedido ainda.";" Resolvido";"Há 7 dias";10080;697
-"736";"americanas - Loja Online";"Fiz uma compra dia 20/09/2022 de um Conjunto de Potes de Vidro 12 Peças de 500mL Colorido Facilita Vap com Tampa da Nadir Figueiredo, não veio ainda e não tenho resposta dos e-mails e mensagens ";" Resolvido";"Há 8 dias";11520;698
-"737";"americanas - Loja Online";"Comprei uma Smart Tv LG 50&quot; e ainda não entregaram";" Resolvido";"Há 8 dias";11520;699
-"738";"americanas - Loja Online";"Sem acesso ao aplicativo, conta aparentemente bloqueada.";" Resolvido";"Há 8 dias";11520;700
-"739";"americanas - Loja Online";"COMPRA SEM ESTORNO";" Resolvido";"Há 8 dias";11520;701
-"740";"americanas - Loja Online";"Produto não entregue pela Lojas Americanas";" Resolvido";"Há 8 dias";11520;702
-"741";"americanas - Loja Online";"Não consigo baixar a NF de uma compra na americanas.com.br";" Resolvido";"Há 7 dias";10080;703
-"742";"americanas - Loja Online";"Fiz uma compra e nenhum canal de atendimento atende";" Resolvido";"Há 7 dias";10080;704
-"743";"americanas - Loja Online";"não consigo informação e ajuda";" Resolvido";"Há 7 dias";10080;705
-"744";"americanas - Loja Online";"VAMOS VER ATÉ ONDE VAI ESSA NOVELA - Entregadora Direct só decepciona a todos.";" Resolvido";"Há 7 dias";10080;706
-"745";"americanas - Loja Online";"Produto não entregue, descaso com o consumidor ";" Resolvido";"Há 7 dias";10080;707
-"746";"americanas - Loja Online";"Cancelaram minha compra sem explicação.";" Resolvido";"Há 7 dias";10080;708
-"747";"americanas - Loja Online";"Não localizei o produto no valor anunciado";" Não resolvido";"Há 7 dias";10080;709
-"748";"americanas - Loja Online";"Propaganda enganosa ";" Resolvido";"Há 7 dias";10080;710
-"749";"americanas - Loja Online";"COMPREI UM PRODUTO E COM MENOS DE 7 DIAS APRESENTOU DEFEITO";" Resolvido";"Há 7 dias";10080;711
-"750";"americanas - Loja Online";"Não consigo ter acesso a nota fiscal da minha tv";" Resolvido";"Há 7 dias";10080;712
-"751";"americanas - Loja Online";"Perdi horas tentando comprar um produto e não consegui por conta do site e app estar bugados";" Não resolvido";"Há 6 dias";8640;713
-"752";"americanas - Loja Online";"Reconhecimento Facial";" Resolvido";"Há 6 dias";8640;714
-"753";"americanas - Loja Online";"Compra cancelada";" Resolvido";"Há 7 dias";10080;715
-"754";"americanas - Loja Online";"Sem prazo de entrega";" Não resolvido";"Há 7 dias";10080;716
-"755";"americanas - Loja Online";"Atraso na entrega/descaso/cancelamento sem autorização ";" Resolvido";"Há 7 dias";10080;717
-"756";"americanas - Loja Online";"Acesso negado ao site das americanas.com.br";" Resolvido";"Há 7 dias";10080;718
-"757";"americanas - Loja Online";"Álbum não entregue e pedido cancelado.";" Resolvido";"Há 7 dias";10080;719
-"758";"americanas - Loja Online";"Cancelaram meu pedido ";" Resolvido";"Há 7 dias";10080;720
-"759";"americanas - Loja Online";"Desconto não aplicado no final do pagamento via boleto.";" Resolvido";"Há 7 dias";10080;721
-"760";"americanas - Loja Online";"Pagamento com pix";" Resolvido";"Há 7 dias";10080;722
-"761";"americanas - Loja Online";"Comprei um pote de whey de 900g";" Resolvido";"Há 5 dias";7200;723
-"762";"americanas - Loja Online";"Entrega nao efetuada e constando como entregue";" Resolvido";"Há 6 dias";8640;724
-"763";"americanas - Loja Online";"Minha Smart TV até agora não chegou";" Resolvido";"Há 6 dias";8640;725
-"764";"americanas - Loja Online";"Fiz compra pelo pix e até agora nada ";" Resolvido";"Há 6 dias";8640;726
-"765";"americanas - Loja Online";"ENTREGA ENROLADA";" Resolvido";"Há 6 dias";8640;727
-"766";"americanas - Loja Online";"Produto não entregue Americanas Empresas";" Resolvido";"Há 6 dias";8640;728
-"767";"americanas - Loja Online";"Impossibilidade de comprar com o AME ao inserir os cupons de vale compra";" Resolvido";"Há 6 dias";8640;729
-"768";"americanas - Loja Online";"Americanas vende mesmos modelos de iphone 12 por $800 de diferença.";" Não resolvido";"Há 6 dias";8640;730
-"769";"americanas - Loja Online";"COMPRA MAL SUCEDIDA ";" Resolvido";"Há 6 dias";8640;731
-"770";"americanas - Loja Online";"Informação [editado_RA]";" Resolvido";"Há 6 dias";8640;732
-"771";"americanas - Loja Online";"Entrega atrasada";" Resolvido";"Há 5 dias";7200;733
-"772";"americanas - Loja Online";"NÃO CUMPRIMENTO DO PRAZO DE ENTREGA";" Resolvido";"Há 5 dias";7200;734
-"773";"americanas - Loja Online";"Cancelamento de conta!";" Resolvido";"Há 5 dias";7200;735
-"774";"americanas - Loja Online";"MERCADORIA NAO RECEBIDA";" Resolvido";"Há 5 dias";7200;736
-"775";"americanas - Loja Online";"PRODUTO COMPRADO NÃO CHEGOU E A TRANSPORTADORA DIZ QUE ENTREGOU.";" Resolvido";"Há 5 dias";7200;737
-"776";"americanas - Loja Online";"Contato impossível ";" Resolvido";"Há 5 dias";7200;738
-"777";"americanas - Loja Online";"Atraso na entrega";" Resolvido";"Há 5 dias";7200;739
-"778";"americanas - Loja Online";"saiu para entraga";" Resolvido";"Há 5 dias";7200;740
-"779";"americanas - Loja Online";"Não me entregaram o meu pedido ";" Resolvido";"Há 5 dias";7200;741
-"780";"americanas - Loja Online";"Queria CANCELAR garantia estendida ";" Resolvido";"Há 5 dias";7200;742
-"781";"americanas - Loja Online";"É impossível entrar em contato com algum atendente humano para resolver meu problema";" Não resolvido";"Há 2 dias";2880;743
-"782";"americanas - Loja Online";"CANCELAR COMPRA E PÉSSIMO ATENDIMENTO!!";" Resolvido";"Há 2 dias";2880;744
-"783";"americanas - Loja Online";"Decepção ao comprar site Americanas .com";" Resolvido";"Há 2 dias";2880;745
-"784";"americanas - Loja Online";"Estorno não efetuado ";" Não resolvido";"Há 2 dias";2880;746
-"785";"americanas - Loja Online";"Atraso na entrega";" Resolvido";"Há 2 dias";2880;747
-"786";"americanas - Loja Online";"Pedido cancelado e estorno não realizado";" Resolvido";"Há 3 dias";4320;748
-"787";"americanas - Loja Online";"Outra pessoa acessando minhas Informação cadastro ";" Resolvido";"Há 3 dias";4320;749
-"788";"americanas - Loja Online";"Exclusão de conta ";" Resolvido";"Há 3 dias";4320;750
-"789";"americanas - Loja Online";"CANCELAMENTO INDEVIDO";" Resolvido";"Há 4 dias";5760;751
-"790";"americanas - Loja Online";"Smartphone comprado e não recebido";" Resolvido";"Há 5 dias";7200;752
-"791";"americanas - Loja Online";"VALE BLOQUEADO";" Resolvido";"Há 1 dia";1440;753
-"792";"americanas - Loja Online";"Não consigo finalizar minha conta ";" Resolvido";"Há 1 dia";1440;754
-"793";"americanas - Loja Online";"Compra via Pix ";" Resolvido";"Há 1 dia";1440;755
-"794";"americanas - Loja Online";"Não consigo localizar minha compra ";" Resolvido";"Há 1 dia";1440;756
-"795";"americanas - Loja Online";"Devolucao e estorno";" Resolvido";"Há 1 dia";1440;757
-"796";"americanas - Loja Online";"Pedido em atraso";" Não resolvido";"Há 1 dia";1440;758
-"797";"americanas - Loja Online";"Problemas na solicitação de troca de endereço e-mail";" Resolvido";"Há 2 dias";2880;759
-"798";"americanas - Loja Online";"ENTREGA SUPER ATRASADA";" Resolvido";"Há 2 dias";2880;760
-"799";"americanas - Loja Online";"prazo de entrega ";" Resolvido";"Há 2 dias";2880;761
-"800";"americanas - Loja Online";"Cancelaram minha troca/devolução.";" Resolvido";"Há 2 dias";2880;762
-"811";"Magazine Luiza - Loja Online";"Demora incomum na aprovação do pagamento.";" Resolvido";"Há 7 dias";10080;763
-"812";"Magazine Luiza - Loja Online";"Entrega atrasada";" Não resolvido";"Há 7 dias";10080;764
-"813";"Magazine Luiza - Loja Online";"DIZENDO QUE FOI FEITA A ENTREGA , MAS NÃO ENTREGOU";" Resolvido";"Há 7 dias";10080;765
-"814";"Magazine Luiza - Loja Online";"Não consigo cancelar a compra";" Resolvido";"Há 7 dias";10080;766
-"815";"Magazine Luiza - Loja Online";"Atraso no envio do novo produto - 1 mês de espera sem respostas ";" Resolvido";"Há 7 dias";10080;767
-"816";"Magazine Luiza - Loja Online";"não dão os pontos TUDO AZUL referente a compra pelo link da parceira (prazo expirado)";" Resolvido";"Há 7 dias";10080;768
-"817";"Magazine Luiza - Loja Online";"Entrega incompleta";" Não resolvido";"Há 7 dias";10080;769
-"818";"Magazine Luiza - Loja Online";"Pedido sem nota e sem atualização ";" Resolvido";"Há 7 dias";10080;770
-"819";"Magazine Luiza - Loja Online";"[editado_RA] PARCEIRO MAGALU";" Não resolvido";"Há 7 dias";10080;771
-"820";"Magazine Luiza - Loja Online";"Quero excluir a conta da loja virtual";" Resolvido";"Há 7 dias";10080;772
-"821";"Magazine Luiza - Loja Online";"Entrega";" Resolvido";"Há 6 dias";8640;773
-"822";"Magazine Luiza - Loja Online";"Ainda não recebi  ";" Não resolvido";"Há 7 dias";10080;774
-"823";"Magazine Luiza - Loja Online";"Ocorreu um erro inesperado ";" Resolvido";"Há 7 dias";10080;775
-"824";"Magazine Luiza - Loja Online";"Número no magalupay";" Resolvido";"Há 7 dias";10080;776
-"825";"Magazine Luiza - Loja Online";"Pedido não entregue, informado que foi entregue";" Não resolvido";"Há 7 dias";10080;777
-"826";"Magazine Luiza - Loja Online";"Devolvi um produto e não tive o reembolso do valor pago. ";" Resolvido";"Há 7 dias";10080;778
-"828";"Magazine Luiza - Loja Online";"Entrega em atraso";" Resolvido";"Há 7 dias";10080;779
-"829";"Magazine Luiza - Loja Online";"SOLICITAÇÃO DE CANCELAMENTO NÃO ATENDIDA E PRODUTO NÃO ENTREGUE";" Resolvido";"Há 7 dias";10080;780
-"830";"Magazine Luiza - Loja Online";"Cancelei o Produto antes de ser despachado. Não estornaram o cartão estão realizando cobranças";" Resolvido";"Há 7 dias";10080;781
-"831";"Magazine Luiza - Loja Online";"Comprei um notebook que não veio e não me atendem ";" Resolvido";"Há 6 dias";8640;782
-"832";"Magazine Luiza - Loja Online";"ENTREGA SUPER ATRASADA";" Resolvido";"Há 6 dias";8640;783
-"833";"Magazine Luiza - Loja Online";"Magazine Luiza Retira Rápido não funciona, fui enganado";" Resolvido";"Há 6 dias";8640;784
-"834";"Magazine Luiza - Loja Online";"Propaganda enganosa Magazine Luiza ";" Resolvido";"Há 6 dias";8640;785
-"835";"Magazine Luiza - Loja Online";"Acesso bloqueado";" Resolvido";"Há 6 dias";8640;786
-"836";"Magazine Luiza - Loja Online";"MÁ-FÉ DA EMPRESA- PEDIDO CONVERTIDO EM VALE-COMPRAS SEM ANUÊNCIA, TAMPOUCO COMUNICAÇÃO AO CONSUMIDOR.";" Resolvido";"Há 6 dias";8640;787
-"837";"Magazine Luiza - Loja Online";"Produto com defeito";" Resolvido";"Há 6 dias";8640;788
-"838";"Magazine Luiza - Loja Online";"Preciso do Estorno ";" Resolvido";"Há 6 dias";8640;789
-"839";"Magazine Luiza - Loja Online";"Produto não Entregue";" Resolvido";"Há 6 dias";8640;790
-"840";"Magazine Luiza - Loja Online";"Placa potência LTD06";" Resolvido";"Há 6 dias";8640;791
-"841";"Magazine Luiza - Loja Online";"Devolução de celular";" Resolvido";"Há 6 dias";8640;792
-"842";"Magazine Luiza - Loja Online";"Prezados, boa noite!  Realizei o pedido 1174970374146350 no site do Magazine Luiza e nele consta um jogo de taça de 6 peças. Contudo, uma das seis taças veio quebrada e não localizei no site a possibilidade de troca somente de cancelamento. Gostaria de so";" Resolvido";"Há 6 dias";8640;793
-"843";"Magazine Luiza - Loja Online";"Atraso na entrega ";" Resolvido";"Há 6 dias";8640;794
-"844";"Magazine Luiza - Loja Online";"Conta no app bloqueado ";" Não resolvido";"Há 6 dias";8640;795
-"845";"Magazine Luiza - Loja Online";"NÃO CONSIGO REAVER DINHEIRO DE PRODUTO NÃO ENTREGUE";" Resolvido";"Há 6 dias";8640;796
-"846";"Magazine Luiza - Loja Online";"Produto entregue não é o mesmo que foi comprado";" Resolvido";"Há 6 dias";8640;797
-"847";"Magazine Luiza - Loja Online";"Entregaram para outra pessoa";" Resolvido";"Há 6 dias";8640;798
-"848";"Magazine Luiza - Loja Online";"Não recebi meu produto";" Resolvido";"Há 6 dias";8640;799
-"849";"Magazine Luiza - Loja Online";"Cadeira gamer Reclinável Strike Healer Pink/Preto";" Resolvido";"Há 6 dias";8640;800
-"850";"Magazine Luiza - Loja Online";"Estorno confuso sem garantia.";" Resolvido";"Há 6 dias";8640;801
-"860";"Magazine Luiza - Loja Online";"Desrespeito";" Resolvido";"Há 6 dias";8640;802
-"861";"Magazine Luiza - Loja Online";"Cancelamento de produto sem reembolso!";" Resolvido";"Há 5 dias";7200;803
-"862";"Magazine Luiza - Loja Online";"Cancelei um pedido e não fui estornado no cartão!";" Resolvido";"Há 5 dias";7200;804
-"863";"Magazine Luiza - Loja Online";"Problema na entrega dos pedidos";" Resolvido";"Há 5 dias";7200;805
-"864";"Magazine Luiza - Loja Online";"atraso na entrega ";" Resolvido";"Há 5 dias";7200;806
-"865";"Magazine Luiza - Loja Online";"Não recebi presente dos site quero de casamento - MAGALU ";" Resolvido";"Há 5 dias";7200;807
-"866";"Magazine Luiza - Loja Online";"Demora no retorno da devolução do produto";" Resolvido";"Há 5 dias";7200;808
-"867";"Magazine Luiza - Loja Online";"Pedido consta como entregue mas não foi entregue ";" Resolvido";"Há 5 dias";7200;809
-"868";"Magazine Luiza - Loja Online";"Pedido cancelado e valor pago não devolvido ";" Resolvido";"Há 5 dias";7200;810
-"869";"Magazine Luiza - Loja Online";"Mesa de manicure errada";" Resolvido";"Há 6 dias";8640;811
-"871";"Magazine Luiza - Loja Online";"Não permitem alteração no cadastro ";" Resolvido";"Há 5 dias";7200;812
-"872";"Magazine Luiza - Loja Online";"Demora no processo de cancelamento.";" Resolvido";"Há 5 dias";7200;813
-"873";"Magazine Luiza - Loja Online";"Patinete com defeito ";" Resolvido";"Há 5 dias";7200;814
-"874";"Magazine Luiza - Loja Online";"Magalu não quer fazer a troca!";" Resolvido";"Há 5 dias";7200;815
-"875";"Magazine Luiza - Loja Online";"Compra não disponível após duas horas da confirmação do pagamento";" Resolvido";"Há 5 dias";7200;816
-"876";"Magazine Luiza - Loja Online";"Produto não entregue";" Resolvido";"Há 5 dias";7200;817
-"877";"Magazine Luiza - Loja Online";"Não consigo efetuar a compra";" Resolvido";"Há 5 dias";7200;818
-"878";"Magazine Luiza - Loja Online";"Má qualidade de torneira da marca Nell";" Resolvido";"Há 5 dias";7200;819
-"879";"Magazine Luiza - Loja Online";"Entrega atrasada/ Descaso ";" Não resolvido";"Há 5 dias";7200;820
-"880";"Magazine Luiza - Loja Online";"Pedido recebido com item faltante";" Resolvido";"Há 5 dias";7200;821
-"881";"Magazine Luiza - Loja Online";"Prazo de entrega enganoso";" Não resolvido";"Há 4 dias";5760;822
-"882";"Magazine Luiza - Loja Online";"Cancelei o pedido de uma Grill e não fizeram o reembolso ";" Resolvido";"Há 4 dias";5760;823
-"883";"Magazine Luiza - Loja Online";"Cancelar o cancelamento ";" Resolvido";"Há 4 dias";5760;824
-"884";"Magazine Luiza - Loja Online";"Pedido extraviado ";" Resolvido";"Há 4 dias";5760;825
-"885";"Magazine Luiza - Loja Online";"ENTREGA ATRASADA ";" Resolvido";"Há 4 dias";5760;826
-"886";"Magazine Luiza - Loja Online";"Promecas ";" Resolvido";"Há 5 dias";7200;827
-"887";"Magazine Luiza - Loja Online";"Falso anúncio, falta de respeito com o consumidor ";" Resolvido";"Há 5 dias";7200;828
-"888";"Magazine Luiza - Loja Online";"NÃO ENTREGARAM MEU PRODUTO E FALARAM QUE ENTREGARAM.";" Resolvido";"Há 5 dias";7200;829
-"889";"Magazine Luiza - Loja Online";"Mensagem enganosa do prazo de entrega ";" Resolvido";"Há 5 dias";7200;830
-"890";"Magazine Luiza - Loja Online";"Não recebi o produto, empresa não responde mais os emails";" Resolvido";"Há 5 dias";7200;831
-"891";"Magazine Luiza - Loja Online";"Estorno não relizado";" Resolvido";"Há 8 horas";480;832
-"892";"Magazine Luiza - Loja Online";"Falta de compromisso com o que fala";" Resolvido";"Há 1 dia";1440;833
-"893";"Magazine Luiza - Loja Online";"Comprei telefone sem fio com 3 aparelhos ";" Não resolvido";"Há 2 dias";2880;834
-"894";"Magazine Luiza - Loja Online";"Compra cancelada e mesmo assim entregue";" Resolvido";"Há 2 dias";2880;835
-"895";"Magazine Luiza - Loja Online";"sem resposta";" Não resolvido";"Há 2 dias";2880;836
-"896";"Magazine Luiza - Loja Online";"Cancelaram o pedido pois não tem o produto, mas continua vendendo o produto no site";" Resolvido";"Há 3 dias";4320;837
-"897";"Magazine Luiza - Loja Online";"DIVERGÊNCIA DE INFORMAÇÕES";" Resolvido";"Há 3 dias";4320;838
-"898";"Magazine Luiza - Loja Online";"Pedido entregue, mas não recebido";" Resolvido";"Há 3 dias";4320;839
-"899";"Magazine Luiza - Loja Online";"Nao consigo emitir nota fiscal";" Resolvido";"Há 3 dias";4320;840
-"900";"Magazine Luiza - Loja Online";"NÃO CONSIGO ME CADASTRAR NO APLICATIVO ";" Resolvido";"Há 3 dias";4320;841
+"";"empresa";"titulo_reclamacao";"status_reclamacao";"tempo_reclamacao";"link_reclamaco";"minutos";"reclamacao_id"
+"1";"123milhas";"Central de atendimento e suporte ";" Resolvido";"Há 1 dia";"/123-milhas/central-de-atendimento-e-suporte_d5ktH2iG8X6OZzxT/";1440;1
+"2";"123milhas";"Não consigo fazer check in. 123 milhas não emitiu bilhete com mudança de voo. ";" Resolvido";"Há 1 dia";"/123-milhas/nao-consigo-fazer-check-in-123-milhas-nao-emitiu-bilhete-com-mudanca-de-vo_pfw3ZEuh7DgaJiFP/";1440;2
+"3";"123milhas";"NÃO CONSIGO ACESSAR MINHA COMPRA EM MEUS PEDIDOS";" Resolvido";"Há 1 dia";"/123-milhas/nao-consigo-acessar-minha-compra-em-meus-pedidos__BfpdDlWa3IWFKfx/";1440;3
+"4";"123milhas";"Emissão de voos diferentes para viagem em grupo";" Não resolvido";"Há 1 dia";"/123-milhas/emissao-de-voos-diferentes-para-viagem-em-grupo_MMYo41InGLuIqy9T/";1440;4
+"5";"123milhas";"VOU ACIONAR MEU ADVOGADO. PROPAGANDA ENGANOSA. DISSERAM QUE VENDEM NO BOLETO MAS NÃO APARECE ESSA OPÇÃO NO SITE";" Não resolvido";"Há 1 dia";"/123-milhas/vou-acionar-meu-advogado-propaganda-enganosa-disseram-que-vendem-no-bolet_DaE2LEygm0nbtQPT/";1440;5
+"6";"123milhas";"Empresa esta FALINDO.. cuidado  123milhas sem acesso no site ";" Resolvido";"Há 1 dia";"/123-milhas/empresa-esta-falindo-cuidado-123milhas-sem-acesso-no-site_oyQusyqTygpXBspo/";1440;6
+"7";"123milhas";"Total descaso da 123 Milhas com o cliente";" Não resolvido";"Há 1 dia";"/123-milhas/total-descaso-da-123-milhas-com-o-cliente_pfCEF_8OcLdsYRba/";1440;7
+"8";"123milhas";"Passagens pacote promo nao emitidas ainda!";" Resolvido";"Há 1 dia";"/123-milhas/passagens-pacote-promo-nao-emitidas-ainda_VnjZgZa9JUrN0Gc-/";1440;8
+"9";"123milhas";"Nome incompleto no cadastro";" Não resolvido";"Há 1 dia";"/123-milhas/nome-incompleto-no-cadastro_mV7iGbsljBQalsRI/";1440;9
+"10";"123milhas";"Reembolso Resort GR Solaris";" Resolvido";"Há 1 dia";"/123-milhas/reembolso-resort-gr-solaris_WFXJ3i5Ko1YXXt3D/";1440;10
+"11";"123milhas";"Até hoje sem receber meu estorno";" Resolvido";"Há 18 horas";"/123-milhas/ate-hoje-sem-receber-meu-estorno_qyLsfrYxOrakJuvX/";1080;11
+"12";"123milhas";"Central de atendimento e suporte ";" Resolvido";"Há 1 dia";"/123-milhas/central-de-atendimento-e-suporte_d5ktH2iG8X6OZzxT/";1440;12
+"13";"123milhas";"Não consigo fazer check in. 123 milhas não emitiu bilhete com mudança de voo. ";" Resolvido";"Há 1 dia";"/123-milhas/nao-consigo-fazer-check-in-123-milhas-nao-emitiu-bilhete-com-mudanca-de-vo_pfw3ZEuh7DgaJiFP/";1440;13
+"14";"123milhas";"NÃO CONSIGO ACESSAR MINHA COMPRA EM MEUS PEDIDOS";" Resolvido";"Há 1 dia";"/123-milhas/nao-consigo-acessar-minha-compra-em-meus-pedidos__BfpdDlWa3IWFKfx/";1440;14
+"15";"123milhas";"Emissão de voos diferentes para viagem em grupo";" Não resolvido";"Há 1 dia";"/123-milhas/emissao-de-voos-diferentes-para-viagem-em-grupo_MMYo41InGLuIqy9T/";1440;15
+"16";"123milhas";"VOU ACIONAR MEU ADVOGADO. PROPAGANDA ENGANOSA. DISSERAM QUE VENDEM NO BOLETO MAS NÃO APARECE ESSA OPÇÃO NO SITE";" Não resolvido";"Há 1 dia";"/123-milhas/vou-acionar-meu-advogado-propaganda-enganosa-disseram-que-vendem-no-bolet_DaE2LEygm0nbtQPT/";1440;16
+"17";"123milhas";"Empresa esta FALINDO.. cuidado  123milhas sem acesso no site ";" Resolvido";"Há 1 dia";"/123-milhas/empresa-esta-falindo-cuidado-123milhas-sem-acesso-no-site_oyQusyqTygpXBspo/";1440;17
+"18";"123milhas";"Total descaso da 123 Milhas com o cliente";" Não resolvido";"Há 1 dia";"/123-milhas/total-descaso-da-123-milhas-com-o-cliente_pfCEF_8OcLdsYRba/";1440;18
+"19";"123milhas";"Passagens pacote promo nao emitidas ainda!";" Resolvido";"Há 1 dia";"/123-milhas/passagens-pacote-promo-nao-emitidas-ainda_VnjZgZa9JUrN0Gc-/";1440;19
+"20";"123milhas";"Nome incompleto no cadastro";" Não resolvido";"Há 1 dia";"/123-milhas/nome-incompleto-no-cadastro_mV7iGbsljBQalsRI/";1440;20
+"21";"123milhas";"Resolveu meu problema mais me meteu numa furada";" Não resolvido";"Há 17 horas";"/123-milhas/resolveu-meu-problema-mais-me-meteu-numa-furada_xBfOE4Ka89Ro-SqV/";1020;21
+"22";"123milhas";"Até hoje sem receber meu estorno";" Resolvido";"Há 18 horas";"/123-milhas/ate-hoje-sem-receber-meu-estorno_qyLsfrYxOrakJuvX/";1080;22
+"23";"123milhas";"Central de atendimento e suporte ";" Resolvido";"Há 1 dia";"/123-milhas/central-de-atendimento-e-suporte_d5ktH2iG8X6OZzxT/";1440;23
+"24";"123milhas";"Não consigo fazer check in. 123 milhas não emitiu bilhete com mudança de voo. ";" Resolvido";"Há 1 dia";"/123-milhas/nao-consigo-fazer-check-in-123-milhas-nao-emitiu-bilhete-com-mudanca-de-vo_pfw3ZEuh7DgaJiFP/";1440;24
+"25";"123milhas";"NÃO CONSIGO ACESSAR MINHA COMPRA EM MEUS PEDIDOS";" Resolvido";"Há 1 dia";"/123-milhas/nao-consigo-acessar-minha-compra-em-meus-pedidos__BfpdDlWa3IWFKfx/";1440;25
+"26";"123milhas";"Emissão de voos diferentes para viagem em grupo";" Não resolvido";"Há 1 dia";"/123-milhas/emissao-de-voos-diferentes-para-viagem-em-grupo_MMYo41InGLuIqy9T/";1440;26
+"27";"123milhas";"VOU ACIONAR MEU ADVOGADO. PROPAGANDA ENGANOSA. DISSERAM QUE VENDEM NO BOLETO MAS NÃO APARECE ESSA OPÇÃO NO SITE";" Não resolvido";"Há 1 dia";"/123-milhas/vou-acionar-meu-advogado-propaganda-enganosa-disseram-que-vendem-no-bolet_DaE2LEygm0nbtQPT/";1440;27
+"28";"123milhas";"Empresa esta FALINDO.. cuidado  123milhas sem acesso no site ";" Resolvido";"Há 1 dia";"/123-milhas/empresa-esta-falindo-cuidado-123milhas-sem-acesso-no-site_oyQusyqTygpXBspo/";1440;28
+"29";"123milhas";"Total descaso da 123 Milhas com o cliente";" Não resolvido";"Há 1 dia";"/123-milhas/total-descaso-da-123-milhas-com-o-cliente_pfCEF_8OcLdsYRba/";1440;29
+"30";"123milhas";"Passagens pacote promo nao emitidas ainda!";" Resolvido";"Há 1 dia";"/123-milhas/passagens-pacote-promo-nao-emitidas-ainda_VnjZgZa9JUrN0Gc-/";1440;30
+"31";"123milhas";"Confirmação de Passagem";" Resolvido";"Há 14 horas";"/123-milhas/confirmacao-de-passagem_SWZSId7tJez-J-PU/";840;31
+"32";"123milhas";"Resolveu meu problema mais me meteu numa furada";" Não resolvido";"Há 17 horas";"/123-milhas/resolveu-meu-problema-mais-me-meteu-numa-furada_xBfOE4Ka89Ro-SqV/";1020;32
+"33";"123milhas";"Até hoje sem receber meu estorno";" Resolvido";"Há 18 horas";"/123-milhas/ate-hoje-sem-receber-meu-estorno_qyLsfrYxOrakJuvX/";1080;33
+"34";"123milhas";"Central de atendimento e suporte ";" Resolvido";"Há 1 dia";"/123-milhas/central-de-atendimento-e-suporte_d5ktH2iG8X6OZzxT/";1440;34
+"35";"123milhas";"Não consigo fazer check in. 123 milhas não emitiu bilhete com mudança de voo. ";" Resolvido";"Há 1 dia";"/123-milhas/nao-consigo-fazer-check-in-123-milhas-nao-emitiu-bilhete-com-mudanca-de-vo_pfw3ZEuh7DgaJiFP/";1440;35
+"36";"123milhas";"NÃO CONSIGO ACESSAR MINHA COMPRA EM MEUS PEDIDOS";" Resolvido";"Há 1 dia";"/123-milhas/nao-consigo-acessar-minha-compra-em-meus-pedidos__BfpdDlWa3IWFKfx/";1440;36
+"37";"123milhas";"Emissão de voos diferentes para viagem em grupo";" Não resolvido";"Há 1 dia";"/123-milhas/emissao-de-voos-diferentes-para-viagem-em-grupo_MMYo41InGLuIqy9T/";1440;37
+"38";"123milhas";"VOU ACIONAR MEU ADVOGADO. PROPAGANDA ENGANOSA. DISSERAM QUE VENDEM NO BOLETO MAS NÃO APARECE ESSA OPÇÃO NO SITE";" Não resolvido";"Há 1 dia";"/123-milhas/vou-acionar-meu-advogado-propaganda-enganosa-disseram-que-vendem-no-bolet_DaE2LEygm0nbtQPT/";1440;38
+"39";"123milhas";"Empresa esta FALINDO.. cuidado  123milhas sem acesso no site ";" Resolvido";"Há 1 dia";"/123-milhas/empresa-esta-falindo-cuidado-123milhas-sem-acesso-no-site_oyQusyqTygpXBspo/";1440;39
+"40";"123milhas";"Total descaso da 123 Milhas com o cliente";" Não resolvido";"Há 1 dia";"/123-milhas/total-descaso-da-123-milhas-com-o-cliente_pfCEF_8OcLdsYRba/";1440;40
+"41";"123milhas";"Valor cobrado pelas bagagens ";" Resolvido";"Há 4 horas";"/123-milhas/valor-cobrado-pelas-bagagens_47a6duJ7YuaD3Jcn/";240;41
+"42";"123milhas";"Confirmação de Passagem";" Resolvido";"Há 14 horas";"/123-milhas/confirmacao-de-passagem_SWZSId7tJez-J-PU/";840;42
+"43";"123milhas";"Resolveu meu problema mais me meteu numa furada";" Não resolvido";"Há 17 horas";"/123-milhas/resolveu-meu-problema-mais-me-meteu-numa-furada_xBfOE4Ka89Ro-SqV/";1020;43
+"44";"123milhas";"Até hoje sem receber meu estorno";" Resolvido";"Há 18 horas";"/123-milhas/ate-hoje-sem-receber-meu-estorno_qyLsfrYxOrakJuvX/";1080;44
+"45";"123milhas";"Central de atendimento e suporte ";" Resolvido";"Há 1 dia";"/123-milhas/central-de-atendimento-e-suporte_d5ktH2iG8X6OZzxT/";1440;45
+"46";"123milhas";"Não consigo fazer check in. 123 milhas não emitiu bilhete com mudança de voo. ";" Resolvido";"Há 1 dia";"/123-milhas/nao-consigo-fazer-check-in-123-milhas-nao-emitiu-bilhete-com-mudanca-de-vo_pfw3ZEuh7DgaJiFP/";1440;46
+"47";"123milhas";"NÃO CONSIGO ACESSAR MINHA COMPRA EM MEUS PEDIDOS";" Resolvido";"Há 1 dia";"/123-milhas/nao-consigo-acessar-minha-compra-em-meus-pedidos__BfpdDlWa3IWFKfx/";1440;47
+"48";"123milhas";"Emissão de voos diferentes para viagem em grupo";" Não resolvido";"Há 1 dia";"/123-milhas/emissao-de-voos-diferentes-para-viagem-em-grupo_MMYo41InGLuIqy9T/";1440;48
+"49";"123milhas";"VOU ACIONAR MEU ADVOGADO. PROPAGANDA ENGANOSA. DISSERAM QUE VENDEM NO BOLETO MAS NÃO APARECE ESSA OPÇÃO NO SITE";" Não resolvido";"Há 1 dia";"/123-milhas/vou-acionar-meu-advogado-propaganda-enganosa-disseram-que-vendem-no-bolet_DaE2LEygm0nbtQPT/";1440;49
+"50";"123milhas";"Empresa esta FALINDO.. cuidado  123milhas sem acesso no site ";" Resolvido";"Há 1 dia";"/123-milhas/empresa-esta-falindo-cuidado-123milhas-sem-acesso-no-site_oyQusyqTygpXBspo/";1440;50
+"51";"iFood";"Vamor cobrado errado e má atendimento ";" Resolvido";"Há 20 horas";"/ifood/vamor-cobrado-errado-e-ma-atendimento_PyrdZDozytkhSGwo/";1200;51
+"52";"iFood";"Troca de foto do perfil ";" Resolvido";"Há 20 horas";"/ifood/troca-de-foto-do-perfil_mBW_YLR0tnEtWSzl/";1200;52
+"53";"iFood";"Erro no app duplicou o pedido e não estornaram o valor";" Resolvido";"Há 21 horas";"/ifood/erro-no-app-duplicou-o-pedido-e-nao-estornaram-o-valor_8vymDy7G4vCeAA2X/";1260;53
+"54";"iFood";"Atendimento precário do ifood,falta de respeito.";" Resolvido";"Há 1 dia";"/ifood/atendimento-precario-do-ifood-falta-de-respeito_7uQba4tfvXIkTKFs/";1440;54
+"55";"iFood";"HOJE  FIZ UM PEDIDO PROPAGANDA ENGANOSA";" Resolvido";"Há 1 dia";"/ifood/hoje-fiz-um-pedido-propaganda-enganosa_tWo8GcahNPkZfkyA/";1440;55
+"56";"iFood";"Pedido incorreto";" Resolvido";"Há 1 dia";"/ifood/pedido-incorreto_XJstjyH2a-pXde0v/";1440;56
+"57";"iFood";"Travado no quase lá";" Resolvido";"Há 1 dia";"/ifood/travado-no-quase-la_0v1YxIaorgrQe4J2/";1440;57
+"58";"iFood";"Comida estragada";" Resolvido";"Há 1 dia";"/ifood/comida-estragada_dszVS-BAx5RUT7Ll/";1440;58
+"59";"iFood";"BK delivery fiz o pedido e não recebi ";" Resolvido";"Há 1 dia";"/ifood/bk-delivery-fiz-o-pedido-e-nao-recebi_VxQGWOkMWtMZZobP/";1440;59
+"60";"iFood";"Não entregaram meu pedido";" Resolvido";"Há 1 dia";"/ifood/nao-entregaram-meu-pedido_sqxszAFky-K5mAF-/";1440;60
+"61";"iFood";"Não consigo contato com ninguém para mudar de email";" Resolvido";"Há 2 dias";"/ifood/nao-consigo-contato-com-ninguem-para-mudar-de-email_brPqYbN5PaXwt4_I/";2880;61
+"62";"iFood";"Nao consigo acessar minha loja";" Resolvido";"Há 2 dias";"/ifood/nao-consigo-acessar-minha-loja_o9mOotTzmO9-QriB/";2880;62
+"63";"iFood";"Longa espera para nuvem";" Resolvido";"Há 2 dias";"/ifood/longa-espera-para-nuvem_mYGZH6uID_EzC36u/";2880;63
+"64";"iFood";"Libera meu cadastro por favor.";" Resolvido";"Há 2 dias";"/ifood/libera-meu-cadastro-por-favor_zWIQFMQCjSAkUYFO/";2880;64
+"65";"iFood";"TIVE MEUS CÓDIGOS DO IFOOD CARD [editado_RA]S";" Não resolvido";"Há 2 dias";"/ifood/tive-meus-codigos-do-ifood-card-s_IGcqpvSGfoQcJqyf/";2880;65
+"66";"iFood";"Não recebi o meu estorno";" Resolvido";"Há 2 dias";"/ifood/nao-recebi-o-meu-estorno__XFkW9N5K_FVcr7x/";2880;66
+"67";"iFood";"Fiz um pedido no ifood no McDonalds e não chegou ";" Resolvido";"Há 2 dias";"/ifood/fiz-um-pedido-no-ifood-no-mcdonalds-e-nao-chegou_GVpA7nEIdxX5RF_g/";2880;67
+"68";"iFood";"Bloqueio de conta e valor ";" Resolvido";"Há 2 dias";"/ifood/bloqueio-de-conta-e-valor_wMIEj93VnzX_abZE/";2880;68
+"69";"iFood";"PEDIDO NÃO ENTREGUE E NÃO CANCELADO";" Resolvido";"Há 2 dias";"/ifood/pedido-nao-entregue-e-nao-cancelado_7w8bx2yHVfGQwBlC/";2880;69
+"70";"iFood";"30 dias para estorno";" Não resolvido";"Há 2 dias";"/ifood/30-dias-para-estorno_dYvdVMx0iRNR0aFl/";2880;70
+"71";"iFood";"Pedido em Péssimo Estado e IFood Não Resolveu";" Resolvido";"Há 2 dias";"/ifood/pedido-em-pessimo-estado-e-ifood-nao-resolveu_FEXP9PMRVSTfMsKx/";2880;71
+"72";"iFood";"PEDIDO NÃO ENTREGUE";" Resolvido";"Há 2 dias";"/ifood/pedido-nao-entregue_k3YJMKQ9gwflRgbc/";2880;72
+"73";"iFood";"Não sei o e-mail nem telefone tá conta ";" Resolvido";"Há 2 dias";"/ifood/nao-sei-o-e-mail-nem-telefone-ta-conta_3Uw4fPH7eFrh4RXq/";2880;73
+"74";"iFood";"cadastro";" Resolvido";"Há 2 dias";"/ifood/cadastro_RuxVuAD-GyJJPTad/";2880;74
+"75";"iFood";"Não devolveram o valor";" Resolvido";"Há 2 dias";"/ifood/nao-devolveram-o-valor_g0L532Yjsd9WPJy-/";2880;75
+"76";"iFood";"Pedido marcado como entregue mas não recebi";" Resolvido";"Há 2 dias";"/ifood/pedido-marcado-como-entregue-mas-nao-recebi_u1m6gy6qX3c4rmcb/";2880;76
+"77";"iFood";"Cadastro de dados bancários ";" Não resolvido";"Há 2 dias";"/ifood/cadastro-de-dados-bancarios_3Bz_00nEZjC3UfUu/";2880;77
+"78";"iFood";"sem pedido";" Resolvido";"Há 2 dias";"/ifood/sem-pedido_YYGrsx9oOut7zpOC/";2880;78
+"79";"iFood";"Eles [editado_RA]m meu dinheiro e vcs não faz nada como assim ifood ";" Não resolvido";"Há 2 dias";"/ifood/eles-m-meu-dinheiro-e-vcs-nao-faz-nada-como-assim-ifood_yoLHakoTMys3tI0J/";2880;79
+"80";"iFood";"Liberação de cadastro ";" Resolvido";"Há 2 dias";"/ifood/liberacao-de-cadastro_91uoKwyxPXpQ_7-P/";2880;80
+"81";"iFood";"Travado no quase lá";" Resolvido";"Há 1 dia";"/ifood/travado-no-quase-la_0v1YxIaorgrQe4J2/";1440;81
+"82";"iFood";"Comida estragada";" Resolvido";"Há 1 dia";"/ifood/comida-estragada_dszVS-BAx5RUT7Ll/";1440;82
+"83";"iFood";"BK delivery fiz o pedido e não recebi ";" Resolvido";"Há 1 dia";"/ifood/bk-delivery-fiz-o-pedido-e-nao-recebi_VxQGWOkMWtMZZobP/";1440;83
+"84";"iFood";"Não entregaram meu pedido";" Resolvido";"Há 1 dia";"/ifood/nao-entregaram-meu-pedido_sqxszAFky-K5mAF-/";1440;84
+"85";"iFood";"Insatisfeita com a resposta ";" Resolvido";"Há 1 dia";"/ifood/insatisfeita-com-a-resposta_JB9h2JLx-Zsl6bsk/";1440;85
+"86";"iFood";"Perdi o acesso ao meu email e número de telefone ";" Resolvido";"Há 1 dia";"/ifood/perdi-o-acesso-ao-meu-email-e-numero-de-telefone_cKSoiaAc-1IyE61I/";1440;86
+"87";"iFood";"Pedido chegou incompleto ";" Resolvido";"Há 1 dia";"/ifood/pedido-chegou-incompleto_97srhZfNFQTVRPlF/";1440;87
+"88";"iFood";"Não recebi o reembolso";" Não resolvido";"Há 1 dia";"/ifood/nao-recebi-o-reembolso_i7DMc9LNOI1d7XVy/";1440;88
+"89";"iFood";"Yakissoba estrago ";" Resolvido";"Há 2 dias";"/ifood/yakissoba-estrago_gs8-LN5Z1D7GTLPl/";2880;89
+"90";"iFood";"Não recebo pedidos!";" Resolvido";"Há 2 dias";"/ifood/nao-recebo-pedidos_uJHxfT7DXmHhnl1w/";2880;90
+"91";"iFood";"Pedido entregue ensopado";" Resolvido";"Há 3 horas";"/ifood/pedido-entregue-ensopado_iBxATSfaaIHTFYeu/";180;91
+"92";"iFood";"Quero Fazer Entregas Sendo Nuvem";" Resolvido";"Há 8 horas";"/ifood/quero-fazer-entregas-sendo-nuvem_CDn6TcfWxw-DOWyr/";480;92
+"93";"iFood";"Meu pedido não foi entregue ";" Resolvido";"Há 17 horas";"/ifood/meu-pedido-nao-foi-entregue_Ip05wKwh2SE2gK8k/";1020;93
+"94";"iFood";"Pedido Errado";" Resolvido";"Há 19 horas";"/ifood/pedido-errado_cVUCPvs5ewsKUZD3/";1140;94
+"95";"iFood";"Vamor cobrado errado e má atendimento ";" Resolvido";"Há 20 horas";"/ifood/vamor-cobrado-errado-e-ma-atendimento_PyrdZDozytkhSGwo/";1200;95
+"96";"iFood";"Troca de foto do perfil ";" Resolvido";"Há 20 horas";"/ifood/troca-de-foto-do-perfil_mBW_YLR0tnEtWSzl/";1200;96
+"97";"iFood";"Erro no app duplicou o pedido e não estornaram o valor";" Resolvido";"Há 21 horas";"/ifood/erro-no-app-duplicou-o-pedido-e-nao-estornaram-o-valor_8vymDy7G4vCeAA2X/";1260;97
+"98";"iFood";"Atendimento precário do ifood,falta de respeito.";" Resolvido";"Há 1 dia";"/ifood/atendimento-precario-do-ifood-falta-de-respeito_7uQba4tfvXIkTKFs/";1440;98
+"99";"iFood";"HOJE  FIZ UM PEDIDO PROPAGANDA ENGANOSA";" Resolvido";"Há 1 dia";"/ifood/hoje-fiz-um-pedido-propaganda-enganosa_tWo8GcahNPkZfkyA/";1440;99
+"100";"iFood";"Pedido incorreto";" Resolvido";"Há 1 dia";"/ifood/pedido-incorreto_XJstjyH2a-pXde0v/";1440;100
+"101";"Casas Bahia - Loja Online";"Não recebi o código do produto digital.";" Resolvido";"Há 9 dias";"/casas-bahia-loja-online/nao-recebi-o-codigo-do-produto-digital_o-pn66vPjKWagjb5/";12960;101
+"102";"Casas Bahia - Loja Online";"Compras canceladas sem explicação";" Não resolvido";"Há 9 dias";"/casas-bahia-loja-online/compras-canceladas-sem-explicacao_z_0RBd1qaKdFPwWe/";12960;102
+"103";"Casas Bahia - Loja Online";"Venda de iPhones no intershop.";" Não resolvido";"Há 9 dias";"/casas-bahia-loja-online/venda-de-iphones-no-intershop_dYKPEHdIqSSjdIHH/";12960;103
+"104";"Casas Bahia - Loja Online";"Resetar Cadastro";" Resolvido";"Há 9 dias";"/casas-bahia-loja-online/resetar-cadastro__ICAC3-To8IIDFB5/";12960;104
+"105";"Casas Bahia - Loja Online";"Devolução em meio errado";" Resolvido";"Há 9 dias";"/casas-bahia-loja-online/devolucao-em-meio-errado_4Dp5FmdOyLVML_iG/";12960;105
+"106";"Casas Bahia - Loja Online";"NÃO RETORNARAM O CONTATO COMIGO";" Resolvido";"Há 9 dias";"/casas-bahia-loja-online/nao-retornaram-o-contato-comigo_giDYaPGl5Ixx-J2L/";12960;106
+"107";"Casas Bahia - Loja Online";"ENTREGA ATRASADA/NAO EFETUADA";" Resolvido";"Há 9 dias";"/casas-bahia-loja-online/entrega-atrasada-nao-efetuada_iIJppHRyx6wynoxz/";12960;107
+"108";"Casas Bahia - Loja Online";"Comprei sofá com garantia não veio papel garantia sofa";" Resolvido";"Há 9 dias";"/casas-bahia-loja-online/comprei-sofa-com-garantia-nao-veio-papel-garantia-sofa_YrvykhsxmqY3KIwD/";12960;108
+"109";"Casas Bahia - Loja Online";"Comprei e eles não liberam a entrega.";" Resolvido";"Há 9 dias";"/casas-bahia-loja-online/comprei-e-eles-nao-liberam-a-entrega_3q_XlKje5M6Ih85J/";12960;109
+"110";"Casas Bahia - Loja Online";"Produto não chegou";" Resolvido";"Há 9 dias";"/casas-bahia-loja-online/produto-nao-chegou_N6Sub4tc9AM91LK-/";12960;110
+"111";"Casas Bahia - Loja Online";"Atraso na entrega";" Resolvido";"Há 8 dias";"/casas-bahia-loja-online/atraso-na-entrega_N_zAZs5KVEjXroJk/";11520;111
+"112";"Casas Bahia - Loja Online";"Produto Diferente do comprado";" Resolvido";"Há 8 dias";"/casas-bahia-loja-online/produto-diferente-do-comprado_oztmXoanKPZFa5B2/";11520;112
+"113";"Casas Bahia - Loja Online";"Não consigo comprar no site faz alguns meses";" Não resolvido";"Há 8 dias";"/casas-bahia-loja-online/nao-consigo-comprar-no-site-faz-alguns-meses_CMzKDcuhW7DCbUZR/";11520;113
+"114";"Casas Bahia - Loja Online";"Reclamação ";" Resolvido";"Há 8 dias";"/casas-bahia-loja-online/reclamacao_sqt9Q0wxYJYwyZXL/";11520;114
+"115";"Casas Bahia - Loja Online";"CASAS BAHIA, DEMORA EXCESSIVA ENTREGA";" Resolvido";"Há 8 dias";"/casas-bahia-loja-online/casas-bahia-demora-excessiva-entrega_QjgycHHuZyvBOzYi/";11520;115
+"116";"Casas Bahia - Loja Online";"Transportadora não encontra endereço";" Resolvido";"Há 8 dias";"/casas-bahia-loja-online/transportadora-nao-encontra-endereco_zcLkigZU-osZVjEZ/";11520;116
+"117";"Casas Bahia - Loja Online";"Cancelamento Indevido de Compra";" Não resolvido";"Há 8 dias";"/casas-bahia-loja-online/cancelamento-indevido-de-compra_wvQ2tds-OD-mR3Ti/";11520;117
+"118";"Casas Bahia - Loja Online";"Smart TV 32 LG ";" Resolvido";"Há 8 dias";"/casas-bahia-loja-online/smart-tv-32-lg_GVY_iPO6KinVhUYK/";11520;118
+"119";"Casas Bahia - Loja Online";"Brastemp e casas Bahia [editado_RA] geladeira no prazo de garantia e ainda ameaça clientes.";" Não resolvido";"Há 8 dias";"/casas-bahia-loja-online/brastemp-e-casas-bahia-geladeira-no-prazo-de-garantia-e-ainda-ameaca-cli_3Xt9gVCrSigKssRB/";11520;119
+"120";"Casas Bahia - Loja Online";"Pedido ";" Resolvido";"Há 8 dias";"/casas-bahia-loja-online/pedido_V19K8Mz5M_t-XJtO/";11520;120
+"121";"Casas Bahia - Loja Online";"Demora da aprovação do Pagamento";" Resolvido";"Há 7 dias";"/casas-bahia-loja-online/demora-da-aprovacao-do-pagamento_Rt0o5VIfk9_P6n22/";10080;121
+"122";"Casas Bahia - Loja Online";"Pontos livelo";" Não resolvido";"Há 7 dias";"/casas-bahia-loja-online/pontos-livelo_TdurdGBpvekQEaSC/";10080;122
+"123";"Casas Bahia - Loja Online";"Estorno da minha compra ";" Resolvido";"Há 7 dias";"/casas-bahia-loja-online/estorno-da-minha-compra_CFyk90zQ8P22i8NO/";10080;123
+"124";"Casas Bahia - Loja Online";"Não recebi a minha entrega";" Resolvido";"Há 8 dias";"/casas-bahia-loja-online/nao-recebi-a-minha-entrega_Q2fRnKJ2pGe-TiJ4/";11520;124
+"125";"Casas Bahia - Loja Online";"Pedido Cancelado pelas Casas Bahia";" Resolvido";"Há 8 dias";"/casas-bahia-loja-online/pedido-cancelado-pelas-casas-bahia_sNd_EfZ6ZwIt1THJ/";11520;125
+"126";"Casas Bahia - Loja Online";"Não consigo gerar a 2a via da NF. ";" Resolvido";"Há 8 dias";"/casas-bahia-loja-online/nao-consigo-gerar-a-2a-via-da-nf_NTpXU8CdSfMNPxlm/";11520;126
+"127";"Casas Bahia - Loja Online";"Produto sem nota Fiscal";" Resolvido";"Há 8 dias";"/casas-bahia-loja-online/produto-sem-nota-fiscal_OygetI9LkbunOK5L/";11520;127
+"128";"Casas Bahia - Loja Online";"Notebook Vaio Core i5-10210U 8GB 512 SSD Tela Full HD 15.6&quot; Windows 11 FE15 VJFE52F11X-B2291H";" Resolvido";"Há 8 dias";"/casas-bahia-loja-online/notebook-vaio-core-i5-10210u-8gb-512-ssd-tela-full-hd-15-6-quot-windows-11_ttwHvVp8YnOEJGQg/";11520;128
+"129";"Casas Bahia - Loja Online";"Carnê digital pré aprovado 0,00";" Não resolvido";"Há 8 dias";"/casas-bahia-loja-online/carne-digital-pre-aprovado-0-00_wNzxV2Is-2YJUGIz/";11520;129
+"130";"Casas Bahia - Loja Online";"Comprei um gift card digital de um jogo do Nintendo Switch e não foi liberado o código";" Resolvido";"Há 8 dias";"/casas-bahia-loja-online/comprei-um-gift-card-digital-de-um-jogo-do-nintendo-switch-e-nao-foi-libera_QAvWJmPPRiOeioui/";11520;130
+"131";"Casas Bahia - Loja Online";"Atraso Anormal na Entrega de um Produto Digital";" Resolvido";"Há 6 dias";"/casas-bahia-loja-online/atraso-anormal-na-entrega-de-um-produto-digital_KynzTVkeUIDu0PZ5/";8640;131
+"132";"Casas Bahia - Loja Online";"Serviço Medíocre";" Não resolvido";"Há 6 dias";"/casas-bahia-loja-online/servico-mediocre_VF5Cr11n0kke1z6m/";8640;132
+"133";"Casas Bahia - Loja Online";"Não recebi o produto ";" Resolvido";"Há 6 dias";"/casas-bahia-loja-online/nao-recebi-o-produto_SZ0HZJ7wMPSsaVOi/";8640;133
+"134";"Casas Bahia - Loja Online";"ATRASO NA ENTREGA";" Resolvido";"Há 6 dias";"/casas-bahia-loja-online/atraso-na-entrega_14ARuGx7YfQ-mlYI/";8640;134
+"135";"Casas Bahia - Loja Online";"Entrega não concluída - não consigo ajustar o endereço ";" Resolvido";"Há 6 dias";"/casas-bahia-loja-online/entrega-nao-concluida-nao-consigo-ajustar-o-endereco_tx7xRWDbeo0t8Vv_/";8640;135
+"136";"Casas Bahia - Loja Online";"PROBLEMA NA ENTREGA";" Resolvido";"Há 6 dias";"/casas-bahia-loja-online/problema-na-entrega_MCKq081hj_UHMYPa/";8640;136
+"137";"Casas Bahia - Loja Online";"Casas Bahia entrega pedidos em outros endereços e não se responsabiliza.";" Resolvido";"Há 6 dias";"/casas-bahia-loja-online/casas-bahia-entrega-pedidos-em-outros-enderecos-e-nao-se-responsabiliza_B98bTzz9AnsaRtP1/";8640;137
+"138";"Casas Bahia - Loja Online";"Compra de sofá ";" Resolvido";"Há 6 dias";"/casas-bahia-loja-online/compra-de-sofa_VU_LYFSkVvU_JkeA/";8640;138
+"139";"Casas Bahia - Loja Online";"Péssima loja.";" Não resolvido";"Há 7 dias";"/casas-bahia-loja-online/pessima-loja_RjMsColMMOjxO8Ab/";10080;139
+"140";"Casas Bahia - Loja Online";"Produto não entregue";" Resolvido";"Há 7 dias";"/casas-bahia-loja-online/produto-nao-entregue_hKgFM3m2WqyJiGcs/";10080;140
+"141";"Casas Bahia - Loja Online";"Demora na agilidade/envio";" Resolvido";"Há 2 dias";"/casas-bahia-loja-online/demora-na-agilidade-envio_sIjgc7_Fgn5l0C8a/";2880;141
+"142";"Casas Bahia - Loja Online";"Não entregaram o código do gift card que comprei";" Resolvido";"Há 3 dias";"/casas-bahia-loja-online/nao-entregaram-o-codigo-do-gift-card-que-comprei_dublvC6yf7TEv-_D/";4320;142
+"143";"Casas Bahia - Loja Online";"Compra cancelada sem minha permissão";" Não resolvido";"Há 3 dias";"/casas-bahia-loja-online/compra-cancelada-sem-minha-permissao_5V6l2mceHN7YUOxE/";4320;143
+"144";"Casas Bahia - Loja Online";"Notebook veio sem SSD";" Resolvido";"Há 3 dias";"/casas-bahia-loja-online/notebook-veio-sem-ssd_15T9-g3naLQKgZeJ/";4320;144
+"145";"Casas Bahia - Loja Online";"Sobre o meu reembolso que ainda não me enviaram";" Resolvido";"Há 3 dias";"/casas-bahia-loja-online/sobre-o-meu-reembolso-que-ainda-nao-me-enviaram_c17Xjidq9XL0MQtt/";4320;145
+"146";"Casas Bahia - Loja Online";"PRODUTO CONSTA COM ENTREGUE NO RASTREIO PORÉM NÃO FOI ENTREGUE.";" Resolvido";"Há 5 dias";"/casas-bahia-loja-online/produto-consta-com-entregue-no-rastreio-porem-nao-foi-entregue_XpoYfqZokePpltLl/";7200;146
+"147";"Casas Bahia - Loja Online";"Compra não entregue e péssimo atendimento via Whatsapp ";" Resolvido";"Há 5 dias";"/casas-bahia-loja-online/compra-nao-entregue-e-pessimo-atendimento-via-whatsapp_oom1u2JeWuGZsp_E/";7200;147
+"148";"Casas Bahia - Loja Online";"CASAS BAHIA - O PIOR LUGAR PRA SE COMPRAR ALGO";" Resolvido";"Há 5 dias";"/casas-bahia-loja-online/casas-bahia-o-pior-lugar-pra-se-comprar-algo_NBslzV7wpWrTc5CF/";7200;148
+"149";"Casas Bahia - Loja Online";"Produto de péssima qualidade. ";" Não resolvido";"Há 5 dias";"/casas-bahia-loja-online/produto-de-pessima-qualidade_IEWeShw2f4jbLl5M/";7200;149
+"150";"Casas Bahia - Loja Online";"Entrega não recebida ";" Resolvido";"Há 5 dias";"/casas-bahia-loja-online/entrega-nao-recebida_vbN1EZ26jpbRMB-c/";7200;150
+"151";"Brastemp";"Comprei um fogão de 5 bocas para agilizar meus pedidos pois sou confeiteira e o fogão só me atrasa  no tempo que leva no forno, insatisfeita desde que comecei a usar ";" Não resolvido";"Há 14 dias";"/brastemp-consul/comprei-um-fogao-de-5-bocas-para-agilizar-meus-pedidos-pois-sou-confeiteira_PHTZnc6-52UbwIm_/";20160;151
+"152";"Brastemp";"Defeito no purificador Brastemp";" Resolvido";"Há 14 dias";"/brastemp-consul/defeito-no-purificador-brastemp_KUrJLBejtjxwo5WE/";20160;152
+"153";"Brastemp";"Pedido incorreto ";" Resolvido";"Há 14 dias";"/brastemp-consul/pedido-incorreto_3n6z9YGYfCpBDRaY/";20160;153
+"154";"Brastemp";"Defeito de produto ";" Resolvido";"Há 14 dias";"/brastemp-consul/defeito-de-produto_PeZZMBSRODeYx8-W/";20160;154
+"155";"Brastemp";"A empresa está se recusando a realizar uma troca.";" Resolvido";"Há 14 dias";"/brastemp-consul/a-empresa-esta-se-recusando-a-realizar-uma-troca__f0NjTTatPIKCWUd/";20160;155
+"156";"Brastemp";"TROCA NEGADA";" Não resolvido";"Há 14 dias";"/brastemp-consul/troca-negada_UilBxuyQDWNn5mgD/";20160;156
+"157";"Brastemp";"Ressarcimento ";" Resolvido";"Há 14 dias";"/brastemp-consul/ressarcimento_5z_CAnzC9ihTOybT/";20160;157
+"158";"Brastemp";"Produto com defeito ";" Resolvido";"Há 14 dias";"/brastemp-consul/produto-com-defeito_S3nXJ1sRWjlCQp8E/";20160;158
+"159";"Brastemp";"compra não entregue.";" Resolvido";"Há 14 dias";"/brastemp-consul/compra-nao-entregue_rHP8dxpjF4XJzkJs/";20160;159
+"160";"Brastemp";"Cupom expirado antes da data e não cumprimento do acordo";" Não resolvido";"Há 15 dias";"/brastemp-consul/cupom-expirado-antes-da-data-e-nao-cumprimento-do-acordo_OMdpibFncMtjfnHa/";21600;160
+"161";"Brastemp";"Brastemp está me retaliando porque a denunciei no ReclameAQUI!";" Não resolvido";"Há 12 dias";"/brastemp-consul/brastemp-esta-me-retaliando-porque-a-denunciei-no-reclameaqui_pkAljd78ZoheCZ6V/";17280;161
+"162";"Brastemp";"Vício oculto ";" Não resolvido";"Há 12 dias";"/brastemp-consul/vicio-oculto_zVYRjnt5ypVvnUyd/";17280;162
+"163";"Brastemp";"Sendo ameaçado por empresa";" Resolvido";"Há 12 dias";"/brastemp-consul/sendo-ameacado-por-empresa_S1S16qg1Q9KhjjRv/";17280;163
+"164";"Brastemp";"Posso confiar?";" Resolvido";"Há 13 dias";"/brastemp-consul/posso-confiar_ck1810Zh5mMuvEcs/";18720;164
+"165";"Brastemp";"Simplesmente não entregam ";" Resolvido";"Há 13 dias";"/brastemp-consul/simplesmente-nao-entregam_UkNp71SMnp97JMKg/";18720;165
+"166";"Brastemp";"Venda de produto sem estoque";" Resolvido";"Há 13 dias";"/brastemp-consul/venda-de-produto-sem-estoque_bAXW4RD7IDxVm4OR/";18720;166
+"167";"Brastemp";"Sem assistência técnica na região ";" Não resolvido";"Há 13 dias";"/brastemp-consul/sem-assistencia-tecnica-na-regiao_Hh8XAtc79LMdZnSg/";18720;167
+"168";"Brastemp";"RECUSA DE PEÇA CORTESIA - POR INFORMAÇÃO INCORRETA";" Resolvido";"Há 13 dias";"/brastemp-consul/recusa-de-peca-cortesia-por-informacao-incorreta_M8SxeUZlPpA4mh6H/";18720;168
+"169";"Brastemp";"Brastemp Vende mas não entrega o produto.";" Resolvido";"Há 13 dias";"/brastemp-consul/brastemp-vende-mas-nao-entrega-o-produto_J4sb_e-7kZvVB4h1/";18720;169
+"170";"Brastemp";"Insatisfação com fogão de embutir 4 bocas";" Resolvido";"Há 14 dias";"/brastemp-consul/insatisfacao-com-fogao-de-embutir-4-bocas_k13kHYKGDB5WxENB/";20160;170
+"171";"Brastemp";"Indignada com a Brastemp";" Resolvido";"Há 9 dias";"/brastemp-consul/indignada-com-a-brastemp_1FxKsEGQrEwkpRf1/";12960;171
+"172";"Brastemp";"produto novo com defeito ";" Não resolvido";"Há 9 dias";"/brastemp-consul/produto-novo-com-defeito_1VBALpQiacQCku7I/";12960;172
+"173";"Brastemp";"Máquina de lavar ";" Não resolvido";"Há 10 dias";"/brastemp-consul/maquina-de-lavar_jXF9ctYTn-_P6leQ/";14400;173
+"174";"Brastemp";"Pedido cancelado, e nada do estorno ";" Resolvido";"Há 10 dias";"/brastemp-consul/pedido-cancelado-e-nada-do-estorno_krPO6NLfbox2kUZM/";14400;174
+"175";"Brastemp";"Atraso na entrega ";" Resolvido";"Há 10 dias";"/brastemp-consul/atraso-na-entrega_rSlCjOsh47_p415o/";14400;175
+"176";"Brastemp";"Troca de geladeira ";" Resolvido";"Há 10 dias";"/brastemp-consul/troca-de-geladeira_igMrYjyLnpWl4F5J/";14400;176
+"177";"Brastemp";"Falta de Informações de Contato no Site.";" Resolvido";"Há 10 dias";"/brastemp-consul/falta-de-informacoes-de-contato-no-site_9NHgTCStyxBn1p4i/";14400;177
+"178";"Brastemp";"Paguei pela compra de geladeira e não recebi .";" Não resolvido";"Há 10 dias";"/brastemp-consul/paguei-pela-compra-de-geladeira-e-nao-recebi_S81-6AfIo7xQi_e7/";14400;178
+"179";"Brastemp";"Pedido não entregue ";" Resolvido";"Há 10 dias";"/brastemp-consul/pedido-nao-entregue_yI36WvEPA9TUq6My/";14400;179
+"180";"Brastemp";"Ice make pedindo pra abastecer mesmo estando cheio ";" Resolvido";"Há 11 dias";"/brastemp-consul/ice-make-pedindo-pra-abastecer-mesmo-estando-cheio_itFpx55XdAPMK5Ar/";15840;180
+"181";"Brastemp";"Pedido de ajuda ";" Não resolvido";"Há 7 dias";"/brastemp-consul/pedido-de-ajuda_rZ-47WN6HsKO4bJp/";10080;181
+"182";"Brastemp";"Problema Lava e Seca ";" Não resolvido";"Há 7 dias";"/brastemp-consul/problema-lava-e-seca_-sdfwcYBrr_wkM8w/";10080;182
+"183";"Brastemp";"Lavadora de roupas, não faz a função da programação";" Não resolvido";"Há 8 dias";"/brastemp-consul/lavadora-de-roupas-nao-faz-a-funcao-da-programacao_-p7tMNnpn4jlVKzU/";11520;183
+"184";"Brastemp";"Impossível contatar o SAC";" Não resolvido";"Há 8 dias";"/brastemp-consul/impossivel-contatar-o-sac_rpateDdEBA1caDCr/";11520;184
+"185";"Brastemp";"Assistência autorizada Brastemp refrigeração Silco";" Não resolvido";"Há 8 dias";"/brastemp-consul/assistencia-autorizada-brastemp-refrigeracao-silco_O4WASbEti_6N8gGW/";11520;185
+"186";"Brastemp";"Filtro Hepa Aspirador De Pó Brastemp B7b14a4 fora de linha";" Resolvido";"Há 8 dias";"/brastemp-consul/filtro-hepa-aspirador-de-po-brastemp-b7b14a4-fora-de-linha_NsrhkMy_MxH0YCZR/";11520;186
+"187";"Brastemp";"Brastemp Purificadores de Água ";" Resolvido";"Há 8 dias";"/brastemp-consul/brastemp-purificadores-de-agua__3wmDfg3dPqthvfa/";11520;187
+"188";"Brastemp";"Cobrança de taxas e não resolução do problema. ";" Não resolvido";"Há 8 dias";"/brastemp-consul/cobranca-de-taxas-e-nao-resolucao-do-problema_yvxEkUtxDhUWoVCL/";11520;188
+"189";"Brastemp";"SECADORA MODELO BSE17ASANA";" Não resolvido";"Há 8 dias";"/brastemp-consul/secadora-modelo-bse17asana_Vm_tTK9u8xRKXYM4/";11520;189
+"190";"Brastemp";"Método suspeito de validação de compra no site ";" Resolvido";"Há 9 dias";"/brastemp-consul/metodo-suspeito-de-validacao-de-compra-no-site_0txEDEmkYw5M4WK_/";12960;190
+"191";"Brastemp";"NÃO COMPREM GELADEIRA BRASTEMP MOTOR PARA DE FUNCIONA COM POUCO TEMPO DE USO ";" Não resolvido";"Há 3 horas";"/brastemp-consul/nao-comprem-geladeira-brastemp-motor-para-de-funciona-com-pouco-tempo-de-us_7H2dAswJqYgJ_YPi/";180;191
+"192";"Brastemp";"Continuar  com desconto estou desempregada ";" Resolvido";"Há 1 dia";"/brastemp-consul/continuar-com-desconto-estou-desempregada_0_cyVYaRLQ_NqjEf/";1440;192
+"193";"Brastemp";"Pedido cancelado e não recebo meu estorno";" Resolvido";"Há 3 dias";"/brastemp-consul/pedido-cancelado-e-nao-recebo-meu-estorno_MWTHZiNOmaMy_l5_/";4320;193
+"194";"Brastemp";"Geladeira nova defeito";" Não resolvido";"Há 3 dias";"/brastemp-consul/geladeira-nova-defeito_gsnsGhWnbVDCoctL/";4320;194
+"195";"Brastemp";"Lavadora com defeito";" Não resolvido";"Há 3 dias";"/brastemp-consul/lavadora-com-defeito_Xgd2ifX5LvXCtavx/";4320;195
+"196";"Brastemp";"Má qualidade produto Brastemp";" Não resolvido";"Há 3 dias";"/brastemp-consul/ma-qualidade-produto-brastemp_uvDF8iqxFJ7RpLH1/";4320;196
+"197";"Brastemp";"Vidro interno EXPLODIU repentinamente";" Não resolvido";"Há 4 dias";"/brastemp-consul/vidro-interno-explodiu-repentinamente_zJw9MbsKG6XRIPGd/";5760;197
+"198";"Brastemp";"Péssimo atendimento a cliente; Geladeira Brastemp Frost Free 443 litros - BRE57 muito frágil";" Resolvido";"Há 5 dias";"/brastemp-consul/pessimo-atendimento-a-cliente-geladeira-brastemp-frost-free-443-litros-b_RMDZ0y6VtdClySMk/";7200;198
+"199";"Brastemp";"Botão de fogão premium Brastemp derrete ao encostar panela quente";" Resolvido";"Há 6 dias";"/brastemp-consul/botao-de-fogao-premium-brastemp-derrete-ao-encostar-panela-quente_J8GugI9TW9RHHPgB/";8640;199
+"200";"Brastemp";"FORNO EMBUTIR GAS BRASTEMP ESP 220V 60Hz - NÃO FUNCIONA";" Não resolvido";"Há 7 dias";"/brastemp-consul/forno-embutir-gas-brastemp-esp-220v-60hz-nao-funciona_YyYEUrz5gGImmNTJ/";10080;200
+"201";"americanas - Loja Online";"Entrega sem carregador";" Não resolvido";"Há 3 dias";"/americanas-com-loja-online/entrega-sem-carregador_MoryNf-Jn-J5KeFx/";4320;201
+"202";"americanas - Loja Online";"Onde está meu produto?";" Resolvido";"Há 3 dias";"/americanas-com-loja-online/onde-esta-meu-produto_Cxnc2Y5FNxp9qX0D/";4320;202
+"203";"americanas - Loja Online";"Oferta de cupom não é valida";" Resolvido";"Há 3 dias";"/americanas-com-loja-online/oferta-de-cupom-nao-e-valida_QhZR4TDzY15lpMMk/";4320;203
+"204";"americanas - Loja Online";"Nota fiscal foi gerada diferente da data da compra e não ajuda o cliente em comprovar a data da compra";" Não resolvido";"Há 3 dias";"/americanas-com-loja-online/nota-fiscal-foi-gerada-diferente-da-data-da-compra-e-nao-ajuda-o-cliente-em_uIFEnyOtnHirYuNU/";4320;204
+"205";"americanas - Loja Online";"Demora na aprovação do pagamento ";" Resolvido";"Há 3 dias";"/americanas-com-loja-online/demora-na-aprovacao-do-pagamento_fPwXii7NRKlITj8u/";4320;205
+"206";"americanas - Loja Online";"Pedido em rota de entrega a dois dias.";" Resolvido";"Há 3 dias";"/americanas-com-loja-online/pedido-em-rota-de-entrega-a-dois-dias_K1LCYm8a_LfLbGCo/";4320;206
+"207";"americanas - Loja Online";"Não entrega o produto ";" Resolvido";"Há 3 dias";"/americanas-com-loja-online/nao-entrega-o-produto_fsjMyE1MItCLfea_/";4320;207
+"208";"americanas - Loja Online";"Atraso na entrega";" Resolvido";"Há 3 dias";"/americanas-com-loja-online/atraso-na-entrega_jQcbW9SmQCaXqNUi/";4320;208
+"209";"americanas - Loja Online";"Tanquinho ";" Resolvido";"Há 3 dias";"/americanas-com-loja-online/tanquinho_UfeOm8zZhDMMyIwB/";4320;209
+"210";"americanas - Loja Online";"[editado_RA] ";" Não resolvido";"Há 4 dias";"/americanas-com-loja-online/titulo_DplE2mGzSikHnovI/";5760;210
+"211";"americanas - Loja Online";"Paguei com pix e nao apareceu nos pedidos";" Resolvido";"Há 3 dias";"/americanas-com-loja-online/paguei-com-pix-e-nao-apareceu-nos-pedidos_AY96--xeGJhM1T-C/";4320;211
+"212";"americanas - Loja Online";"Americanas fingiu ter entregado";" Resolvido";"Há 3 dias";"/americanas-com-loja-online/americanas-fingiu-ter-entregado_e1XuArkhnJw-4N4v/";4320;212
+"213";"americanas - Loja Online";"Americanas fingiu entregar minha compra";" Resolvido";"Há 3 dias";"/americanas-com-loja-online/americanas-fingiu-entregar-minha-compra_y8pJeJAnN1kdW7ef/";4320;213
+"214";"americanas - Loja Online";"Aumento do preço do produto após receber o valor do Vale de um Notebook ";" Resolvido";"Há 3 dias";"/americanas-com-loja-online/aumento-do-preco-do-produto-apos-receber-o-valor-do-vale-de-um-notebook_J1fHfCGyHX9uqStt/";4320;214
+"215";"americanas - Loja Online";"Produto NÃO entregue.";" Resolvido";"Há 3 dias";"/americanas-com-loja-online/produto-nao-entregue_g1hDZcpVxQ8Kuk3L/";4320;215
+"216";"americanas - Loja Online";"Demora cancelamento ";" Resolvido";"Há 3 dias";"/americanas-com-loja-online/demora-cancelamento_Ff2Q1Zz_kD_jB1TF/";4320;216
+"217";"americanas - Loja Online";"Americanas desrespeita cliente de décadas ";" Resolvido";"Há 3 dias";"/americanas-com-loja-online/americanas-desrespeita-cliente-de-decadas_Uc_TkLTy_Rrf2EKN/";4320;217
+"218";"americanas - Loja Online";"Não aguento mais receber emails e não recebo o email para confirmar o cancelamento da minha inscrição";" Resolvido";"Há 3 dias";"/americanas-com-loja-online/nao-aguento-mais-receber-emails-e-nao-recebo-o-email-para-confirmar-o-cance_Z0TMVUZuLPdI05cF/";4320;218
+"219";"americanas - Loja Online";"NÃO CONSIGO ENTRAR EM CONTATO, POIS NENHUM TELEFONE FUNCIONA";" Resolvido";"Há 3 dias";"/americanas-com-loja-online/nao-consigo-entrar-em-contato-pois-nenhum-telefone-funciona_x-S69wPnYe3Pl6TD/";4320;219
+"220";"americanas - Loja Online";"E-mail";" Resolvido";"Há 3 dias";"/americanas-com-loja-online/e-mail_yk9LPreVvaaYXTnv/";4320;220
+"221";"americanas - Loja Online";"Demora no reembolso";" Resolvido";"Há 2 dias";"/americanas-com-loja-online/demora-no-reembolso_R-uVrxrS9Z01lIaX/";2880;221
+"222";"americanas - Loja Online";"Insatisfação e descaso para com o cliente ";" Não resolvido";"Há 2 dias";"/americanas-com-loja-online/insatisfacao-e-descaso-para-com-o-cliente_BTvXUZKonSHfa4Db/";2880;222
+"223";"americanas - Loja Online";"Falta de atendimento ";" Resolvido";"Há 2 dias";"/americanas-com-loja-online/falta-de-atendimento_vw61ODSK5dNwrF9F/";2880;223
+"224";"americanas - Loja Online";"Entrega ";" Resolvido";"Há 2 dias";"/americanas-com-loja-online/entrega_LFGNUVzrEPBr5-5n/";2880;224
+"225";"americanas - Loja Online";"Pedido com 3 dias de atraso";" Resolvido";"Há 2 dias";"/americanas-com-loja-online/pedido-com-3-dias-de-atraso_gfVl5CNYIpr6rooB/";2880;225
+"226";"americanas - Loja Online";"Recebendo o e-mail de outra pessoa";" Resolvido";"Há 3 dias";"/americanas-com-loja-online/recebendo-o-e-mail-de-outra-pessoa_XwjuGU9pCHHC7WSm/";4320;226
+"227";"americanas - Loja Online";"Compra online pelo aplicativo via Pix ";" Resolvido";"Há 3 dias";"/americanas-com-loja-online/compra-online-pelo-aplicativo-via-pix_2p20mLeZhT7dg4Tb/";4320;227
+"228";"americanas - Loja Online";"Demora para entregar transportadora não atualiza o statos do pedido e não entrega na data combinada!";" Resolvido";"Há 3 dias";"/americanas-com-loja-online/demora-para-entregar-transportadora-nao-atualiza-o-statos-do-pedido-e-nao-e_EFw661a9Hw9NEpOE/";4320;228
+"229";"americanas - Loja Online";"Outra pessoa está utilizando o meu email para cadastro no site";" Resolvido";"Há 3 dias";"/americanas-com-loja-online/outra-pessoa-esta-utilizando-o-meu-email-para-cadastro-no-site_kC9SVnGuKobI3_a0/";4320;229
+"230";"americanas - Loja Online";"Comprei via PIX um celular samsung mas o pedido não aparece no site.";" Resolvido";"Há 3 dias";"/americanas-com-loja-online/comprei-via-pix-um-celular-samsung-mas-o-pedido-nao-aparece-no-site_bWb-L9fWh0rQcbQ_/";4320;230
+"231";"americanas - Loja Online";"Entrega adiada sucessivas vezes";" Resolvido";"Há 1 dia";"/americanas-com-loja-online/entrega-adiada-sucessivas-vezes_2c-EELmxXBoOGoN0/";1440;231
+"232";"americanas - Loja Online";"Compra realizada e produto não entregue no orazo";" Resolvido";"Há 1 dia";"/americanas-com-loja-online/compra-realizada-e-produto-nao-entregue-no-orazo_ewZxu5lQSD3m_WvK/";1440;232
+"233";"americanas - Loja Online";"Comprei e a mercadoria nao chega";" Resolvido";"Há 2 dias";"/americanas-com-loja-online/comprei-e-a-mercadoria-nao-chega_l-p2MTEVNmNmcObu/";2880;233
+"234";"americanas - Loja Online";"Entregam fora da data agendada e cancelam o pedido";" Resolvido";"Há 2 dias";"/americanas-com-loja-online/entregam-fora-da-data-agendada-e-cancelam-o-pedido_QduBmrtCUzAQte5K/";2880;234
+"235";"americanas - Loja Online";"Tive que devolver minha lava e seca com  Roupas Dentro da Maquina por defeito do produto. E o retorno foi que não se responsabilizam pelos meus pertences que foram na maquina";" Resolvido";"Há 2 dias";"/americanas-com-loja-online/tive-que-devolver-minha-lava-e-seca-com-roupas-dentro-da-maquina-por-defei_7_23UlTtUhR-Vg20/";2880;235
+"236";"americanas - Loja Online";"Atraso na entrega ";" Resolvido";"Há 2 dias";"/americanas-com-loja-online/atraso-na-entrega_SVCIcxufgnViFBQR/";2880;236
+"237";"americanas - Loja Online";"Compra cancelada";" Resolvido";"Há 2 dias";"/americanas-com-loja-online/compra-cancelada_lXiVrx8LfBIskExx/";2880;237
+"238";"americanas - Loja Online";"Invadiram minha conta e não consigo acessa-la";" Resolvido";"Há 2 dias";"/americanas-com-loja-online/invadiram-minha-conta-e-nao-consigo-acessa-la_zmSx-phbH0yid2_c/";2880;238
+"239";"americanas - Loja Online";"mudança de valor";" Não resolvido";"Há 2 dias";"/americanas-com-loja-online/mudanca-de-valor_fpR1pgb_jBXnRHSS/";2880;239
+"240";"americanas - Loja Online";"Cadeira gamer faltando peça ";" Não resolvido";"Há 2 dias";"/americanas-com-loja-online/cadeira-gamer-faltando-peca_VBNxumXZsVmwBz1i/";2880;240
+"241";"americanas - Loja Online";"Propagando enganosa ";" Não resolvido";"Há 6 horas";"/americanas-com-loja-online/propagando-enganosa_cWItm05ct1wMh42U/";360;241
+"242";"americanas - Loja Online";"Compra online pagamento por pix";" Resolvido";"Há 10 horas";"/americanas-com-loja-online/compra-online-pagamento-por-pix_C9cbBxiuLZ6MaA8I/";600;242
+"243";"americanas - Loja Online";"Entrega realizada a terceiros, ou não realizada!";" Resolvido";"Há 18 horas";"/americanas-com-loja-online/entrega-realizada-a-terceiros-ou-nao-realizada_ZQL5ecMFDjAoLDac/";1080;243
+"244";"americanas - Loja Online";"Está atrasado ";" Resolvido";"Há 1 dia";"/americanas-com-loja-online/esta-atrasado_dxOKUu9szAfXxMbP/";1440;244
+"245";"americanas - Loja Online";"canecas com avarias";" Resolvido";"Há 1 dia";"/americanas-com-loja-online/canecas-com-avarias_SF9__-T8kSKdBJ6s/";1440;245
+"246";"americanas - Loja Online";"Carrinho brink+ eletrico";" Não resolvido";"Há 1 dia";"/americanas-com-loja-online/carrinho-brink-eletrico_0JX326bF8QaU6bNg/";1440;246
+"247";"americanas - Loja Online";"Preciso da nota fiscal mas não tenho mais acesso ao email da conta usada";" Resolvido";"Há 1 dia";"/americanas-com-loja-online/preciso-da-nota-fiscal-mas-nao-tenho-mais-acesso-ao-email-da-conta-usada_jPGH4dcKtHNKUhXv/";1440;247
+"248";"americanas - Loja Online";"ENGANO DE VENDA ONLINE POR VENDEDORES USANDO  A PAGINA DA AMERICANAS";" Não resolvido";"Há 1 dia";"/americanas-com-loja-online/engano-de-venda-online-por-vendedores-usando-a-pagina-da-americanas_GhFh09IxSzKAz2I5/";1440;248
+"249";"americanas - Loja Online";"Empresa não entrega o produto";" Resolvido";"Há 1 dia";"/americanas-com-loja-online/empresa-nao-entrega-o-produto_xCdc3-S-2jJIIvK_/";1440;249
+"250";"americanas - Loja Online";"Não tenho acesso a conta, foi invadida e dados alterados";" Resolvido";"Há 1 dia";"/americanas-com-loja-online/nao-tenho-acesso-a-conta-foi-invadida-e-dados-alterados_bC7qX7QpSwZ9EE52/";1440;250
+"251";"Magazine Luiza - Loja Online";"Compra Livro - Luluca - No mundo da moda + Cartela de adesivos Transfer";" Resolvido";"Há 6 dias";"/magazine-luiza-loja-online/compra-livro-luluca-no-mundo-da-moda-cartela-de-adesivos-transfer_zl1v22UgZguSVant/";8640;251
+"252";"Magazine Luiza - Loja Online";"demora no processamento";" Resolvido";"Há 6 dias";"/magazine-luiza-loja-online/demora-no-processamento_NDcTXIbUVO7EuZWu/";8640;252
+"253";"Magazine Luiza - Loja Online";"Aguardando liberação de crédito para compra de outro produto";" Resolvido";"Há 6 dias";"/magazine-luiza-loja-online/aguardando-liberacao-de-credito-para-compra-de-outro-produto_SDqThh4kM5qEkLxj/";8640;253
+"254";"Magazine Luiza - Loja Online";"Notebook Multilaser ";" Resolvido";"Há 6 dias";"/magazine-luiza-loja-online/notebook-multilaser_PNlkMETTQyMApUHW/";8640;254
+"255";"Magazine Luiza - Loja Online";"Não cumpriram com meu Pedido e Ficou por Isso mesmo";" Não resolvido";"Há 6 dias";"/magazine-luiza-loja-online/nao-cumpriram-com-meu-pedido-e-ficou-por-isso-mesmo_IphAjt52gQn-lagG/";8640;255
+"256";"Magazine Luiza - Loja Online";"Não tive reembolso do cancelamento ";" Resolvido";"Há 6 dias";"/magazine-luiza-loja-online/nao-tive-reembolso-do-cancelamento_X_ZOgHW93hy1ciHP/";8640;256
+"257";"Magazine Luiza - Loja Online";"ENTREGA ATRASA SEM NENHUM PARECER DA LOJA ";" Resolvido";"Há 6 dias";"/magazine-luiza-loja-online/entrega-atrasa-sem-nenhum-parecer-da-loja_3_wDsZIuH-p_sa64/";8640;257
+"258";"Magazine Luiza - Loja Online";"Meu pedido foi feito no dia 12/10/22 (feriado), porem ate a atual data ele continua aguardando emissão de nota fiscal";" Resolvido";"Há 6 dias";"/magazine-luiza-loja-online/meu-pedido-foi-feito-no-dia-12-10-22-feriado-porem-ate-a-atual-data-ele_14e4QRsrjUpSu1dT/";8640;258
+"259";"Magazine Luiza - Loja Online";"Não fiz essas compras- [editado_RA] ";" Resolvido";"Há 6 dias";"/magazine-luiza-loja-online/nao-fiz-essas-compras_v0ovi8Qt_7NU4by-/";8640;259
+"260";"Magazine Luiza - Loja Online";"Falta de consideração com o consumidor Magazine Luiza";" Resolvido";"Há 6 dias";"/magazine-luiza-loja-online/falta-de-consideracao-com-o-consumidor-magazine-luiza_fZ7646ZIzJgmDHQc/";8640;260
+"261";"Magazine Luiza - Loja Online";"Entrega não realizada ";" Resolvido";"Há 6 dias";"/magazine-luiza-loja-online/entrega-nao-realizada_ZQFdD_7bqv_9DE5b/";8640;261
+"262";"Magazine Luiza - Loja Online";"Descaso da Magalu";" Não resolvido";"Há 6 dias";"/magazine-luiza-loja-online/descaso-da-magalu_eynvNPL3hkyVY1vG/";8640;262
+"263";"Magazine Luiza - Loja Online";"meu pedido nunca chegou para retirada na loja física ";" Resolvido";"Há 6 dias";"/magazine-luiza-loja-online/meu-pedido-nunca-chegou-para-retirada-na-loja-fisica_97hgWdh_d53hYIoC/";8640;263
+"264";"Magazine Luiza - Loja Online";"Propaganda de retirada na loja física enganosa";" Resolvido";"Há 6 dias";"/magazine-luiza-loja-online/propaganda-de-retirada-na-loja-fisica-enganosa_VlcvMyQfVWoocrQV/";8640;264
+"265";"Magazine Luiza - Loja Online";"Pedido veio errado";" Resolvido";"Há 6 dias";"/magazine-luiza-loja-online/pedido-veio-errado_j2bhYLyUpZlfg2nN/";8640;265
+"266";"Magazine Luiza - Loja Online";"Desrespeito ";" Resolvido";"Há 6 dias";"/magazine-luiza-loja-online/desrespeito_eTVPcAZzF0C_f4Hf/";8640;266
+"267";"Magazine Luiza - Loja Online";"ENTREGA EM ATRASO E SEM PREVISAO";" Resolvido";"Há 6 dias";"/magazine-luiza-loja-online/entrega-em-atraso-e-sem-previsao_rHFtHn9K-6-LCQ0E/";8640;267
+"268";"Magazine Luiza - Loja Online";"Passei constrangimento por necessitar de troca";" Resolvido";"Há 6 dias";"/magazine-luiza-loja-online/passei-constrangimento-por-necessitar-de-troca_pvmVA7UMspdG4ZGs/";8640;268
+"269";"Magazine Luiza - Loja Online";"ENTREGA DE PRODUTOS";" Resolvido";"Há 6 dias";"/magazine-luiza-loja-online/entrega-de-produtos_FFqkhE1E7yjZ7SWZ/";8640;269
+"270";"Magazine Luiza - Loja Online";"Produto com defeito devolvido";" Resolvido";"Há 6 dias";"/magazine-luiza-loja-online/produto-com-defeito-devolvido_-Lpfmd70iWZ9EhvA/";8640;270
+"271";"Magazine Luiza - Loja Online";"Entrega atrasada";" Resolvido";"Há 5 dias";"/magazine-luiza-loja-online/entrega-atrasada_qkoqzv1EOuFHYxhg/";7200;271
+"272";"Magazine Luiza - Loja Online";"Estorno ";" Resolvido";"Há 5 dias";"/magazine-luiza-loja-online/estorno_3lPNwWFxSy9pbPTs/";7200;272
+"273";"Magazine Luiza - Loja Online";"Pedido atrasado e logística não rastreavel";" Resolvido";"Há 5 dias";"/magazine-luiza-loja-online/pedido-atrasado-e-logistica-nao-rastreavel_ebPwwMAEffM0x2XQ/";7200;273
+"274";"Magazine Luiza - Loja Online";"Anuncia retirada em duas horas na loja e mudam para 2 dias após a compra";" Resolvido";"Há 5 dias";"/magazine-luiza-loja-online/anuncia-retirada-em-duas-horas-na-loja-e-mudam-para-2-dias-apos-a-compra_WJ3eNm1I84e3pHUK/";7200;274
+"275";"Magazine Luiza - Loja Online";"Pedido não coletado ";" Resolvido";"Há 6 dias";"/magazine-luiza-loja-online/pedido-nao-coletado_gkE4lxB4XGBtrFIb/";8640;275
+"276";"Magazine Luiza - Loja Online";"Incompetência do Site Propaganda Enganosa ";" Não resolvido";"Há 6 dias";"/magazine-luiza-loja-online/incompetencia-do-site-propaganda-enganosa_V9XCwfRj_vlarJbH/";8640;276
+"277";"Magazine Luiza - Loja Online";"Descaso com o consumidor";" Não resolvido";"Há 6 dias";"/magazine-luiza-loja-online/descaso-com-o-consumidor_LAH76Bcqsch0D3gJ/";8640;277
+"278";"Magazine Luiza - Loja Online";"Falta de compromisso ";" Resolvido";"Há 6 dias";"/magazine-luiza-loja-online/falta-de-compromisso_oUme7KaZRYedVmBQ/";8640;278
+"279";"Magazine Luiza - Loja Online";"Conta Magalu";" Resolvido";"Há 6 dias";"/magazine-luiza-loja-online/conta-magalu_CDuUwUxFUnhRWL6a/";8640;279
+"280";"Magazine Luiza - Loja Online";"Descaso total com o cliente";" Resolvido";"Há 6 dias";"/magazine-luiza-loja-online/descaso-total-com-o-cliente_njS55VunI-47ZHbc/";8640;280
+"281";"Magazine Luiza - Loja Online";"Frete caro";" Resolvido";"Há 3 dias";"/magazine-luiza-loja-online/frete-caro_hg94noPyd7ajg3Oc/";4320;281
+"282";"Magazine Luiza - Loja Online";"Reembolso ";" Resolvido";"Há 3 dias";"/magazine-luiza-loja-online/reembolso_rbjrZaiMR2_e6dN1/";4320;282
+"283";"Magazine Luiza - Loja Online";"Não entregam o produto em apartamento ";" Resolvido";"Há 3 dias";"/magazine-luiza-loja-online/nao-entregam-o-produto-em-apartamento_4Gt3Q8jFZ20erRQI/";4320;283
+"284";"Magazine Luiza - Loja Online";"Pedido atrasado";" Resolvido";"Há 3 dias";"/magazine-luiza-loja-online/pedido-atrasado_24JJ8xNrZfDbTN4g/";4320;284
+"285";"Magazine Luiza - Loja Online";"Estorno urgente";" Resolvido";"Há 3 dias";"/magazine-luiza-loja-online/estorno-urgente_KdsWJ0XW55dlIWec/";4320;285
+"286";"Magazine Luiza - Loja Online";"Sem estorno da devolução ";" Resolvido";"Há 4 dias";"/magazine-luiza-loja-online/sem-estorno-da-devolucao_EzudfP8iph7fTS3Q/";5760;286
+"287";"Magazine Luiza - Loja Online";"Produto perdido pela transportadora ";" Resolvido";"Há 4 dias";"/magazine-luiza-loja-online/produto-perdido-pela-transportadora_kErcI78Agd1x9cdr/";5760;287
+"288";"Magazine Luiza - Loja Online";"Cancelar compra";" Resolvido";"Há 4 dias";"/magazine-luiza-loja-online/cancelar-compra_ZiyS6wfyfpHweFSS/";5760;288
+"289";"Magazine Luiza - Loja Online";"Não consigo fazer login no site";" Resolvido";"Há 4 dias";"/magazine-luiza-loja-online/nao-consigo-fazer-login-no-site_ThkvVcgREYygBSw1/";5760;289
+"290";"Magazine Luiza - Loja Online";"6 dias após compra e nem faturaram ainda. ";" Resolvido";"Há 4 dias";"/magazine-luiza-loja-online/6-dias-apos-compra-e-nem-faturaram-ainda_6hpoiGFqpHbn3kDM/";5760;290
+"291";"Magazine Luiza - Loja Online";"Problemas com o app";" Resolvido";"Há 2 dias";"/magazine-luiza-loja-online/problemas-com-o-app_z-M-5oyKVqcCDT0z/";2880;291
+"292";"Magazine Luiza - Loja Online";"Magalu quer que eu pague mais caro para receber o pedido";" Resolvido";"Há 2 dias";"/magazine-luiza-loja-online/magalu-quer-que-eu-pague-mais-caro-para-receber-o-pedido_5d9PtSM9MCyNqc6w/";2880;292
+"293";"Magazine Luiza - Loja Online";"Não entregam o Produto, não informam, não ligam DESCASO TOTAL";" Resolvido";"Há 2 dias";"/magazine-luiza-loja-online/nao-entregam-o-produto-nao-informam-nao-ligam-descaso-total_B2WYTuGlOUh6JOtj/";2880;293
+"294";"Magazine Luiza - Loja Online";"Entrega ";" Resolvido";"Há 2 dias";"/magazine-luiza-loja-online/entrega_bMKPx4mChAj3Kd-_/";2880;294
+"295";"Magazine Luiza - Loja Online";"Não recebi minha compra";" Resolvido";"Há 2 dias";"/magazine-luiza-loja-online/nao-recebi-minha-compra_J-L3hte6nr54tKvI/";2880;295
+"296";"Magazine Luiza - Loja Online";"O produto chegou,mas a minha nova nota fiscal não me enviaram ainda";" Resolvido";"Há 3 dias";"/magazine-luiza-loja-online/o-produto-chegou-mas-a-minha-nova-nota-fiscal-nao-me-enviaram-ainda_Q43ZMvzUTqriBVdV/";4320;296
+"297";"Magazine Luiza - Loja Online";"Magalu não deixa consumidor cancelar";" Resolvido";"Há 3 dias";"/magazine-luiza-loja-online/magalu-nao-deixa-consumidor-cancelar_4aNfq6iqwGU7R2ev/";4320;297
+"298";"Magazine Luiza - Loja Online";"Pedido atrasado";" Resolvido";"Há 3 dias";"/magazine-luiza-loja-online/pedido-atrasado_maIq945WuQmdqxsU/";4320;298
+"299";"Magazine Luiza - Loja Online";"Entrega atrasada";" Resolvido";"Há 3 dias";"/magazine-luiza-loja-online/entrega-atrasada_0hYKnbKd7Qe-DqKU/";4320;299
+"300";"Magazine Luiza - Loja Online";"Descaso com minha reclamação ";" Resolvido";"Há 3 dias";"/magazine-luiza-loja-online/descaso-com-minha-reclamacao_JyAkAZLZ0q2AnKn1/";4320;300

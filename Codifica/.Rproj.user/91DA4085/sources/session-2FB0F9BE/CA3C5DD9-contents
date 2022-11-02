@@ -105,6 +105,9 @@ aux <- dados %>%
   arrange(desc(lucro))
 
 
+
+
+
 # Obter a media de colunas, conforme mencionado abaixo
 tb_lucro_producao <- dados %>%
   group_by(producao) %>% #Agrupar os dados a partir da produtora
@@ -214,8 +217,7 @@ ggplot(data = tb_filmes_ano) + #Informar a base de dados a ser utilizada (data)
 
 
 
-
-
+teste <-  tb_filmes_ano %>% arrange(desc(ano)) 
 
 
 

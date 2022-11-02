@@ -1,0 +1,50 @@
+tb_filmes_ano$ano
+
+t <- dados %>%
+  group_by(producao) %>%
+  filter(ano == 2012) 
+
+
+ggplot(data = t) +
+  geom_column(aes(x = orcamento, y = receita, color = producao))
+
+filmes_produtora <- dados %>%
+  filter(producao == "Twentieth Century Fox") 
+  
+
+
+filme_primeiro_lugar =  filter(filmes_produtora, lucro == max(filmes_produtora$lucro, na.rm = T)) 
+filme_ultimo_lugar = filter(filmes_produtora, lucro == min(filmes_produtora$lucro, na.rm = T))
+
+
+teste <-filmes_produtora %>%
+  summarise(
+    qtd_filmes = n(),
+    media_lucro = round(mean(lucro, na.rm = T), digits = 2),
+    media_orcamento = round(mean(orcamento, na.rm = T), digits = 2),
+    media_imdb = round(mean(nota_imdb, na.rm = T), digits = 2)
+  )
+  
+teste <- teste %>%
+  mutate(
+    filme_lucrativo = filme_primeiro_lugar$titulo,
+    maior_lucro  = round(filme_primeiro_lugar$lucro, digits = 2),
+    filme_prejuizo = filme_ultimo_lugar$titulo,
+    maior_prejuizo = round(filme_ultimo_lugar$lucro, digits = 2)
+  )
+
+teste
+
+filmes_produtora <- dados %>%
+  filter(producao == "Twentieth Century Fox") %>%
+  group_by(ano) %>%
+  summarise(
+    lucro_anual = sum(lucro, na.rm = T)
+  )
+
+library(tidyquant)
+library(plotly)
+
+x <- plotly(dados) %>%
+  add_trace(x = ~ano, y = ~receita) %>%
+  

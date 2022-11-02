@@ -1,0 +1,125 @@
+---
+title: "Teste DataStream"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns #rows
+    vertical_layout: fill # scroll (permite criar barra de rolagem)
+runtime: shiny
+---
+
+
+# Primeira página
+
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(dplyr)
+library(ggplot2)
+library(shiny)
+
+df <- iris
+
+#Row {data-width=650} - Outra orinetação
+```
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### BoxPlot
+
+```{r}
+# O tamnaho das colunas somado deve dar 1000
+
+df %>% ggplot() +
+  aes(y = Sepal.Length, fill = Species) +
+  geom_boxplot() +
+  theme(legend.position = "top") #Posicionamento da Legenda
+
+
+
+```
+
+
+
+Column {data-width=300}
+-----------------------------------------------------------------------
+
+### Histograma
+
+```{r}
+
+df %>%
+  ggplot() +
+  aes(x = Sepal.Length) +
+  geom_histogram() +
+  theme(legend.position  = "top")
+
+```
+
+### Sumário
+
+```{r}
+
+df %>%
+  group_by(Species) %>%
+  summarise(
+    Media = mean(Sepal.Length),
+    Mediana = median(Sepal.Length)
+  ) %>%
+  knitr::kable() #Mostrar os dados em forma de sumário
+```
+
+# Função Dinâmica
+
+Column {data-width=300 .sidebar}
+-----------------------------------------------------------------------
+
+### Chart E
+```{r}
+
+selectInput(
+  inputId = "coluna",
+  label = "Escolha a Coluna",
+  choices = c("Sepal.Length", "Sepal.Width", "Petal.Length", "Petal.Width"),
+  selected = "Sepal.Length"
+)
+
+
+```
+
+Column {data-width=700}
+-----------------------------------------------------------------------
+
+### Chart F
+```{r}
+renderPlot({
+  df %>% ggplot() %>%
+    aes(y = !!sym(input$coluna), fill = Species) + #Transformar texto em símbolo
+    geom_boxplot() +
+    theme(legend.position = "top")
+})
+```
+
+
+### Chart F
+```{r}
+renderPlot({
+  df %>% ggplot() %>%
+    aes(y = !!sym(input$coluna), fill = Species) +
+    geom_boxplot() +
+    theme(legend.position = "top")
+})
+```
+
+### Chart G
+```{r}
+renderTable({
+  df %>%
+  group_by(Species) %>%
+  summarise(
+    Media = mean(!!sym(input$coluna)),
+    Mediana = median(!!sym(input$coluna))
+  ) 
+})
+```
+

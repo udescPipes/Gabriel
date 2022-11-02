@@ -276,7 +276,7 @@ dados_graficos <-
 ggplot(dados_graficos, aes(x = word, y = n)) + 
   geom_col() + 
   xlab(NULL) +
-  coord_flip() +
+  coord_flip() + #Mudar a posição da  barra
   theme_classic() +
   labs(
     x = "",

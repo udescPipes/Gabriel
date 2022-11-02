@@ -1,0 +1,173 @@
+---
+title: "Codifica - IMDB"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: fill
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+
+library(flexdashboard)
+library(shiny)
+library(dplyr)
+library(DT)
+library(ggplot2)
+library(plotly)
+
+
+dados <- read.delim("imdb.txt")
+
+dados <- dados %>%
+  mutate(
+    lucro = receita - orcamento
+  )
+
+```
+
+
+# Distribuidor
+
+Rows {.sidebar}
+-----------------------------------------------------------------------
+
+```{r}
+
+tb_produtora <- dados %>%
+  filter(producao != "NA") %>%
+  group_by(producao) %>%
+  summarise(
+    qtd_filmes = n()
+  ) %>%
+  arrange(desc(qtd_filmes)) 
+
+
+ano <- tb_produtora$ano
+
+selectInput(
+  inputId = "produtora",
+  label = "Produtora", 
+  choices = tb_produtora$producao
+)
+
+numericInput(
+  inputId = "ano",
+  label = "Ano de Produção",
+  value = 2000,
+  min = min(tb_produtora$ano, na.rm = T),
+  max = max(tb_produtora$ano, na.rm = T)
+)
+
+
+checkboxInput(
+  inputId = "todosFilmes",
+  label = "Mostrar Todos Filmes",
+  value = T
+)
+
+
+
+```
+
+
+Rows {data-width=350}
+-----------------------------------------------------------------------
+### Quantidade Total de Filmes por ano
+
+```{r}
+renderPlotly({
+  
+  filmes_produtora <- dados %>%
+    filter(producao == input$produtora) %>%
+    group_by(ano) %>%
+    summarise(
+      qtd_filmes = n()
+    )
+  
+  
+  plot_ly(filmes_produtora, x = ~ano, y = ~qtd_filmes, type = "bar") %>%
+    layout(
+      xaxis = list(title=""),
+      yaxis = list(title = "Qtd. Filmes")
+    )
+  
+  
+
+})
+
+
+```
+
+Rows {data-width=350}
+-----------------------------------------------------------------------
+
+### Filmes Produzidos
+
+```{r}
+renderDataTable({
+  
+  if(input$todosFilmes){
+    dados %>%
+    filter(producao == input$produtora) %>%
+    select(ano,titulo, direcao, nota_imdb) %>%
+    rename(
+      "Ano" = ano,
+      "Título" = titulo,
+      "Diretor" = direcao,
+      "Nota IMDB" = nota_imdb
+    ) %>%
+      datatable(rownames = F)
+  }else{
+    dados %>%
+    filter(producao == input$produtora, ano == input$ano) %>%
+    select(titulo, direcao, nota_imdb) %>%
+    rename(
+      "Título" = titulo,
+      "Diretor" = direcao,
+      "Nota IMDB" = nota_imdb
+    )
+  }
+  
+  
+})
+
+
+```
+
+
+### Receita da Produtora ao longo dos anos
+```{r}
+
+renderPlotly({
+  
+   filmes_produtora <- dados %>% filter(producao == input$produtora)
+  
+  aux <- filmes_produtora %>% 
+    group_by(ano) %>% 
+     summarise(
+       qtd_filmes = n(),
+       receita_anual = sum(receita)
+    )
+    
+  plot_ly(aux, type = "scatter", fill = 'tozeroy') %>%
+    add_lines(x = ~ano, y = ~receita_anual, name = input$produtora) %>%
+    layout(
+      yaxis = list(title = "Receita"),
+      xaxis = list(title="")
+    )
+
+    
+  
+  
+})
+  
+  
+  
+  
+
+
+```
+
+
+
