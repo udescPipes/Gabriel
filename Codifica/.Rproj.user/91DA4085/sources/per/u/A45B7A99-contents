@@ -1,0 +1,87 @@
+# Mapas em R 
+
+library(ggplot2)
+library(dplyr)
+library(viridis)
+library(geobr)
+library(sf)
+library(maptools)
+library(leaflet)
+
+theme_set(theme_bw())
+
+mapa <- read_state(showProgress = FALSE)
+
+?read_state
+
+ggplot(mapa)+ 
+  geom_sf()
+
+# dados de saneamento por estado (%) - associando com o código de cada estado
+acesso_san <- data.frame(code_state = c(12, 27, 16, 13, 29, 23, 53, 32, 52, 21, 51, 50, 31, 15, 
+                                        25, 41, 26, 22, 33, 24, 43, 11, 14, 42, 35, 28, 17), 
+                         com_rede = c(0.273, 0.412, 0.313, 0.177, 0.513, 0.696, 1.000, 0.974, 0.280, 0.065, 
+                                      0.191, 0.449, 0.916, 0.063, 0.731, 0.421, 0.881, 0.045, 0.924, 0.353, 
+                                      0.405, 0.096, 0.400, 0.352, 0.998, 0.347, 0.129))
+
+mapa %>% 
+  left_join(acesso_san, by = "code_state") %>% 
+  mutate(com_rede = 100*com_rede) %>%  
+  ggplot(aes(fill = com_rede), color = "black") +
+  geom_sf() + 
+  scale_fill_viridis(name = "Municípios com rede de esgoto (%)", direction = -1)
+
+# com outra simbologia
+coord_pontos <- mapa %>% 
+  left_join(acesso_san, by = "code_state") %>% 
+  mutate(com_rede = 100*com_rede) %>% 
+  st_centroid()
+
+ggplot(mapa)+ 
+  geom_sf() + 
+  geom_sf(data = coord_pontos, aes(size = com_rede), col = "red", alpha = .65,
+          show.legend = "point") + 
+  scale_size_continuous(name = "Municípios com rede de esgoto (%)")
+
+# com Leaflet - mapa interativo
+data.frame(st_coordinates(coord_pontos), 
+           com_rede = coord_pontos$com_rede, 
+           UF = coord_pontos$name_state) %>% 
+  leaflet() %>% 
+  addTiles() %>%
+  addCircleMarkers(~ X, ~ Y,
+                   label = ~ as.character(paste0(UF, ": ", com_rede, "%")),
+                   labelOptions = labelOptions(textsize = "13px"),
+                   radius = ~ com_rede/10,
+                   fillOpacity = 0.5)
+
+?leaflet
+
+# marcando estações de metrô em SP com alfinetes (pelas coordenadas geográficas)
+estacoes <- data.frame(estacao = c("Saúde", "Santa Cruz", "Paraíso"),
+                       lat = c(-23.6185, -23.5989, -23.5765),
+                       long = c(-46.6393, -46.6366, -46.6408))
+
+leaflet(estacoes) %>% 
+  addTiles() %>%
+  addMarkers(~long, ~lat, label = ~as.character(estacao))
+
+# mapa alunos ceplan (semelhante ao feito em python)
+alunos_ceplan <- data.frame(nome = c("aluno1","aluno2","aluno3","aluno4","aluno5","aluno6","aluno7","aluno8","aluno9","aluno10"),
+                            lat = c(-26.280539, -26.224203, -26.245394, -26.20754, -26.23814, -26.254396, -26.213621, -26.249794, -26.231268, -26.233757),
+                            long = c(-49.3984731, -49.4007692, -49.3543792, -49.3619098, -49.3653331, -49.3734998, -49.4154827, -49.3816555, -49.4201423, -49.3594545))
+leaflet(alunos_ceplan) %>% 
+  addTiles() %>%
+  addMarkers(~long, ~lat, label = ~as.character(nome))
+
+
+# calculando distância entre as estações de metrô
+coordinates(estacoes) <- c('long', 'lat')
+proj4string(estacoes) <- CRS("+init=epsg:4326")
+
+distance <- estacoes %>% 
+  st_as_sf() %>% 
+  st_distance 
+
+dimnames(distance) <- list(estacoes$estacao, estacoes$estacao)
+distance

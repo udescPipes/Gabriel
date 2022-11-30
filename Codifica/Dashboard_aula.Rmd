@@ -3,7 +3,7 @@ title: "Codifica - IMDB"
 output: 
   flexdashboard::flex_dashboard:
     orientation: rows
-    vertical_layout: fill
+    vertical_layout: scroll
 runtime: shiny
 ---
 
@@ -15,6 +15,9 @@ library(dplyr)
 library(DT)
 library(ggplot2)
 library(plotly)
+library(stringr)
+library(readr)
+library(tidytext)
 
 
 dados <- read.delim("imdb.txt")
@@ -23,6 +26,12 @@ dados <- dados %>%
   mutate(
     lucro = receita - orcamento
   )
+
+
+#PAra a análise, será desconsiderado os filmes que não possui receita e orçamento mencionado
+dados <- dados %>%
+filter(!is.na(receita), !is.na(orcamento), !is.na(nota_imdb))
+
 
 ```
 
@@ -138,7 +147,6 @@ renderDataTable({
 
 ### Receita da Produtora ao longo dos anos
 ```{r}
-
 renderPlotly({
   
    filmes_produtora <- dados %>% filter(producao == input$produtora)
@@ -147,27 +155,18 @@ renderPlotly({
     group_by(ano) %>% 
      summarise(
        qtd_filmes = n(),
-       receita_anual = sum(receita)
+       receita_anual = sum(lucro, na.rm = T)
     )
     
   plot_ly(aux, type = "scatter", fill = 'tozeroy') %>%
-    add_lines(x = ~ano, y = ~receita_anual, name = input$produtora) %>%
+    add_lines(x = ~ano, y = ~receita_anual) %>%
     layout(
       yaxis = list(title = "Receita"),
       xaxis = list(title="")
     )
-
-    
   
   
 })
-  
-  
-  
-  
-
-
 ```
-
 
 

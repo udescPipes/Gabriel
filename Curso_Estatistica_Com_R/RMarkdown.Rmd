@@ -43,3 +43,7 @@ A homogeneidade foi analisada pelo `leveneTest` -   Entre Crase para forma de c√
 Segundo Carlos. [^2].
 
 [^2]: Mencionado no livro a Hist√≥ria da Brasil
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```

@@ -123,3 +123,19 @@ renderTable({
 })
 ```
 
+### Teste
+```{r}
+
+endereco = "https://m.media-amazon.com/images/M/MV5BNmRkMDYxM2MtNjUwZC00YjM5LTgxOTktNDQyODg3ZDQxMWQ4XkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_FMjpg_UY711_.jpg"
+
+```
+
+Column{data-width=400, data-height=468}
+----
+```{r picture, echo = F, fig.cap = "Title", fig.height=250}
+  knitr::include_graphics(endereco)
+```
+
+?knitr::include_gr
+
+

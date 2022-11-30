@@ -1,0 +1,15 @@
+library(ggmap)
+library(mapview)
+
+
+register_google(key = "[your Google API key]", write = TRUE)
+
+
+addr <- data.frame(Address = c("4000 mayflower Hill, Waterville, Maine", 
+                               "2 Andrews Rd, Lewiston, ME 04240",
+                               "255 Maine St, Brunswick, ME 04011",
+                               "90 Quaker Hill Rd, Unity, ME 04988",
+                               "105 Eden St, Bar Harbor, ME 04609"),
+                   College = c("Colby", "Bates", "Bowdoin", "Unity", "CoA"),
+                   stringsAsFactors = FALSE)
+addr.geo <- mutate_geocode(addr, location = Address, output = "latlona")
