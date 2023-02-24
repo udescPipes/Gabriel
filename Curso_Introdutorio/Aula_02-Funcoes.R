@@ -31,6 +31,12 @@ install.packages("stringr") #Instalação de pacotes
 library(stringr) #Chamar o método no script - parecido com o import do python
 
 
+
+if(!require(stringr)){
+  install.packages("stringr")
+}
+
+
 nome <- "Gabriel"
 sobrenome <- "Siqueira"
 

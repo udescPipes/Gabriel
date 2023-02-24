@@ -176,12 +176,12 @@ dados %>% filter(Orcamento <= 9000000 & Classificacao == "PG") %>%
 
 
 
-#Usando o geom para representar um "summary"
-### stat = summary  - o que ponto representa
-
-ggplot(data = dados, aes(x = Genero, y = LucroMundial)) +
-  geom_point(stat = "summary", fun = "median") #Unico ponto - media 
-
+  #Usando o geom para representar um "summary"
+  ### stat = summary  - o que ponto representa
+  
+  ggplot(data = dados, aes(x = Genero, y = LucroMundial)) +
+    geom_point(stat = "summary", fun = "median") #Unico ponto - media 
+  
 
 #Cria uma estatistica de resumo
 ggplot(data = dados, aes(x = Genero, y = LucroMundial)) +
@@ -215,7 +215,7 @@ ggplot(data = dados, aes(x = Genero, y = LucroMundial)) +
 dados %>% filter(Classificacao %in% c("PG", "PG-13", "R")) %>%
   ggplot(aes(x = Genero, y = LucroMundial, color = Classificacao)) +
     geom_point(stat = "summary", fun = "mean") + 
-    geom_errorbar(stat = "summary", fun.data = "mean_ci", width=0.3)  #mean_ci - intervalo de confiança
+    geom_errorbar(stat = "summary", fun.data = "mean_ci", width=0.3)  #mean_ci - intervNalo de confiança
   
 
 ##incluindo a classificação - afastando os pontos

@@ -149,7 +149,7 @@ link_reclamaco <- paste0(linkLojas, "lista-reclamacoes/")
 for(link_pagina in link_reclamaco){
   
   #Busca das reclamacoes em cada página
-  for(pagina in 1:5){
+  for(pagina in 1:20){
     # Ler as reclamações
     remDr$navigate(paste0(link_pagina,"?pagina=",pagina, "&status=EVALUATED"))
     
